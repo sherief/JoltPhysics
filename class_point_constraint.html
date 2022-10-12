@@ -140,6 +140,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8214c8380eabc71845572309a3f49f53"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_constraint_settings.html">ConstraintSettings</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point_constraint.html#a8214c8380eabc71845572309a3f49f53">GetConstraintSettings</a> () const override</td></tr>
 <tr class="memdesc:a8214c8380eabc71845572309a3f49f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug function to convert a constraint to its settings, note that this will not save to which bodies the constraint is connected to.  <a href="class_point_constraint.html#a8214c8380eabc71845572309a3f49f53">More...</a><br /></td></tr>
 <tr class="separator:a8214c8380eabc71845572309a3f49f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e207e13a0f1fd81171cc3e3f39dfe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point_constraint.html#a05e207e13a0f1fd81171cc3e3f39dfe8">SetPoint1</a> (<a class="el" href="_constraint_8h.html#a5951578637c20f8aad819c13ad09b1be">EConstraintSpace</a> inSpace, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint1)</td></tr>
+<tr class="memdesc:a05e207e13a0f1fd81171cc3e3f39dfe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the attachment point for body 1.  <a href="class_point_constraint.html#a05e207e13a0f1fd81171cc3e3f39dfe8">More...</a><br /></td></tr>
+<tr class="separator:a05e207e13a0f1fd81171cc3e3f39dfe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8670759310faa18f3728d9dd5fed9727"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point_constraint.html#a8670759310faa18f3728d9dd5fed9727">SetPoint2</a> (<a class="el" href="_constraint_8h.html#a5951578637c20f8aad819c13ad09b1be">EConstraintSpace</a> inSpace, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint2)</td></tr>
+<tr class="memdesc:a8670759310faa18f3728d9dd5fed9727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the attachment point for body 2.  <a href="class_point_constraint.html#a8670759310faa18f3728d9dd5fed9727">More...</a><br /></td></tr>
+<tr class="separator:a8670759310faa18f3728d9dd5fed9727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fcc860c0b8ee43e08d599d8c3aaa3cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point_constraint.html#a8fcc860c0b8ee43e08d599d8c3aaa3cd">GetLocalSpacePoint1</a> () const</td></tr>
+<tr class="memdesc:a8fcc860c0b8ee43e08d599d8c3aaa3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the attachment point for body 1 relative to body 1 COM.  <a href="class_point_constraint.html#a8fcc860c0b8ee43e08d599d8c3aaa3cd">More...</a><br /></td></tr>
+<tr class="separator:a8fcc860c0b8ee43e08d599d8c3aaa3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec29f6eef0cbafd0b0f9a97caa50b83a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point_constraint.html#aec29f6eef0cbafd0b0f9a97caa50b83a">GetLocalSpacePoint2</a> () const</td></tr>
+<tr class="memdesc:aec29f6eef0cbafd0b0f9a97caa50b83a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the attachment point for body 2 relative to body 2 COM.  <a href="class_point_constraint.html#aec29f6eef0cbafd0b0f9a97caa50b83a">More...</a><br /></td></tr>
+<tr class="separator:aec29f6eef0cbafd0b0f9a97caa50b83a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11b6acce9456cc5d0c2f34ecaf224f30"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_mat44.html">Mat44</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point_constraint.html#a11b6acce9456cc5d0c2f34ecaf224f30">GetConstraintToBody1Matrix</a> () const override</td></tr>
 <tr class="memdesc:a11b6acce9456cc5d0c2f34ecaf224f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the transform that transforms from constraint space to body 1 space. The first column of the matrix is the primary constraint axis (e.g. the hinge axis / slider direction), second column the secondary etc.  <a href="class_point_constraint.html#a11b6acce9456cc5d0c2f34ecaf224f30">More...</a><br /></td></tr>
 <tr class="separator:a11b6acce9456cc5d0c2f34ecaf224f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -372,6 +384,60 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a8fcc860c0b8ee43e08d599d8c3aaa3cd" name="a8fcc860c0b8ee43e08d599d8c3aaa3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fcc860c0b8ee43e08d599d8c3aaa3cd">&#9670;&nbsp;</a></span>GetLocalSpacePoint1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> PointConstraint::GetLocalSpacePoint1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the attachment point for body 1 relative to body 1 COM. </p>
+
+</div>
+</div>
+<a id="aec29f6eef0cbafd0b0f9a97caa50b83a" name="aec29f6eef0cbafd0b0f9a97caa50b83a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec29f6eef0cbafd0b0f9a97caa50b83a">&#9670;&nbsp;</a></span>GetLocalSpacePoint2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> PointConstraint::GetLocalSpacePoint2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the attachment point for body 2 relative to body 2 COM. </p>
+
+</div>
+</div>
 <a id="a0993bfa066a32b159d45cf54b346163f" name="a0993bfa066a32b159d45cf54b346163f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0993bfa066a32b159d45cf54b346163f">&#9670;&nbsp;</a></span>GetSubType()</h2>
 
@@ -483,6 +549,66 @@ Additional Inherited Members</h2></td></tr>
 <p>Saving state for replay. </p>
 
 <p>Reimplemented from <a class="el" href="class_constraint.html#a829eb3dda397de5cc7a7799ce959cc8b">Constraint</a>.</p>
+
+</div>
+</div>
+<a id="a05e207e13a0f1fd81171cc3e3f39dfe8" name="a05e207e13a0f1fd81171cc3e3f39dfe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05e207e13a0f1fd81171cc3e3f39dfe8">&#9670;&nbsp;</a></span>SetPoint1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointConstraint::SetPoint1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_constraint_8h.html#a5951578637c20f8aad819c13ad09b1be">EConstraintSpace</a>&#160;</td>
+          <td class="paramname"><em>inSpace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPoint1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the attachment point for body 1. </p>
+
+</div>
+</div>
+<a id="a8670759310faa18f3728d9dd5fed9727" name="a8670759310faa18f3728d9dd5fed9727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8670759310faa18f3728d9dd5fed9727">&#9670;&nbsp;</a></span>SetPoint2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PointConstraint::SetPoint2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_constraint_8h.html#a5951578637c20f8aad819c13ad09b1be">EConstraintSpace</a>&#160;</td>
+          <td class="paramname"><em>inSpace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPoint2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the attachment point for body 2. </p>
 
 </div>
 </div>

@@ -19,6 +19,7 @@ var class_body_interface =
     [ "AddTorque", "class_body_interface.html#a1eaab07990cc15ff9120e75767cf3386", null ],
     [ "CreateAndAddBody", "class_body_interface.html#a1484650a796607c688529fe600dc9e9f", null ],
     [ "CreateBody", "class_body_interface.html#ad1baf0b6645e34cc5db1df73de724bf7", null ],
+    [ "CreateBodyWithID", "class_body_interface.html#a6ce6c1e2646429777f65e66e7a21e05b", null ],
     [ "CreateConstraint", "class_body_interface.html#ac5d2f3a832968329c91af032409abc68", null ],
     [ "DeactivateBodies", "class_body_interface.html#a0dea3b8edb237b9dd29fb05da84a1331", null ],
     [ "DeactivateBody", "class_body_interface.html#a62255f9678f727b3838fc7f25d3c47e0", null ],

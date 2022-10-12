@@ -157,6 +157,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a63c55f1d5d3ed30c4aa6a19ad14713ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac14cd2b8fbf932214ab1336d96bb11e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#ac14cd2b8fbf932214ab1336d96bb11e0">CreateBody</a> (const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inBodyCreationSettings)</td></tr>
 <tr class="separator:ac14cd2b8fbf932214ab1336d96bb11e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c00dcd1f6702f560792ad46682aca6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a37c00dcd1f6702f560792ad46682aca6">CreateBodyWithID</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inBodyCreationSettings)</td></tr>
+<tr class="separator:a37c00dcd1f6702f560792ad46682aca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c0cc30ec7f2c4a5bcd1119906a6632e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a5c0cc30ec7f2c4a5bcd1119906a6632e">DestroyBodies</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> *inBodyIDs, int inNumber)</td></tr>
 <tr class="separator:a5c0cc30ec7f2c4a5bcd1119906a6632e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecdc4718d0c9ccf33f9eaf2a42c6ab79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#aecdc4718d0c9ccf33f9eaf2a42c6ab79">ActivateBodies</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> *inBodyIDs, int inNumber)</td></tr>
@@ -374,6 +376,35 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Create a body. This is a thread safe function. Can return null if there are no more bodies available. </p>
+
+</div>
+</div>
+<a id="a37c00dcd1f6702f560792ad46682aca6" name="a37c00dcd1f6702f560792ad46682aca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c00dcd1f6702f560792ad46682aca6">&#9670;&nbsp;</a></span>CreateBodyWithID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_body.html">Body</a> * BodyManager::CreateBodyWithID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyCreationSettings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Helper function to create a body when the ID has been determined This is a thread safe function. Can return null if there are no more bodies available or when the body ID is already in use. </p>
 
 </div>
 </div>

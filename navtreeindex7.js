@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"class_capsule_shape.html#aeeab148856a7d53ddf1a42934fbb048c":[3,0,40,20],
+"class_capsule_shape.html#af2943e795c49300d95d68950231de8a3":[3,0,40,6],
 "class_capsule_shape.html#aff824c6f74dbd43d6ddbb577e2324e50":[3,0,40,10],
 "class_capsule_shape_1_1_capsule_no_convex.html":[3,0,40,0],
 "class_capsule_shape_1_1_capsule_no_convex.html#a0be6a5849883349f4d1e7bfa2107b4c6":[3,0,40,0,2],
@@ -110,6 +112,7 @@ var NAVTREEINDEX7 =
 "class_character_settings.html#a9d6fa4613227caf468f618e34011e657":[3,0,49,3],
 "class_character_settings.html#ae969662f5e8bf47dc1837922dc80aa85":[3,0,49,0],
 "class_character_virtual.html":[3,0,50],
+"class_character_virtual.html#a24e03c41872174bf69e0b2c2cf5175a3":[3,0,50,22],
 "class_character_virtual.html#a25da7eb8e9ff5316e357cbf59027b57e":[3,0,50,13],
 "class_character_virtual.html#a34ce1577ff0641d5a326af721a3c9b71":[3,0,50,11],
 "class_character_virtual.html#a47a90c0f4fb66b3cf2f94f4eac390a66":[3,0,50,19],
@@ -128,7 +131,6 @@ var NAVTREEINDEX7 =
 "class_character_virtual.html#ac0b74d1e4ec29a6a4853bc8cbb72578d":[3,0,50,18],
 "class_character_virtual.html#ae82d09c4482151440bbee3663b8b6b29":[3,0,50,3],
 "class_character_virtual.html#aed594d0612a17175fa6267f2ee140a25":[3,0,50,9],
-"class_character_virtual.html#aee269433ae4dee22c427e9f5b52b8458":[3,0,50,22],
 "class_character_virtual.html#aef49aeba105a035b972b9a17aebee12e":[3,0,50,17],
 "class_character_virtual.html#af44f8072c8e2687bbc20452b608fc5fe":[3,0,50,1],
 "class_character_virtual.html#af7bfe39cc6f67eeb4cd8d4d453d8b179":[3,0,50,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "class_color.html#a177ce5853f9bb12fda1c545dfb6f4ddf":[3,0,65,13],
 "class_color.html#a24745df31385c2a1d46335a75c48dcfb":[3,0,65,15],
 "class_color.html#a2f0eb176e87b5a207f349b8117695091":[3,0,65,4],
-"class_color.html#a55d48519d8f98cc395a6b30e87f6a023":[3,0,65,8],
-"class_color.html#a6fae8aa8b75d27cb134234e75b41caf2":[3,0,65,0],
-"class_color.html#a71e5796a05f70a9c800c094ff87a515d":[3,0,65,7]
+"class_color.html#a55d48519d8f98cc395a6b30e87f6a023":[3,0,65,8]
 };

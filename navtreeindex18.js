@@ -1,5 +1,11 @@
 var NAVTREEINDEX18 =
 {
+"class_stream_out.html#aa80bff3216178ef392693f1997803d99":[3,0,245,6],
+"class_stream_out.html#aae67e46e29e2ba017b417dbaf7f63cb6":[3,0,245,5],
+"class_stream_out.html#ab6cde59b6c5efff58855641a44e6275e":[3,0,245,3],
+"class_stream_out.html#ac1c50205d8c5ca1bb1b1a069e9534e5e":[3,0,245,2],
+"class_stream_out.html#aed2cfe74214f89965cb640ac9d1bbb8d":[3,0,245,0],
+"class_stream_out_wrapper.html":[3,0,246],
 "class_stream_out_wrapper.html#a2da7c93d54165f7cbab4678fe83abb32":[3,0,246,1],
 "class_stream_out_wrapper.html#a31c8f3fb2fae07e695d9d7ab7bad604d":[3,0,246,0],
 "class_stream_out_wrapper.html#a9021148d55d478d1431b9196e96c8125":[3,0,246,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX18 =
 "class_triangle_grouper_closest_centroid.html":[3,0,266],
 "class_triangle_grouper_closest_centroid.html#a41cf43b8c59cd10eedf1fafbca09fd42":[3,0,266,0],
 "class_triangle_grouper_morton.html":[3,0,267],
-"class_triangle_grouper_morton.html#ac20ae93a828b828b47e20f1b0630c4fb":[3,0,267,0],
-"class_triangle_shape.html":[3,0,268],
-"class_triangle_shape.html#a00bc42b4bae3128d2aab79799d0ff223":[3,0,268,4],
-"class_triangle_shape.html#a0810f695ee3695e5206e9c8b4d506727":[3,0,268,10],
-"class_triangle_shape.html#a178af266e6fc0452b5ba413851b3a7c8":[3,0,268,5],
-"class_triangle_shape.html#a218f85b8e0fe0e50bb8dbf6de81b1986":[3,0,268,15],
-"class_triangle_shape.html#a30e75a8329213c0df77088b28af7858d":[3,0,268,8]
+"class_triangle_grouper_morton.html#ac20ae93a828b828b47e20f1b0630c4fb":[3,0,267,0]
 };

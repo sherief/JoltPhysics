@@ -13,6 +13,7 @@ var class_body_manager =
     [ "~BodyManager", "class_body_manager.html#afad1dc5c74c430f9210a84e553d259ee", null ],
     [ "ActivateBodies", "class_body_manager.html#aecdc4718d0c9ccf33f9eaf2a42c6ab79", null ],
     [ "CreateBody", "class_body_manager.html#ac14cd2b8fbf932214ab1336d96bb11e0", null ],
+    [ "CreateBodyWithID", "class_body_manager.html#a37c00dcd1f6702f560792ad46682aca6", null ],
     [ "DeactivateBodies", "class_body_manager.html#ac8e13efcbe3e2fab505e2c9047f9d2ef", null ],
     [ "DestroyBodies", "class_body_manager.html#a5c0cc30ec7f2c4a5bcd1119906a6632e", null ],
     [ "GetActiveBodies", "class_body_manager.html#a6f586bcf6721612f3f30e6ce2cd07cc5", null ],

@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a53d3b19282c77d972f684abeb16b42a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1baf0b6645e34cc5db1df73de724bf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#ad1baf0b6645e34cc5db1df73de724bf7">CreateBody</a> (const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings)</td></tr>
 <tr class="separator:ad1baf0b6645e34cc5db1df73de724bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ce6c1e2646429777f65e66e7a21e05b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a6ce6c1e2646429777f65e66e7a21e05b">CreateBodyWithID</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings)</td></tr>
+<tr class="separator:a6ce6c1e2646429777f65e66e7a21e05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43fb4ffc35661c67642ffa804d1dad8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a">DestroyBody</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
 <tr class="memdesc:a43fb4ffc35661c67642ffa804d1dad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a body.  <a href="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a">More...</a><br /></td></tr>
 <tr class="separator:a43fb4ffc35661c67642ffa804d1dad8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -847,6 +849,35 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Create a body </p><dl class="section return"><dt>Returns</dt><dd>Created body or null when out of bodies </dd></dl>
+
+</div>
+</div>
+<a id="a6ce6c1e2646429777f65e66e7a21e05b" name="a6ce6c1e2646429777f65e66e7a21e05b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ce6c1e2646429777f65e66e7a21e05b">&#9670;&nbsp;</a></span>CreateBodyWithID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_body.html">Body</a> * BodyInterface::CreateBodyWithID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSettings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Create a body with specified ID. This function can be used if a simulation is to run in sync between clients or if a simulation needs to be restored exactly. The ID created on the server can be replicated to the client and used to create a deterministic simulation. </p><dl class="section return"><dt>Returns</dt><dd>Created body or null when the body ID is invalid or a body of the same ID already exists. </dd></dl>
 
 </div>
 </div>

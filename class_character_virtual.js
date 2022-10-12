@@ -22,5 +22,5 @@ var class_character_virtual =
     [ "SetShape", "class_character_virtual.html#a47a90c0f4fb66b3cf2f94f4eac390a66", null ],
     [ "StickToFloor", "class_character_virtual.html#a9cfdd1f28dc6e80464a1080cecac4213", null ],
     [ "Update", "class_character_virtual.html#a5aa87739165551d5e23aa91c94b24058", null ],
-    [ "WalkStairs", "class_character_virtual.html#aee269433ae4dee22c427e9f5b52b8458", null ]
+    [ "WalkStairs", "class_character_virtual.html#a24e03c41872174bf69e0b2c2cf5175a3", null ]
 ];
