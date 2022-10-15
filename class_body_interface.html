@@ -125,6 +125,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad1baf0b6645e34cc5db1df73de724bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ce6c1e2646429777f65e66e7a21e05b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a6ce6c1e2646429777f65e66e7a21e05b">CreateBodyWithID</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings)</td></tr>
 <tr class="separator:a6ce6c1e2646429777f65e66e7a21e05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb17d2706f2ee0c0aac4c82d774bece2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#abb17d2706f2ee0c0aac4c82d774bece2">CreateBodyWithoutID</a> (const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings) const</td></tr>
+<tr class="separator:abb17d2706f2ee0c0aac4c82d774bece2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6263a2b21c5544789bdf4040deacc377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a6263a2b21c5544789bdf4040deacc377">DestroyBodyWithoutID</a> (<a class="el" href="class_body.html">Body</a> *inBody) const</td></tr>
+<tr class="memdesc:a6263a2b21c5544789bdf4040deacc377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advanced use only. Destroy a body previously created with CreateBodyWithoutID that hasn't gotten an ID yet through the AssignBodyID function. Bodies that did get an ID should be destroyed through DestroyBody.  <a href="class_body_interface.html#a6263a2b21c5544789bdf4040deacc377">More...</a><br /></td></tr>
+<tr class="separator:a6263a2b21c5544789bdf4040deacc377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7669d5c31627d2c99fac69723fb1a219"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a7669d5c31627d2c99fac69723fb1a219">AssignBodyID</a> (<a class="el" href="class_body.html">Body</a> *ioBody, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
+<tr class="separator:a7669d5c31627d2c99fac69723fb1a219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43fb4ffc35661c67642ffa804d1dad8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a">DestroyBody</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
 <tr class="memdesc:a43fb4ffc35661c67642ffa804d1dad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a body.  <a href="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a">More...</a><br /></td></tr>
 <tr class="separator:a43fb4ffc35661c67642ffa804d1dad8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -804,6 +811,35 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7669d5c31627d2c99fac69723fb1a219" name="a7669d5c31627d2c99fac69723fb1a219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7669d5c31627d2c99fac69723fb1a219">&#9670;&nbsp;</a></span>AssignBodyID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BodyInterface::AssignBodyID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_body.html">Body</a> *&#160;</td>
+          <td class="paramname"><em>ioBody</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Advanced use only. Assigns a body ID to a body that was created using CreateBodyWithoutID. After this call, the body can be added to the world like any other body. </p><dl class="section return"><dt>Returns</dt><dd>false if the body already has an ID or if the ID is not valid. </dd></dl>
+
+</div>
+</div>
 <a id="a1484650a796607c688529fe600dc9e9f" name="a1484650a796607c688529fe600dc9e9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1484650a796607c688529fe600dc9e9f">&#9670;&nbsp;</a></span>CreateAndAddBody()</h2>
 
@@ -878,6 +914,25 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Create a body with specified ID. This function can be used if a simulation is to run in sync between clients or if a simulation needs to be restored exactly. The ID created on the server can be replicated to the client and used to create a deterministic simulation. </p><dl class="section return"><dt>Returns</dt><dd>Created body or null when the body ID is invalid or a body of the same ID already exists. </dd></dl>
+
+</div>
+</div>
+<a id="abb17d2706f2ee0c0aac4c82d774bece2" name="abb17d2706f2ee0c0aac4c82d774bece2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb17d2706f2ee0c0aac4c82d774bece2">&#9670;&nbsp;</a></span>CreateBodyWithoutID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_body.html">Body</a> * BodyInterface::CreateBodyWithoutID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSettings</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Advanced use only. Creates a body without specifying an ID. This body cannot be added to the world until it has gotten a body ID. A call to CreateBodyWithoutID followed by AssignBodyID is equivalent to calling CreateBodyWithID. </p><dl class="section return"><dt>Returns</dt><dd>Created body </dd></dl>
 
 </div>
 </div>
@@ -1010,6 +1065,26 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroy a body. </p>
+
+</div>
+</div>
+<a id="a6263a2b21c5544789bdf4040deacc377" name="a6263a2b21c5544789bdf4040deacc377"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6263a2b21c5544789bdf4040deacc377">&#9670;&nbsp;</a></span>DestroyBodyWithoutID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BodyInterface::DestroyBodyWithoutID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_body.html">Body</a> *&#160;</td>
+          <td class="paramname"><em>inBody</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Advanced use only. Destroy a body previously created with CreateBodyWithoutID that hasn't gotten an ID yet through the AssignBodyID function. Bodies that did get an ID should be destroyed through DestroyBody. </p>
 
 </div>
 </div>
