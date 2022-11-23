@@ -118,7 +118,7 @@ Inheritance diagram for WheeledVehicleController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac37470c3ca61d99d2ab55e6c851410d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#ac37470c3ca61d99d2ab55e6c851410d0">Differentials</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_vehicle_differential_settings.html">VehicleDifferentialSettings</a> &gt;</td></tr>
+<tr class="memitem:ac37470c3ca61d99d2ab55e6c851410d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#ac37470c3ca61d99d2ab55e6c851410d0">Differentials</a> = <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_vehicle_differential_settings.html">VehicleDifferentialSettings</a> &gt;</td></tr>
 <tr class="memdesc:ac37470c3ca61d99d2ab55e6c851410d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedefs.  <a href="class_wheeled_vehicle_controller.html#ac37470c3ca61d99d2ab55e6c851410d0">More...</a><br /></td></tr>
 <tr class="separator:ac37470c3ca61d99d2ab55e6c851410d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -147,6 +147,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abc5128d2c64bd0081380279ed025e2ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_wheeled_vehicle_controller.html#ac37470c3ca61d99d2ab55e6c851410d0">Differentials</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#abc5128d2c64bd0081380279ed025e2ed">GetDifferentials</a> ()</td></tr>
 <tr class="memdesc:abc5128d2c64bd0081380279ed025e2ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the differentials this vehicle has (writable interface, allows you to make changes to the configuration which will take effect the next time step)  <a href="class_wheeled_vehicle_controller.html#abc5128d2c64bd0081380279ed025e2ed">More...</a><br /></td></tr>
 <tr class="separator:abc5128d2c64bd0081380279ed025e2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54518ef2b442bd0a1fe7a871d36d167f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#a54518ef2b442bd0a1fe7a871d36d167f">GetDifferentialLimitedSlipRatio</a> () const</td></tr>
+<tr class="memdesc:a54518ef2b442bd0a1fe7a871d36d167f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio max / min average wheel speed of each differential (measured at the clutch).  <a href="class_wheeled_vehicle_controller.html#a54518ef2b442bd0a1fe7a871d36d167f">More...</a><br /></td></tr>
+<tr class="separator:a54518ef2b442bd0a1fe7a871d36d167f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c2ead8335924c4225b2580b2fd6f31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#a18c2ead8335924c4225b2580b2fd6f31">SetDifferentialLimitedSlipRatio</a> (float inV)</td></tr>
+<tr class="separator:a18c2ead8335924c4225b2580b2fd6f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_vehicle_controller"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_vehicle_controller')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_vehicle_controller.html">VehicleController</a></td></tr>
 <tr class="memitem:ad5cad3b5a580aaf05e36e4c350db37cb inherit pub_methods_class_vehicle_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_controller.html#ad5cad3b5a580aaf05e36e4c350db37cb">VehicleController</a> (<a class="el" href="class_vehicle_constraint.html">VehicleConstraint</a> &amp;inConstraint)</td></tr>
 <tr class="memdesc:ad5cad3b5a580aaf05e36e4c350db37cb inherit pub_methods_class_vehicle_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor / destructor.  <a href="class_vehicle_controller.html#ad5cad3b5a580aaf05e36e4c350db37cb">More...</a><br /></td></tr>
@@ -180,6 +185,8 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a87526c2489ef5c417f2ef34a69d19cbb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_wheel.html">Wheel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#a87526c2489ef5c417f2ef34a69d19cbb">ConstructWheel</a> (const <a class="el" href="class_wheel_settings.html">WheelSettings</a> &amp;inWheel) const override</td></tr>
 <tr class="separator:a87526c2489ef5c417f2ef34a69d19cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6125325237cbe777be8aa8c5fc831ce4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#a6125325237cbe777be8aa8c5fc831ce4">AllowSleep</a> () const override</td></tr>
+<tr class="separator:a6125325237cbe777be8aa8c5fc831ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b2dc5370272f15c968425a422ccaeff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#a8b2dc5370272f15c968425a422ccaeff">PreCollide</a> (float inDeltaTime, <a class="el" href="class_physics_system.html">PhysicsSystem</a> &amp;inPhysicsSystem) override</td></tr>
 <tr class="separator:a8b2dc5370272f15c968425a422ccaeff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3bf9ef08870494a7bf762b67beea1ef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#ad3bf9ef08870494a7bf762b67beea1ef">PostCollide</a> (float inDeltaTime, <a class="el" href="class_physics_system.html">PhysicsSystem</a> &amp;inPhysicsSystem) override</td></tr>
@@ -214,6 +221,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3d1069e60f64ca74c667e120f06d34bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_wheeled_vehicle_controller.html#ac37470c3ca61d99d2ab55e6c851410d0">Differentials</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#a3d1069e60f64ca74c667e120f06d34bf">mDifferentials</a></td></tr>
 <tr class="memdesc:a3d1069e60f64ca74c667e120f06d34bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Differential states of the vehicle.  <a href="class_wheeled_vehicle_controller.html#a3d1069e60f64ca74c667e120f06d34bf">More...</a><br /></td></tr>
 <tr class="separator:a3d1069e60f64ca74c667e120f06d34bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa389a6d0e57e4eb69c7d238be20c6575"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#aa389a6d0e57e4eb69c7d238be20c6575">mDifferentialLimitedSlipRatio</a></td></tr>
+<tr class="memdesc:aa389a6d0e57e4eb69c7d238be20c6575"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio max / min average wheel speed of each differential (measured at the clutch).  <a href="class_wheeled_vehicle_controller.html#aa389a6d0e57e4eb69c7d238be20c6575">More...</a><br /></td></tr>
+<tr class="separator:aa389a6d0e57e4eb69c7d238be20c6575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_vehicle_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_vehicle_controller')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_vehicle_controller.html">VehicleController</a></td></tr>
 <tr class="memitem:af93ef5080e32c5558d6b594da7080896 inherit pro_attribs_class_vehicle_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vehicle_constraint.html">VehicleConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_controller.html#af93ef5080e32c5558d6b594da7080896">mConstraint</a></td></tr>
 <tr class="memdesc:af93ef5080e32c5558d6b594da7080896 inherit pro_attribs_class_vehicle_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vehicle constraint we belong to.  <a href="class_vehicle_controller.html#af93ef5080e32c5558d6b594da7080896">More...</a><br /></td></tr>
@@ -244,7 +254,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_wheeled_vehicle_controller.html#ac37470c3ca61d99d2ab55e6c851410d0">WheeledVehicleController::Differentials</a> =  <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt;<a class="el" href="class_vehicle_differential_settings.html">VehicleDifferentialSettings</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_wheeled_vehicle_controller.html#ac37470c3ca61d99d2ab55e6c851410d0">WheeledVehicleController::Differentials</a> =  <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt;<a class="el" href="class_vehicle_differential_settings.html">VehicleDifferentialSettings</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,6 +295,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6125325237cbe777be8aa8c5fc831ce4" name="a6125325237cbe777be8aa8c5fc831ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6125325237cbe777be8aa8c5fc831ce4">&#9670;&nbsp;</a></span>AllowSleep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool WheeledVehicleController::AllowSleep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_vehicle_controller.html#a036140f704fc850f06f8c4072c91276c">VehicleController</a>.</p>
+
+</div>
+</div>
 <a id="a87526c2489ef5c417f2ef34a69d19cbb" name="a87526c2489ef5c417f2ef34a69d19cbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87526c2489ef5c417f2ef34a69d19cbb">&#9670;&nbsp;</a></span>ConstructWheel()</h2>
 
@@ -310,6 +347,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_vehicle_controller.html#a67f4c989e175054bb615082afef27c45">VehicleController</a>.</p>
+
+</div>
+</div>
+<a id="a54518ef2b442bd0a1fe7a871d36d167f" name="a54518ef2b442bd0a1fe7a871d36d167f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54518ef2b442bd0a1fe7a871d36d167f">&#9670;&nbsp;</a></span>GetDifferentialLimitedSlipRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float WheeledVehicleController::GetDifferentialLimitedSlipRatio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ratio max / min average wheel speed of each differential (measured at the clutch). </p>
 
 </div>
 </div>
@@ -607,6 +671,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a18c2ead8335924c4225b2580b2fd6f31" name="a18c2ead8335924c4225b2580b2fd6f31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c2ead8335924c4225b2580b2fd6f31">&#9670;&nbsp;</a></span>SetDifferentialLimitedSlipRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WheeledVehicleController::SetDifferentialLimitedSlipRatio </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inV</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3a3b66c895677f66890ddde7b5e6f9ba" name="a3a3b66c895677f66890ddde7b5e6f9ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a3b66c895677f66890ddde7b5e6f9ba">&#9670;&nbsp;</a></span>SetDriverInput()</h2>
 
@@ -714,6 +804,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Value between 0 and 1 indicating how strong the brake pedal is pressed. </p>
+
+</div>
+</div>
+<a id="aa389a6d0e57e4eb69c7d238be20c6575" name="aa389a6d0e57e4eb69c7d238be20c6575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa389a6d0e57e4eb69c7d238be20c6575">&#9670;&nbsp;</a></span>mDifferentialLimitedSlipRatio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float WheeledVehicleController::mDifferentialLimitedSlipRatio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ratio max / min average wheel speed of each differential (measured at the clutch). </p>
 
 </div>
 </div>

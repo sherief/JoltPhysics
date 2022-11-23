@@ -151,6 +151,8 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a67f4c989e175054bb615082afef27c45"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_wheel.html">Wheel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_controller.html#a67f4c989e175054bb615082afef27c45">ConstructWheel</a> (const <a class="el" href="class_wheel_settings.html">WheelSettings</a> &amp;inWheel) const =0</td></tr>
 <tr class="separator:a67f4c989e175054bb615082afef27c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036140f704fc850f06f8c4072c91276c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_controller.html#a036140f704fc850f06f8c4072c91276c">AllowSleep</a> () const =0</td></tr>
+<tr class="separator:a036140f704fc850f06f8c4072c91276c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3561ef0070d906d1f0fbfa11bfa28210"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_controller.html#a3561ef0070d906d1f0fbfa11bfa28210">PreCollide</a> (float inDeltaTime, <a class="el" href="class_physics_system.html">PhysicsSystem</a> &amp;inPhysicsSystem)=0</td></tr>
 <tr class="separator:a3561ef0070d906d1f0fbfa11bfa28210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a005727385292dd06ad30398e1eef0a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_controller.html#a0a005727385292dd06ad30398e1eef0a">PostCollide</a> (float inDeltaTime, <a class="el" href="class_physics_system.html">PhysicsSystem</a> &amp;inPhysicsSystem)=0</td></tr>
@@ -245,6 +247,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a036140f704fc850f06f8c4072c91276c" name="a036140f704fc850f06f8c4072c91276c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036140f704fc850f06f8c4072c91276c">&#9670;&nbsp;</a></span>AllowSleep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool VehicleController::AllowSleep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_tracked_vehicle_controller.html#aa466156a2a5c4591ebbd92347807b509">TrackedVehicleController</a>, and <a class="el" href="class_wheeled_vehicle_controller.html#a6125325237cbe777be8aa8c5fc831ce4">WheeledVehicleController</a>.</p>
+
+</div>
+</div>
 <a id="a67f4c989e175054bb615082afef27c45" name="a67f4c989e175054bb615082afef27c45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67f4c989e175054bb615082afef27c45">&#9670;&nbsp;</a></span>ConstructWheel()</h2>
 

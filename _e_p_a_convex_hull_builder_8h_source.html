@@ -273,7 +273,7 @@ $(document).ready(function(){initNavTree('_e_p_a_convex_hull_builder_8h_source.h
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            inT-&gt;<a class="code hl_variable" href="class_e_p_a_convex_hull_builder_1_1_triangle.html#aba25cdfa6f65d1725a9138cc062e98ea">mInQueue</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>            <span class="comment">// Resort heap</span></div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>            push_heap(begin(), end(), sTriangleSorter);</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>            std::push_heap(begin(), end(), sTriangleSorter);</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        }</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno"><a class="line" href="class_e_p_a_convex_hull_builder_1_1_triangle_queue.html#a13516948e75d7fd3dca02c1ec7b72504">  203</a></span>        <a class="code hl_class" href="class_e_p_a_convex_hull_builder_1_1_triangle.html">Triangle</a> *      <a class="code hl_function" href="class_e_p_a_convex_hull_builder_1_1_triangle_queue.html#a13516948e75d7fd3dca02c1ec7b72504">PeekClosest</a>()</div>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('_e_p_a_convex_hull_builder_8h_source.h
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno"><a class="line" href="class_e_p_a_convex_hull_builder_1_1_triangle_queue.html#a1d5149d9d7342650de71477538043991">  209</a></span>        <a class="code hl_class" href="class_e_p_a_convex_hull_builder_1_1_triangle.html">Triangle</a> *      <a class="code hl_function" href="class_e_p_a_convex_hull_builder_1_1_triangle_queue.html#a1d5149d9d7342650de71477538043991">PopClosest</a>()</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>        {</div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>            <span class="comment">// Move largest to end</span></div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>            pop_heap(begin(), end(), sTriangleSorter);</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>            std::pop_heap(begin(), end(), sTriangleSorter);</div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
 <div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>            <span class="comment">// Remove last triangle</span></div>
 <div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>            <a class="code hl_class" href="class_e_p_a_convex_hull_builder_1_1_triangle.html">Triangle</a> *t = back();</div>
@@ -438,7 +438,7 @@ $(document).ready(function(){initNavTree('_e_p_a_convex_hull_builder_8h_source.h
 <div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span> </div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span><span class="preprocessor">#if defined(JPH_EPA_CONVEX_BUILDER_VALIDATE) || defined(JPH_EPA_CONVEX_BUILDER_DRAW)</span></div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>        <span class="comment">// Remove from list of all triangles</span></div>
-<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>        <a class="code hl_typedef" href="class_static_array.html#a495ba6aabb5a08ba1a06add667182f12">Triangles::iterator</a> i = find(mTriangles.begin(), mTriangles.end(), inT);</div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>        <a class="code hl_typedef" href="class_static_array.html#a495ba6aabb5a08ba1a06add667182f12">Triangles::iterator</a> i = std::find(mTriangles.begin(), mTriangles.end(), inT);</div>
 <div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>        <a class="code hl_define" href="_issue_reporting_8h.html#aaf6b1df827e11b7ca5f6f8778bd8f8cd">JPH_ASSERT</a>(i != mTriangles.end());</div>
 <div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>        mTriangles.erase(i);</div>
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span><span class="preprocessor">#endif</span></div>
@@ -879,9 +879,9 @@ $(document).ready(function(){initNavTree('_e_p_a_convex_hull_builder_8h_source.h
 <div class="line"><a id="l00824" name="l00824"></a><span class="lineno">  824</span>JPH_PRECISE_MATH_OFF</div>
 <div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span> </div>
 <div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span><a class="code hl_define" href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div>
-<div class="ttc" id="a_core_8h_html_a73da8725998b00321a9db341202d650d"><div class="ttname"><a href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div><div class="ttdeci">#define JPH_NAMESPACE_END</div><div class="ttdef"><b>Definition:</b> Core.h:224</div></div>
-<div class="ttc" id="a_core_8h_html_aa17fc6cc2c9a4ad80e9fcdd3f64320e1"><div class="ttname"><a href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a></div><div class="ttdeci">uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Core.h:265</div></div>
-<div class="ttc" id="a_core_8h_html_ad14098b68b8c44ea6112601031268405"><div class="ttname"><a href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define JPH_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition:</b> Core.h:218</div></div>
+<div class="ttc" id="a_core_8h_html_a73da8725998b00321a9db341202d650d"><div class="ttname"><a href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div><div class="ttdeci">#define JPH_NAMESPACE_END</div><div class="ttdef"><b>Definition:</b> Core.h:228</div></div>
+<div class="ttc" id="a_core_8h_html_aa17fc6cc2c9a4ad80e9fcdd3f64320e1"><div class="ttname"><a href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a></div><div class="ttdeci">uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Core.h:300</div></div>
+<div class="ttc" id="a_core_8h_html_ad14098b68b8c44ea6112601031268405"><div class="ttname"><a href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define JPH_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition:</b> Core.h:222</div></div>
 <div class="ttc" id="a_debug_renderer_8h_html"><div class="ttname"><a href="_debug_renderer_8h.html">DebugRenderer.h</a></div></div>
 <div class="ttc" id="a_issue_reporting_8h_html_aaf6b1df827e11b7ca5f6f8778bd8f8cd"><div class="ttname"><a href="_issue_reporting_8h.html#aaf6b1df827e11b7ca5f6f8778bd8f8cd">JPH_ASSERT</a></div><div class="ttdeci">#define JPH_ASSERT(...)</div><div class="ttdef"><b>Definition:</b> IssueReporting.h:32</div></div>
 <div class="ttc" id="a_non_copyable_8h_html"><div class="ttname"><a href="_non_copyable_8h.html">NonCopyable.h</a></div></div>

@@ -32,6 +32,7 @@ var class_compound_shape =
     [ "GetSubShapes", "class_compound_shape.html#a3c4efdc6b41fc47e604ee8154425a80a", null ],
     [ "GetSubShapeTransformedShape", "class_compound_shape.html#ae21a8dff0919f928ae1d282293018a8c", null ],
     [ "GetSubShapeUserData", "class_compound_shape.html#adf93c781343189f225f39656a64240db", null ],
+    [ "GetSupportingFace", "class_compound_shape.html#aaa7ac5ce56a586d8179181add8af60fa", null ],
     [ "GetSurfaceNormal", "class_compound_shape.html#a4f1bcd2e95e17efeff42556cbc729110", null ],
     [ "GetTrianglesNext", "class_compound_shape.html#a86dbc7e794fdf43a39fed13e60731a0b", null ],
     [ "GetTrianglesStart", "class_compound_shape.html#a1e3571fbe4835d1bfec50d9d7a1a2b1f", null ],

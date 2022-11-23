@@ -15,7 +15,7 @@ var class_sphere_shape =
     [ "GetStats", "class_sphere_shape.html#adff6e55656d0dc2048f40b3dad359fd8", null ],
     [ "GetSubmergedVolume", "class_sphere_shape.html#a8099641beb4ad717e84857905fcd6ce5", null ],
     [ "GetSupportFunction", "class_sphere_shape.html#a69de38369e7a6e0927d7bbcce1ae5759", null ],
-    [ "GetSupportingFace", "class_sphere_shape.html#ad7a8a4bb78f5af386af68423498349c7", null ],
+    [ "GetSupportingFace", "class_sphere_shape.html#a9619a007d4bd51efef15792e464d8c0f", null ],
     [ "GetSurfaceNormal", "class_sphere_shape.html#a2ae3fdc9da393a59106c6f4f75c20b25", null ],
     [ "GetTrianglesNext", "class_sphere_shape.html#aab3a1e57553613d5ce94557f6175ca93", null ],
     [ "GetTrianglesStart", "class_sphere_shape.html#ae00fa28f36870678e33dc16085cafc5b", null ],

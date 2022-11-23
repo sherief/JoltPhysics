@@ -17,6 +17,7 @@ var class_body_interface =
     [ "AddLinearAndAngularVelocity", "class_body_interface.html#a7e4f5dc5ce2c8a045a008a93f141204b", null ],
     [ "AddLinearVelocity", "class_body_interface.html#a9a665d14b83fe63e236a0adce30d9877", null ],
     [ "AddTorque", "class_body_interface.html#a1eaab07990cc15ff9120e75767cf3386", null ],
+    [ "AssignBodyID", "class_body_interface.html#a4247f0851fb8dfbe92f5b83a41863595", null ],
     [ "AssignBodyID", "class_body_interface.html#a7669d5c31627d2c99fac69723fb1a219", null ],
     [ "CreateAndAddBody", "class_body_interface.html#a1484650a796607c688529fe600dc9e9f", null ],
     [ "CreateBody", "class_body_interface.html#ad1baf0b6645e34cc5db1df73de724bf7", null ],
@@ -69,5 +70,7 @@ var class_body_interface =
     [ "SetPositionRotationAndVelocity", "class_body_interface.html#a9cdc40301b0300d4050d8875c11c377f", null ],
     [ "SetRestitution", "class_body_interface.html#a7fb8b9b6e59dfe3f78f9e8e3c2776675", null ],
     [ "SetRotation", "class_body_interface.html#a199aec558e03ec611fc32e2e4fcbfc07", null ],
-    [ "SetShape", "class_body_interface.html#a051a4064706509e2b1c4dcc6d688676d", null ]
+    [ "SetShape", "class_body_interface.html#a051a4064706509e2b1c4dcc6d688676d", null ],
+    [ "UnassignBodyID", "class_body_interface.html#a90516454ed80b9ffd59dccb2dbcd8f2b", null ],
+    [ "UnassignBodyIDs", "class_body_interface.html#a88613a7d9e6ba099b3a02faf842ac7d7", null ]
 ];

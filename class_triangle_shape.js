@@ -16,7 +16,7 @@ var class_triangle_shape =
     [ "GetStats", "class_triangle_shape.html#a41afaef8725be99a40861e777de22119", null ],
     [ "GetSubmergedVolume", "class_triangle_shape.html#ae64007e8a09c522eea94287d25089bb4", null ],
     [ "GetSupportFunction", "class_triangle_shape.html#a218f85b8e0fe0e50bb8dbf6de81b1986", null ],
-    [ "GetSupportingFace", "class_triangle_shape.html#a8047d2f2d2f0eb78de2e4bdc45b48eeb", null ],
+    [ "GetSupportingFace", "class_triangle_shape.html#ad35f626bfc8807441d6b200ebf74e216", null ],
     [ "GetSurfaceNormal", "class_triangle_shape.html#af2073f91655595dde2662482e5821006", null ],
     [ "GetTrianglesNext", "class_triangle_shape.html#aea1cb87c9bdf927b353459aec286218f", null ],
     [ "GetTrianglesStart", "class_triangle_shape.html#a3fe954485d3333b502acd074ebd3d405", null ],

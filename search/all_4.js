@@ -32,7 +32,7 @@ var searchData=
   ['encapsulatepoint_29',['EncapsulatePoint',['../class_sphere.html#ae662c4e0d3f338fe5c5bfa844aaa22ea',1,'Sphere']]],
   ['encodingcontext_30',['EncodingContext',['../class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html#a1a7a9c8bdd917bf0e4b95a88694c8630',1,'TriangleCodecIndexed8BitPackSOA4Flags::EncodingContext::EncodingContext()'],['../class_node_codec_quad_tree_half_float_1_1_encoding_context.html',1,'NodeCodecQuadTreeHalfFloat&lt; Alignment &gt;::EncodingContext'],['../class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html',1,'TriangleCodecIndexed8BitPackSOA4Flags::EncodingContext']]],
   ['end_31',['end',['../class_static_array.html#a26023a8948ef582b35b2d808f95915b4',1,'StaticArray::end()'],['../class_static_array.html#acc8368b80a4756c0ea7f5354dad6b2df',1,'StaticArray::end() const'],['../class_lock_free_hash_map.html#af90c81d993eb139aded4c89bff98998d',1,'LockFreeHashMap::end()']]],
-  ['endframe_32',['EndFrame',['../class_debug_renderer_recorder.html#ab209b97db9eb9c3d5ee0735f7e1b4b3ea6c1645a468ccfce0975fc95587b97adf',1,'DebugRendererRecorder::EndFrame()'],['../class_debug_renderer_recorder.html#a1beee4021111b00774e99dd134716b44',1,'DebugRendererRecorder::EndFrame()']]],
+  ['endframe_32',['EndFrame',['../class_debug_renderer_recorder.html#a1beee4021111b00774e99dd134716b44',1,'DebugRendererRecorder::EndFrame()'],['../class_debug_renderer_recorder.html#ab209b97db9eb9c3d5ee0735f7e1b4b3ea6c1645a468ccfce0975fc95587b97adf',1,'DebugRendererRecorder::EndFrame()']]],
   ['ensureminimaledgelength_33',['EnsureMinimalEdgeLength',['../class_a_a_box.html#a377eb9ef3dfdd76f62d0faf6e0a54525',1,'AABox']]],
   ['ensurewpositive_34',['EnsureWPositive',['../class_quat.html#a9f563ca8c8a8b71a0aa340d12080c2ef',1,'Quat']]],
   ['eosdatatype_35',['EOSDataType',['../_serializable_attribute_8h.html#a1c4e088742cfa4700da8d88eacf5974a',1,'SerializableAttribute.h']]],
@@ -64,5 +64,7 @@ var searchData=
   ['expand4byte8_61',['Expand4Byte8',['../class_u_vec4.html#ab576b5e89a741b942e5a0eee30221fff',1,'UVec4']]],
   ['expand4uint16hi_62',['Expand4Uint16Hi',['../class_u_vec4.html#ac7ecdcc40c2437edb94d824902084471',1,'UVec4']]],
   ['expand4uint16lo_63',['Expand4Uint16Lo',['../class_u_vec4.html#a231db23152af3fc49272a7842432b2d8',1,'UVec4']]],
-  ['expandby_64',['ExpandBy',['../class_a_a_box.html#a7023c1c28f073fa0d14ecee0f5fc8ee8',1,'AABox']]]
+  ['expandby_64',['ExpandBy',['../class_a_a_box.html#a7023c1c28f073fa0d14ecee0f5fc8ee8',1,'AABox']]],
+  ['extendedupdate_65',['ExtendedUpdate',['../class_character_virtual.html#a394065d2dd9264be14e3aa111d903abd',1,'CharacterVirtual']]],
+  ['extendedupdatesettings_66',['ExtendedUpdateSettings',['../struct_character_virtual_1_1_extended_update_settings.html',1,'CharacterVirtual']]]
 ];

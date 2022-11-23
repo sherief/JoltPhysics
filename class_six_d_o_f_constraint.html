@@ -159,6 +159,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae203835b5e57cbdb0acd755bf65e87fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#ae203835b5e57cbdb0acd755bf65e87fd">SetRotationLimits</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inLimitMin, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inLimitMax)</td></tr>
 <tr class="memdesc:ae203835b5e57cbdb0acd755bf65e87fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the rotational limits for this constraint, note that this won't change if axis are free or not.  <a href="class_six_d_o_f_constraint.html#ae203835b5e57cbdb0acd755bf65e87fd">More...</a><br /></td></tr>
 <tr class="separator:ae203835b5e57cbdb0acd755bf65e87fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19166b2e56147da794b2651896007294"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#a19166b2e56147da794b2651896007294">GetLimitsMin</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis) const</td></tr>
+<tr class="memdesc:a19166b2e56147da794b2651896007294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get constraint Limits.  <a href="class_six_d_o_f_constraint.html#a19166b2e56147da794b2651896007294">More...</a><br /></td></tr>
+<tr class="separator:a19166b2e56147da794b2651896007294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e19363677045ac960e57d0deb166e6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#a78e19363677045ac960e57d0deb166e6">GetLimitsMax</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis) const</td></tr>
+<tr class="separator:a78e19363677045ac960e57d0deb166e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9388c6c3c237389fa77aec2862fba244"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#a9388c6c3c237389fa77aec2862fba244">IsFixedAxis</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis) const</td></tr>
+<tr class="separator:a9388c6c3c237389fa77aec2862fba244"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa234472e01794bfa881cf59d0c5d6be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#aaa234472e01794bfa881cf59d0c5d6be">IsFreeAxis</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis) const</td></tr>
+<tr class="separator:aaa234472e01794bfa881cf59d0c5d6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab28cc63599921c1b582f71549be647b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#ab28cc63599921c1b582f71549be647b3">SetMaxFriction</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis, float inFriction)</td></tr>
 <tr class="memdesc:ab28cc63599921c1b582f71549be647b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the max friction for each axis.  <a href="class_six_d_o_f_constraint.html#ab28cc63599921c1b582f71549be647b3">More...</a><br /></td></tr>
 <tr class="separator:ab28cc63599921c1b582f71549be647b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,6 +453,60 @@ Additional Inherited Members</h2></td></tr>
 <p>Calculates the transform that transforms from constraint space to body 2 space. The first column of the matrix is the primary constraint axis (e.g. the hinge axis / slider direction), second column the secondary etc. </p>
 
 <p>Implements <a class="el" href="class_two_body_constraint.html#a0966503073a315b6087f10208e8a61ff">TwoBodyConstraint</a>.</p>
+
+</div>
+</div>
+<a id="a78e19363677045ac960e57d0deb166e6" name="a78e19363677045ac960e57d0deb166e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e19363677045ac960e57d0deb166e6">&#9670;&nbsp;</a></span>GetLimitsMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SixDOFConstraint::GetLimitsMax </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a>&#160;</td>
+          <td class="paramname"><em>inAxis</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19166b2e56147da794b2651896007294" name="a19166b2e56147da794b2651896007294"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19166b2e56147da794b2651896007294">&#9670;&nbsp;</a></span>GetLimitsMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SixDOFConstraint::GetLimitsMin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a>&#160;</td>
+          <td class="paramname"><em>inAxis</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get constraint Limits. </p>
 
 </div>
 </div>
@@ -801,6 +864,58 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> SixDOFConstraint::GetTotalLambdaRotation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9388c6c3c237389fa77aec2862fba244" name="a9388c6c3c237389fa77aec2862fba244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9388c6c3c237389fa77aec2862fba244">&#9670;&nbsp;</a></span>IsFixedAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SixDOFConstraint::IsFixedAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a>&#160;</td>
+          <td class="paramname"><em>inAxis</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa234472e01794bfa881cf59d0c5d6be" name="aaa234472e01794bfa881cf59d0c5d6be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa234472e01794bfa881cf59d0c5d6be">&#9670;&nbsp;</a></span>IsFreeAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SixDOFConstraint::IsFreeAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a>&#160;</td>
+          <td class="paramname"><em>inAxis</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

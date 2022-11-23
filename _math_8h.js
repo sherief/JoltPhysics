@@ -1,6 +1,7 @@
 var _math_8h =
 [
     [ "AlignUp", "_math_8h.html#af4d371fa6a518ca5b81757dc225fae4d", null ],
+    [ "BitCast", "_math_8h.html#ab2cbe30946edbf23887cfc1291025866", null ],
     [ "CenterAngleAroundZero", "_math_8h.html#a50121c6b962bb60d907d4f4c596935c4", null ],
     [ "Clamp", "_math_8h.html#a57edf2338f751e3cfe49d53cd00ee972", null ],
     [ "CountBits", "_math_8h.html#a59413d7cb307df1856ec71deb3cc1a5b", null ],

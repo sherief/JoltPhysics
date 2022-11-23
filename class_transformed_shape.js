@@ -15,6 +15,7 @@ var class_transformed_shape =
     [ "GetShapeScale", "class_transformed_shape.html#a9f0559c4106b9b17becd5f401389b354", null ],
     [ "GetSubShapeTransformedShape", "class_transformed_shape.html#a8ef1a33902094dcdd6f20f63868c5ea2", null ],
     [ "GetSubShapeUserData", "class_transformed_shape.html#a98ca3c64d2bc65548a4845085c53eba5", null ],
+    [ "GetSupportingFace", "class_transformed_shape.html#abd6c60b0bfb1340666aba727cade5323", null ],
     [ "GetTrianglesNext", "class_transformed_shape.html#a7f4d127145d57e13ff41523a3c8ecd9e", null ],
     [ "GetTrianglesStart", "class_transformed_shape.html#ae561394e4622e907070d6c8e7bfcde19", null ],
     [ "GetWorldSpaceBounds", "class_transformed_shape.html#a33b12d09ebaf2071dd49a3873978ac0a", null ],

@@ -10,6 +10,7 @@ var class_vehicle_constraint =
     [ "GetLocalUp", "class_vehicle_constraint.html#a9e88c415ed7c4ae5cea93506fd53ae28", null ],
     [ "GetSubType", "class_vehicle_constraint.html#a989fc35253ed8da61981107b0fc19fba", null ],
     [ "GetVehicleBody", "class_vehicle_constraint.html#a402cd50d87d5f478036104b9185fb2db", null ],
+    [ "GetWheel", "class_vehicle_constraint.html#a6d90f054b9fa121d8ec9b1e2f0dcba65", null ],
     [ "GetWheelLocalTransform", "class_vehicle_constraint.html#a26fa80f7292448dd869df47c46a30adf", null ],
     [ "GetWheels", "class_vehicle_constraint.html#a5b39b845e91504642e180a4f35df0a45", null ],
     [ "GetWheels", "class_vehicle_constraint.html#af2a24975a01de3cf22ab55ba2ac6ed74", null ],

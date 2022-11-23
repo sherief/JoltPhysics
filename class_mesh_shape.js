@@ -15,6 +15,7 @@ var class_mesh_shape =
     [ "GetStats", "class_mesh_shape.html#a9996003623615ba708c420e90e86349e", null ],
     [ "GetSubmergedVolume", "class_mesh_shape.html#a85c6f6e31010590603ffbf4b98dc11ca", null ],
     [ "GetSubShapeIDBitsRecursive", "class_mesh_shape.html#a7e26f8abf395dc62026f5c4789e3c378", null ],
+    [ "GetSupportingFace", "class_mesh_shape.html#ac15cb5e42c9123d08b5dfd7d5928bcad", null ],
     [ "GetSurfaceNormal", "class_mesh_shape.html#aad9c34de931c5c15d19cfc7ac200583a", null ],
     [ "GetTrianglesNext", "class_mesh_shape.html#a9c170a3cbeccfbfa9349038d0aa5f10c", null ],
     [ "GetTrianglesStart", "class_mesh_shape.html#a409b6ac0a7548e275d6f1f2a9b57a19d", null ],

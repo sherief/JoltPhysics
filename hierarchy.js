@@ -76,11 +76,14 @@ var hierarchy =
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::DecodingContext", "class_node_codec_quad_tree_half_float_1_1_decoding_context.html", null ],
     [ "TriangleCodecIndexed8BitPackSOA4Flags::DecodingContext", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html", null ],
     [ "DualAxisConstraintPart", "class_dual_axis_constraint_part.html", null ],
+    [ "DVec3", "class_d_vec3.html", null ],
+    [ "DynMatrix", "class_dyn_matrix.html", null ],
     [ "EPAConvexHullBuilder::Edge", "class_e_p_a_convex_hull_builder_1_1_edge.html", null ],
     [ "Ellipse", "class_ellipse.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::EncodingContext", "class_node_codec_quad_tree_half_float_1_1_encoding_context.html", null ],
     [ "TriangleCodecIndexed8BitPackSOA4Flags::EncodingContext", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html", null ],
     [ "EPAPenetrationDepth", "class_e_p_a_penetration_depth.html", null ],
+    [ "CharacterVirtual::ExtendedUpdateSettings", "struct_character_virtual_1_1_extended_update_settings.html", null ],
     [ "Factory", "class_factory.html", null ],
     [ "Float2", "class_float2.html", null ],
     [ "Float3", "class_float3.html", null ],
@@ -116,6 +119,7 @@ var hierarchy =
     [ "LockFreeHashMap< Key, Value >::KeyValue", "class_lock_free_hash_map_1_1_key_value.html", null ],
     [ "LinearCurve", "class_linear_curve.html", null ],
     [ "DebugRendererRecorder::LineBlob", "struct_debug_renderer_recorder_1_1_line_blob.html", null ],
+    [ "SkeletonMapper::Locked", "class_skeleton_mapper_1_1_locked.html", null ],
     [ "DebugRenderer::LOD", "class_debug_renderer_1_1_l_o_d.html", null ],
     [ "SkeletonMapper::Mapping", "class_skeleton_mapper_1_1_mapping.html", null ],
     [ "MassProperties", "class_mass_properties.html", null ],
@@ -127,9 +131,6 @@ var hierarchy =
     [ "MotionProperties", "class_motion_properties.html", null ],
     [ "MotorSettings", "class_motor_settings.html", null ],
     [ "MeshShape::MSGetTrianglesContext", "struct_mesh_shape_1_1_m_s_get_triangles_context.html", null ],
-    [ "MutexBase", null, [
-      [ "Mutex", "class_mutex.html", null ]
-    ] ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Node", "struct_node_codec_quad_tree_half_float_1_1_node.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >", "class_node_codec_quad_tree_half_float.html", null ],
     [ "NonCopyable", "class_non_copyable.html", [
@@ -446,9 +447,6 @@ var hierarchy =
     ] ],
     [ "ShapeCast", "struct_shape_cast.html", null ],
     [ "ShapeFunctions", "class_shape_functions.html", null ],
-    [ "SharedMutexBase", null, [
-      [ "SharedMutex", "class_shared_mutex.html", null ]
-    ] ],
     [ "SkeletonPose", "class_skeleton_pose.html", null ],
     [ "Sphere", "class_sphere.html", null ],
     [ "SpringPart", "class_spring_part.html", null ],
@@ -552,5 +550,11 @@ var hierarchy =
     [ "Wheel", "class_wheel.html", [
       [ "WheelTV", "class_wheel_t_v.html", null ],
       [ "WheelWV", "class_wheel_w_v.html", null ]
+    ] ],
+    [ "mutex", null, [
+      [ "Mutex", "class_mutex.html", null ]
+    ] ],
+    [ "shared_mutex", null, [
+      [ "SharedMutex", "class_shared_mutex.html", null ]
     ] ]
 ];

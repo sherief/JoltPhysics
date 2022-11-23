@@ -138,8 +138,8 @@ Public Types</h2></td></tr>
 <tr class="memitem:a57722f8a1c879b71ae19337e61600b3d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a57722f8a1c879b71ae19337e61600b3d">JobMask</a> = <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></td></tr>
 <tr class="memdesc:a57722f8a1c879b71ae19337e61600b3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mask that has as many bits as we can have concurrent jobs.  <a href="class_physics_update_context.html#a57722f8a1c879b71ae19337e61600b3d">More...</a><br /></td></tr>
 <tr class="separator:a57722f8a1c879b71ae19337e61600b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41ee5ce41512fd8465c1a6c9d3298516"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a41ee5ce41512fd8465c1a6c9d3298516">Steps</a> = vector&lt; <a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>, <a class="el" href="class_s_t_l_temp_allocator.html">STLTempAllocator</a>&lt; <a class="el" href="struct_physics_update_context_1_1_step.html">Step</a> &gt; &gt;</td></tr>
-<tr class="separator:a41ee5ce41512fd8465c1a6c9d3298516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e631b90f31cf616621e61ed588aac2f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a0e631b90f31cf616621e61ed588aac2f">Steps</a> = std::vector&lt; <a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>, <a class="el" href="class_s_t_l_temp_allocator.html">STLTempAllocator</a>&lt; <a class="el" href="struct_physics_update_context_1_1_step.html">Step</a> &gt; &gt;</td></tr>
+<tr class="separator:a0e631b90f31cf616621e61ed588aac2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -191,7 +191,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afa015c9ca2db6ffc71181cb809cdb30a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_island_builder.html">IslandBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#afa015c9ca2db6ffc71181cb809cdb30a">mIslandBuilder</a></td></tr>
 <tr class="memdesc:afa015c9ca2db6ffc71181cb809cdb30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps track of connected bodies and builds islands for multithreaded velocity/position update.  <a href="class_physics_update_context.html#afa015c9ca2db6ffc71181cb809cdb30a">More...</a><br /></td></tr>
 <tr class="separator:afa015c9ca2db6ffc71181cb809cdb30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28312d2f14f0c11540c28f7162f927ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_update_context.html#a41ee5ce41512fd8465c1a6c9d3298516">Steps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a28312d2f14f0c11540c28f7162f927ce">mSteps</a></td></tr>
+<tr class="memitem:a28312d2f14f0c11540c28f7162f927ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_update_context.html#a0e631b90f31cf616621e61ed588aac2f">Steps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a28312d2f14f0c11540c28f7162f927ce">mSteps</a></td></tr>
 <tr class="separator:a28312d2f14f0c11540c28f7162f927ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
@@ -250,14 +250,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a41ee5ce41512fd8465c1a6c9d3298516" name="a41ee5ce41512fd8465c1a6c9d3298516"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ee5ce41512fd8465c1a6c9d3298516">&#9670;&nbsp;</a></span>Steps</h2>
+<a id="a0e631b90f31cf616621e61ed588aac2f" name="a0e631b90f31cf616621e61ed588aac2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e631b90f31cf616621e61ed588aac2f">&#9670;&nbsp;</a></span>Steps</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_physics_update_context.html#a41ee5ce41512fd8465c1a6c9d3298516">PhysicsUpdateContext::Steps</a> =  vector&lt;<a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>, <a class="el" href="class_s_t_l_temp_allocator.html">STLTempAllocator</a>&lt;<a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="class_physics_update_context.html#a0e631b90f31cf616621e61ed588aac2f">PhysicsUpdateContext::Steps</a> =  std::vector&lt;<a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>, <a class="el" href="class_s_t_l_temp_allocator.html">STLTempAllocator</a>&lt;<a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -521,7 +521,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_physics_update_context.html#a41ee5ce41512fd8465c1a6c9d3298516">Steps</a> PhysicsUpdateContext::mSteps</td>
+          <td class="memname"><a class="el" href="class_physics_update_context.html#a0e631b90f31cf616621e61ed588aac2f">Steps</a> PhysicsUpdateContext::mSteps</td>
         </tr>
       </table>
 </div><div class="memdoc">

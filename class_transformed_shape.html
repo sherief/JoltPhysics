@@ -162,6 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1ac86317085e88189d1b8a2635dcec44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57ae88dd20064035d51e26aa5efc4829"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a57ae88dd20064035d51e26aa5efc4829">GetWorldSpaceSurfaceNormal</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPosition) const</td></tr>
 <tr class="separator:a57ae88dd20064035d51e26aa5efc4829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd6c60b0bfb1340666aba727cade5323"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#abd6c60b0bfb1340666aba727cade5323">GetSupportingFace</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDirection, <a class="el" href="class_shape.html#a95d3060318d33c1ef314c5b856a70cb8">Shape::SupportingFace</a> &amp;outVertices) const</td></tr>
+<tr class="separator:abd6c60b0bfb1340666aba727cade5323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8995638ea07aab36ba41e63bce603002"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transformed_shape.html#a8995638ea07aab36ba41e63bce603002">GetMaterial</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID) const</td></tr>
 <tr class="memdesc:a8995638ea07aab36ba41e63bce603002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get material of a particular sub shape.  <a href="class_transformed_shape.html#a8995638ea07aab36ba41e63bce603002">More...</a><br /></td></tr>
 <tr class="separator:a8995638ea07aab36ba41e63bce603002"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -714,6 +716,56 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the user data of a particular sub shape. </p>
+
+</div>
+</div>
+<a id="abd6c60b0bfb1340666aba727cade5323" name="abd6c60b0bfb1340666aba727cade5323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd6c60b0bfb1340666aba727cade5323">&#9670;&nbsp;</a></span>GetSupportingFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TransformedShape::GetSupportingFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSubShapeID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inDirection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_shape.html#a95d3060318d33c1ef314c5b856a70cb8">Shape::SupportingFace</a> &amp;&#160;</td>
+          <td class="paramname"><em>outVertices</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Get the vertices of the face that faces inDirection the most (includes any convex radius). Note that this function can only return faces of convex shapes or triangles, which is why a sub shape ID to get to that leaf must be provided. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inSubShapeID</td><td>Sub shape ID of target shape </td></tr>
+    <tr><td class="paramname">inDirection</td><td>Direction that the face should be facing (in world space) </td></tr>
+    <tr><td class="paramname">outVertices</td><td>Resulting face. Note the returned face can have a single point if the shape doesn't have polygons to return (e.g. because it's a sphere). The face will be returned in world space. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

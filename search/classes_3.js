@@ -10,5 +10,7 @@ var searchData=
   ['defaultobjectlayerfilter_7',['DefaultObjectLayerFilter',['../class_default_object_layer_filter.html',1,'']]],
   ['distanceconstraint_8',['DistanceConstraint',['../class_distance_constraint.html',1,'']]],
   ['distanceconstraintsettings_9',['DistanceConstraintSettings',['../class_distance_constraint_settings.html',1,'']]],
-  ['dualaxisconstraintpart_10',['DualAxisConstraintPart',['../class_dual_axis_constraint_part.html',1,'']]]
+  ['dualaxisconstraintpart_10',['DualAxisConstraintPart',['../class_dual_axis_constraint_part.html',1,'']]],
+  ['dvec3_11',['DVec3',['../class_d_vec3.html',1,'']]],
+  ['dynmatrix_12',['DynMatrix',['../class_dyn_matrix.html',1,'']]]
 ];

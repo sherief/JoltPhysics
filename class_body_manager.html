@@ -167,8 +167,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad8c3c4c7e6257244b81cfa8bc590149b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#ad8c3c4c7e6257244b81cfa8bc590149b">AddBodyWithCustomID</a> (<a class="el" href="class_body.html">Body</a> *ioBody, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
 <tr class="memdesc:ad8c3c4c7e6257244b81cfa8bc590149b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a body to the body manager, assigning it a custom ID. Returns false if the ID is not valid.  <a href="class_body_manager.html#ad8c3c4c7e6257244b81cfa8bc590149b">More...</a><br /></td></tr>
 <tr class="separator:ad8c3c4c7e6257244b81cfa8bc590149b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a65ea34748b9f3f354d4325f905ab1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a2a65ea34748b9f3f354d4325f905ab1c">RemoveBodies</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> *inBodyIDs, int inNumber, <a class="el" href="class_body.html">Body</a> **outBodies)</td></tr>
+<tr class="memdesc:a2a65ea34748b9f3f354d4325f905ab1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a list of bodies from the body manager.  <a href="class_body_manager.html#a2a65ea34748b9f3f354d4325f905ab1c">More...</a><br /></td></tr>
+<tr class="separator:a2a65ea34748b9f3f354d4325f905ab1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c0cc30ec7f2c4a5bcd1119906a6632e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a5c0cc30ec7f2c4a5bcd1119906a6632e">DestroyBodies</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> *inBodyIDs, int inNumber)</td></tr>
-<tr class="memdesc:a5c0cc30ec7f2c4a5bcd1119906a6632e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a set of bodies from the body manager and destroy them.  <a href="class_body_manager.html#a5c0cc30ec7f2c4a5bcd1119906a6632e">More...</a><br /></td></tr>
+<tr class="memdesc:a5c0cc30ec7f2c4a5bcd1119906a6632e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a set of bodies from the body manager and frees them.  <a href="class_body_manager.html#a5c0cc30ec7f2c4a5bcd1119906a6632e">More...</a><br /></td></tr>
 <tr class="separator:a5c0cc30ec7f2c4a5bcd1119906a6632e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecdc4718d0c9ccf33f9eaf2a42c6ab79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#aecdc4718d0c9ccf33f9eaf2a42c6ab79">ActivateBodies</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> *inBodyIDs, int inNumber)</td></tr>
 <tr class="separator:aecdc4718d0c9ccf33f9eaf2a42c6ab79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -494,7 +497,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Remove a set of bodies from the body manager and destroy them. </p>
+<p>Remove a set of bodies from the body manager and frees them. </p>
 
 </div>
 </div>
@@ -1028,6 +1031,42 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a65ea34748b9f3f354d4325f905ab1c" name="a2a65ea34748b9f3f354d4325f905ab1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a65ea34748b9f3f354d4325f905ab1c">&#9670;&nbsp;</a></span>RemoveBodies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BodyManager::RemoveBodies </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> *&#160;</td>
+          <td class="paramname"><em>inBodyIDs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_body.html">Body</a> **&#160;</td>
+          <td class="paramname"><em>outBodies</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove a list of bodies from the body manager. </p>
 
 </div>
 </div>

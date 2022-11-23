@@ -3,6 +3,7 @@ var class_character_base =
     [ "EGroundState", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e", [
       [ "OnGround", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777", null ],
       [ "OnSteepGround", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761", null ],
+      [ "NotSupported", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea9ed2d871602556951e39f3cebd08d6cb", null ],
       [ "InAir", "class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7", null ]
     ] ],
     [ "CharacterBase", "class_character_base.html#ae105fe52be09ccb14a7e7aa57b83e8ca", null ],
@@ -19,6 +20,7 @@ var class_character_base =
     [ "GetShape", "class_character_base.html#afe046cfb3333be1fcb186f42821ddb19", null ],
     [ "GetUp", "class_character_base.html#a2a437049ade0a3ab8ab7aeafb64f5163", null ],
     [ "IsSlopeTooSteep", "class_character_base.html#a87e7e3bcc174d5e498844dcac7f7f173", null ],
+    [ "IsSupported", "class_character_base.html#a700e706b9c1710409fc16c6f9a083e0b", null ],
     [ "RestoreState", "class_character_base.html#ad9d1540df7d44b3aaeee88a527df7d7d", null ],
     [ "SaveState", "class_character_base.html#ab28f7afaa654cf8461f3638dd01334e0", null ],
     [ "SetMaxSlopeAngle", "class_character_base.html#a0c2099dfbf12c1bd6f839a3eda5c9726", null ],
@@ -33,6 +35,7 @@ var class_character_base =
     [ "mGroundUserData", "class_character_base.html#acf9a8bdf6fa420d9615206d196794135", null ],
     [ "mGroundVelocity", "class_character_base.html#add543ae2333820dbf77e23009dfe4367", null ],
     [ "mShape", "class_character_base.html#a5c10220e06a8a5bb274a4b02c28cb0b6", null ],
+    [ "mSupportingVolume", "class_character_base.html#ae9fb45e5980787c5f7f718f6e7703797", null ],
     [ "mSystem", "class_character_base.html#ac6c3f8f7a2492d0c0f2eac85a9cc5a01", null ],
     [ "mUp", "class_character_base.html#a5f637f449a17fb6a1b10297764de48b4", null ]
 ];

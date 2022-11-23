@@ -1,7 +1,12 @@
 var dir_aa37033c5611f3a5cff668cf59181100 =
 [
-    [ "DVec3.h", "_d_vec3_8h.html", null ],
-    [ "DVec3.inl", "_d_vec3_8inl.html", null ],
+    [ "DVec3.h", "_d_vec3_8h.html", [
+      [ "DVec3", "class_d_vec3.html", "class_d_vec3" ]
+    ] ],
+    [ "DVec3.inl", "_d_vec3_8inl.html", "_d_vec3_8inl" ],
+    [ "DynMatrix.h", "_dyn_matrix_8h.html", [
+      [ "DynMatrix", "class_dyn_matrix.html", "class_dyn_matrix" ]
+    ] ],
     [ "EigenValueSymmetric.h", "_eigen_value_symmetric_8h.html", "_eigen_value_symmetric_8h" ],
     [ "FindRoot.h", "_find_root_8h.html", "_find_root_8h" ],
     [ "Float2.h", "_float2_8h.html", [

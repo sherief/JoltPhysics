@@ -128,10 +128,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abb17d2706f2ee0c0aac4c82d774bece2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#abb17d2706f2ee0c0aac4c82d774bece2">CreateBodyWithoutID</a> (const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings) const</td></tr>
 <tr class="separator:abb17d2706f2ee0c0aac4c82d774bece2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6263a2b21c5544789bdf4040deacc377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a6263a2b21c5544789bdf4040deacc377">DestroyBodyWithoutID</a> (<a class="el" href="class_body.html">Body</a> *inBody) const</td></tr>
-<tr class="memdesc:a6263a2b21c5544789bdf4040deacc377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advanced use only. Destroy a body previously created with CreateBodyWithoutID that hasn't gotten an ID yet through the AssignBodyID function. Bodies that did get an ID should be destroyed through DestroyBody.  <a href="class_body_interface.html#a6263a2b21c5544789bdf4040deacc377">More...</a><br /></td></tr>
 <tr class="separator:a6263a2b21c5544789bdf4040deacc377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4247f0851fb8dfbe92f5b83a41863595"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a4247f0851fb8dfbe92f5b83a41863595">AssignBodyID</a> (<a class="el" href="class_body.html">Body</a> *ioBody)</td></tr>
+<tr class="separator:a4247f0851fb8dfbe92f5b83a41863595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7669d5c31627d2c99fac69723fb1a219"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a7669d5c31627d2c99fac69723fb1a219">AssignBodyID</a> (<a class="el" href="class_body.html">Body</a> *ioBody, const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
 <tr class="separator:a7669d5c31627d2c99fac69723fb1a219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90516454ed80b9ffd59dccb2dbcd8f2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a90516454ed80b9ffd59dccb2dbcd8f2b">UnassignBodyID</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
+<tr class="memdesc:a90516454ed80b9ffd59dccb2dbcd8f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advanced use only. See UnassignBodyIDs. Unassigns the ID of a single body.  <a href="class_body_interface.html#a90516454ed80b9ffd59dccb2dbcd8f2b">More...</a><br /></td></tr>
+<tr class="separator:a90516454ed80b9ffd59dccb2dbcd8f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88613a7d9e6ba099b3a02faf842ac7d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a88613a7d9e6ba099b3a02faf842ac7d7">UnassignBodyIDs</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> *inBodyIDs, int inNumber, <a class="el" href="class_body.html">Body</a> **outBodies)</td></tr>
+<tr class="separator:a88613a7d9e6ba099b3a02faf842ac7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43fb4ffc35661c67642ffa804d1dad8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a">DestroyBody</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
 <tr class="memdesc:a43fb4ffc35661c67642ffa804d1dad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a body.  <a href="class_body_interface.html#a43fb4ffc35661c67642ffa804d1dad8a">More...</a><br /></td></tr>
 <tr class="separator:a43fb4ffc35661c67642ffa804d1dad8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,10 +147,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ba54993b7bbc05f1a6ffccbc46f0397"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a4ba54993b7bbc05f1a6ffccbc46f0397">AddBody</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="_e_activation_8h.html#a4a0a592959c9a1beb4221e8908fce4a6">EActivation</a> inActivationMode)</td></tr>
 <tr class="separator:a4ba54993b7bbc05f1a6ffccbc46f0397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a522d341ddd68225e12eb510f072399f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a522d341ddd68225e12eb510f072399f9">RemoveBody</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID)</td></tr>
-<tr class="memdesc:a522d341ddd68225e12eb510f072399f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove body from the world.  <a href="class_body_interface.html#a522d341ddd68225e12eb510f072399f9">More...</a><br /></td></tr>
+<tr class="memdesc:a522d341ddd68225e12eb510f072399f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove body from the physics system.  <a href="class_body_interface.html#a522d341ddd68225e12eb510f072399f9">More...</a><br /></td></tr>
 <tr class="separator:a522d341ddd68225e12eb510f072399f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a67ebf158316c8ce40768aab624680b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a1a67ebf158316c8ce40768aab624680b">IsAdded</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID) const</td></tr>
-<tr class="memdesc:a1a67ebf158316c8ce40768aab624680b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a body has been added to the world.  <a href="class_body_interface.html#a1a67ebf158316c8ce40768aab624680b">More...</a><br /></td></tr>
+<tr class="memdesc:a1a67ebf158316c8ce40768aab624680b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a body has been added to the physics system.  <a href="class_body_interface.html#a1a67ebf158316c8ce40768aab624680b">More...</a><br /></td></tr>
 <tr class="separator:a1a67ebf158316c8ce40768aab624680b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1484650a796607c688529fe600dc9e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body_i_d.html">BodyID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_interface.html#a1484650a796607c688529fe600dc9e9f">CreateAndAddBody</a> (const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inSettings, <a class="el" href="_e_activation_8h.html#a4a0a592959c9a1beb4221e8908fce4a6">EActivation</a> inActivationMode)</td></tr>
 <tr class="separator:a1484650a796607c688529fe600dc9e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -543,7 +549,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Add body to the world. Note that if you need to add multiple bodies, use the AddBodiesPrepare/AddBodiesFinalize function. Adding many bodies, one at a time, results in a really inefficient broadphase until <a class="el" href="class_physics_system.html#ab3cd9f2562f0f051c032b3bc298d9604" title="Optimize the broadphase, needed only if you&#39;ve added many bodies prior to calling Update() for the fi...">PhysicsSystem::OptimizeBroadPhase</a> is called or when <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">PhysicsSystem::Update</a> rebuilds the tree! After adding, to get a body by ID use the <a class="el" href="class_body_lock_read.html">BodyLockRead</a> or <a class="el" href="class_body_lock_write.html" title="Specialization that locks a body for writing to.">BodyLockWrite</a> interface! </p>
+<p >Add body to the physics system. Note that if you need to add multiple bodies, use the AddBodiesPrepare/AddBodiesFinalize function. Adding many bodies, one at a time, results in a really inefficient broadphase until <a class="el" href="class_physics_system.html#ab3cd9f2562f0f051c032b3bc298d9604" title="Optimize the broadphase, needed only if you&#39;ve added many bodies prior to calling Update() for the fi...">PhysicsSystem::OptimizeBroadPhase</a> is called or when <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">PhysicsSystem::Update</a> rebuilds the tree! After adding, to get a body by ID use the <a class="el" href="class_body_lock_read.html">BodyLockRead</a> or <a class="el" href="class_body_lock_write.html" title="Specialization that locks a body for writing to.">BodyLockWrite</a> interface! </p>
 
 </div>
 </div>
@@ -811,8 +817,27 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4247f0851fb8dfbe92f5b83a41863595" name="a4247f0851fb8dfbe92f5b83a41863595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4247f0851fb8dfbe92f5b83a41863595">&#9670;&nbsp;</a></span>AssignBodyID() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BodyInterface::AssignBodyID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_body.html">Body</a> *&#160;</td>
+          <td class="paramname"><em>ioBody</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Advanced use only. Assigns the next available body ID to a body that was created using CreateBodyWithoutID. After this call, the body can be added to the physics system. </p><dl class="section return"><dt>Returns</dt><dd>false if the body already has an ID or out of body ids. </dd></dl>
+
+</div>
+</div>
 <a id="a7669d5c31627d2c99fac69723fb1a219" name="a7669d5c31627d2c99fac69723fb1a219"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7669d5c31627d2c99fac69723fb1a219">&#9670;&nbsp;</a></span>AssignBodyID()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7669d5c31627d2c99fac69723fb1a219">&#9670;&nbsp;</a></span>AssignBodyID() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -836,7 +861,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Advanced use only. Assigns a body ID to a body that was created using CreateBodyWithoutID. After this call, the body can be added to the world like any other body. </p><dl class="section return"><dt>Returns</dt><dd>false if the body already has an ID or if the ID is not valid. </dd></dl>
+<p >Advanced use only. Assigns a body ID to a body that was created using CreateBodyWithoutID. After this call, the body can be added to the physics system. </p><dl class="section return"><dt>Returns</dt><dd>false if the body already has an ID or if the ID is not valid. </dd></dl>
 
 </div>
 </div>
@@ -932,7 +957,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Advanced use only. Creates a body without specifying an ID. This body cannot be added to the world until it has gotten a body ID. A call to CreateBodyWithoutID followed by AssignBodyID is equivalent to calling CreateBodyWithID. </p><dl class="section return"><dt>Returns</dt><dd>Created body </dd></dl>
+<p >Advanced use only. Creates a body without specifying an ID. This body cannot be added to the physics system until it has been assigned a body ID. This can be used to decouple allocation from registering the body. A call to CreateBodyWithoutID followed by AssignBodyID is equivalent to calling CreateBodyWithID. </p><dl class="section return"><dt>Returns</dt><dd>Created body </dd></dl>
 
 </div>
 </div>
@@ -1083,8 +1108,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Advanced use only. Destroy a body previously created with CreateBodyWithoutID that hasn't gotten an ID yet through the AssignBodyID function. Bodies that did get an ID should be destroyed through DestroyBody. </p>
+<p >Advanced use only. Destroy a body previously created with CreateBodyWithoutID that hasn't gotten an ID yet through the AssignBodyID function, or a body that has had its body ID unassigned through UnassignBodyIDs. Bodies that have an ID should be destroyed through DestroyBody. </p>
 
 </div>
 </div>
@@ -1610,7 +1634,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Check if a body has been added to the world. </p>
+<p>Check if a body has been added to the physics system. </p>
 
 </div>
 </div>
@@ -1749,7 +1773,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Remove body from the world. </p>
+<p>Remove body from the physics system. </p>
 
 </div>
 </div>
@@ -2230,6 +2254,68 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">inShape</td><td>The new shape </td></tr>
     <tr><td class="paramname">inUpdateMassProperties</td><td>When true, the mass and inertia tensor is recalculated </td></tr>
     <tr><td class="paramname">inActivationMode</td><td>Weather or not to activate the body </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a90516454ed80b9ffd59dccb2dbcd8f2b" name="a90516454ed80b9ffd59dccb2dbcd8f2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90516454ed80b9ffd59dccb2dbcd8f2b">&#9670;&nbsp;</a></span>UnassignBodyID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_body.html">Body</a> * BodyInterface::UnassignBodyID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Advanced use only. See UnassignBodyIDs. Unassigns the ID of a single body. </p>
+
+</div>
+</div>
+<a id="a88613a7d9e6ba099b3a02faf842ac7d7" name="a88613a7d9e6ba099b3a02faf842ac7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88613a7d9e6ba099b3a02faf842ac7d7">&#9670;&nbsp;</a></span>UnassignBodyIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BodyInterface::UnassignBodyIDs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> *&#160;</td>
+          <td class="paramname"><em>inBodyIDs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_body.html">Body</a> **&#160;</td>
+          <td class="paramname"><em>outBodies</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Advanced use only. Removes a number of body IDs from their bodies and returns the body pointers. Before calling this, the body should have been removed from the physics system. The body can be destroyed through DestroyBodyWithoutID. This can be used to decouple deallocation. A call to UnassignBodyIDs followed by calls to DestroyBodyWithoutID is equivalent to calling DestroyBodies. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inBodyIDs</td><td>A list of body IDs </td></tr>
+    <tr><td class="paramname">inNumber</td><td>Number of bodies in the list </td></tr>
+    <tr><td class="paramname">outBodies</td><td>If not null on input, this will contain a list of body pointers corresponding to inBodyIDs that can be destroyed afterwards (caller assumes ownership over these). </td></tr>
   </table>
   </dd>
 </dl>

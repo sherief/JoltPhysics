@@ -39,6 +39,7 @@ var class_body_manager =
     [ "LockAllBodies", "class_body_manager.html#a425eaf59b68a237d6821267ed1474f35", null ],
     [ "LockRead", "class_body_manager.html#ab9fe4438ea3c96fa4b2cbc724f425024", null ],
     [ "LockWrite", "class_body_manager.html#a21232e25b634203c299d6192180b6fe6", null ],
+    [ "RemoveBodies", "class_body_manager.html#a2a65ea34748b9f3f354d4325f905ab1c", null ],
     [ "RestoreState", "class_body_manager.html#af64512a91a78f48a75c5cead5552e281", null ],
     [ "SaveState", "class_body_manager.html#a7e29ef49d0427df35ea154d00c355ecb", null ],
     [ "SetBodyActivationListener", "class_body_manager.html#a5f4202f0ef087177b642a93c13d82d9a", null ],

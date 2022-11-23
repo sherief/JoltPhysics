@@ -22,5 +22,6 @@ var searchData=
   ['expand4byte8_19',['Expand4Byte8',['../class_u_vec4.html#ab576b5e89a741b942e5a0eee30221fff',1,'UVec4']]],
   ['expand4uint16hi_20',['Expand4Uint16Hi',['../class_u_vec4.html#ac7ecdcc40c2437edb94d824902084471',1,'UVec4']]],
   ['expand4uint16lo_21',['Expand4Uint16Lo',['../class_u_vec4.html#a231db23152af3fc49272a7842432b2d8',1,'UVec4']]],
-  ['expandby_22',['ExpandBy',['../class_a_a_box.html#a7023c1c28f073fa0d14ecee0f5fc8ee8',1,'AABox']]]
+  ['expandby_22',['ExpandBy',['../class_a_a_box.html#a7023c1c28f073fa0d14ecee0f5fc8ee8',1,'AABox']]],
+  ['extendedupdate_23',['ExtendedUpdate',['../class_character_virtual.html#a394065d2dd9264be14e3aa111d903abd',1,'CharacterVirtual']]]
 ];

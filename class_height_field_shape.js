@@ -16,6 +16,7 @@ var class_height_field_shape =
     [ "GetStats", "class_height_field_shape.html#a9d3783be079e3d425bf049abf2c6a9e4", null ],
     [ "GetSubmergedVolume", "class_height_field_shape.html#ad90b02d776c0164ca7e6fec2f6aba0ab", null ],
     [ "GetSubShapeIDBitsRecursive", "class_height_field_shape.html#ab7c2e6fc0f60fa4290474d758473b3ab", null ],
+    [ "GetSupportingFace", "class_height_field_shape.html#a39e1a2fa721479131b1fefe0b2ea98a7", null ],
     [ "GetSurfaceNormal", "class_height_field_shape.html#ad652d9d9e8fc9a987722d222077b111a", null ],
     [ "GetTrianglesNext", "class_height_field_shape.html#a08fee5448036495db2d6154bb4632a65", null ],
     [ "GetTrianglesStart", "class_height_field_shape.html#a03ddda27200f07afc08f6439ce36d491", null ],

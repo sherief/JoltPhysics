@@ -15,6 +15,7 @@ var class_scaled_shape =
     [ "GetStats", "class_scaled_shape.html#a1d1237076dc542497e7ca6b917cc7d68", null ],
     [ "GetSubmergedVolume", "class_scaled_shape.html#a93eb3a97355d8828e74286a015e1e7d3", null ],
     [ "GetSubShapeTransformedShape", "class_scaled_shape.html#adc6c23ae1479cd048a6b6c87b8b0aa2a", null ],
+    [ "GetSupportingFace", "class_scaled_shape.html#aacf906339a566563005b35af3a474385", null ],
     [ "GetSurfaceNormal", "class_scaled_shape.html#a8d44329b0d06995572b38bbe3f23879f", null ],
     [ "GetTrianglesNext", "class_scaled_shape.html#ad222933cc81e3136f2b02cc70db545d9", null ],
     [ "GetTrianglesStart", "class_scaled_shape.html#af3c0586193bee5223c9a94556ee019de", null ],

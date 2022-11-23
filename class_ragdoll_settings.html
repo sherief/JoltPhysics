@@ -128,7 +128,7 @@ Public Types</h2></td></tr>
 <tr class="separator:a496ff56b454d0833f27c9894313d1228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36195b8e16b3bc71bcace6dc5ab207e8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#a36195b8e16b3bc71bcace6dc5ab207e8">BodyIdxPair</a> = pair&lt; int, int &gt;</td></tr>
 <tr class="separator:a36195b8e16b3bc71bcace6dc5ab207e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe45741614c7194437ffcafdd2552b7d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#afe45741614c7194437ffcafdd2552b7d">PartVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_ragdoll_settings_1_1_part.html">Part</a> &gt;</td></tr>
+<tr class="memitem:afe45741614c7194437ffcafdd2552b7d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#afe45741614c7194437ffcafdd2552b7d">PartVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_ragdoll_settings_1_1_part.html">Part</a> &gt;</td></tr>
 <tr class="memdesc:afe45741614c7194437ffcafdd2552b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constraint that connects this part to its parent part (should be null for the root)  <a href="class_ragdoll_settings.html#afe45741614c7194437ffcafdd2552b7d">More...</a><br /></td></tr>
 <tr class="separator:afe45741614c7194437ffcafdd2552b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -150,7 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e23b51741e51dd17319254ab2314e8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#a1e23b51741e51dd17319254ab2314e8f">CalculateBodyIndexToConstraintIndex</a> ()</td></tr>
 <tr class="memdesc:a1e23b51741e51dd17319254ab2314e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the map needed for <a class="el" href="class_ragdoll_settings.html#a0d32abac6067ec311bb89c65f1fd6e3e" title="Get table that maps a body index to the constraint index with which it is connected to its parent....">GetBodyIndexToConstraintIndex()</a>  <a href="class_ragdoll_settings.html#a1e23b51741e51dd17319254ab2314e8f">More...</a><br /></td></tr>
 <tr class="separator:a1e23b51741e51dd17319254ab2314e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d32abac6067ec311bb89c65f1fd6e3e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#a0d32abac6067ec311bb89c65f1fd6e3e">GetBodyIndexToConstraintIndex</a> () const</td></tr>
+<tr class="memitem:a0d32abac6067ec311bb89c65f1fd6e3e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#a0d32abac6067ec311bb89c65f1fd6e3e">GetBodyIndexToConstraintIndex</a> () const</td></tr>
 <tr class="memdesc:a0d32abac6067ec311bb89c65f1fd6e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get table that maps a body index to the constraint index with which it is connected to its parent. -1 if there is no constraint associated with the body.  <a href="class_ragdoll_settings.html#a0d32abac6067ec311bb89c65f1fd6e3e">More...</a><br /></td></tr>
 <tr class="separator:a0d32abac6067ec311bb89c65f1fd6e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1749cda0e9b21d71951d950561eed206"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#a1749cda0e9b21d71951d950561eed206">GetConstraintIndexForBodyIndex</a> (int inBodyIndex) const</td></tr>
@@ -159,7 +159,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a549e9e4d95b8bb57fa1feb91fa142002"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#a549e9e4d95b8bb57fa1feb91fa142002">CalculateConstraintIndexToBodyIdxPair</a> ()</td></tr>
 <tr class="memdesc:a549e9e4d95b8bb57fa1feb91fa142002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the map needed for <a class="el" href="class_ragdoll_settings.html#a7e1760aeb58718b818dc1c30f7049678" title="Table that maps a constraint index (index in mConstraints) to the indices of the bodies that the cons...">GetConstraintIndexToBodyIdxPair()</a>  <a href="class_ragdoll_settings.html#a549e9e4d95b8bb57fa1feb91fa142002">More...</a><br /></td></tr>
 <tr class="separator:a549e9e4d95b8bb57fa1feb91fa142002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e1760aeb58718b818dc1c30f7049678"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_ragdoll_settings.html#a36195b8e16b3bc71bcace6dc5ab207e8">BodyIdxPair</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#a7e1760aeb58718b818dc1c30f7049678">GetConstraintIndexToBodyIdxPair</a> () const</td></tr>
+<tr class="memitem:a7e1760aeb58718b818dc1c30f7049678"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_ragdoll_settings.html#a36195b8e16b3bc71bcace6dc5ab207e8">BodyIdxPair</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#a7e1760aeb58718b818dc1c30f7049678">GetConstraintIndexToBodyIdxPair</a> () const</td></tr>
 <tr class="memdesc:a7e1760aeb58718b818dc1c30f7049678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table that maps a constraint index (index in mConstraints) to the indices of the bodies that the constraint is connected to (index in mBodyIDs)  <a href="class_ragdoll_settings.html#a7e1760aeb58718b818dc1c30f7049678">More...</a><br /></td></tr>
 <tr class="separator:a7e1760aeb58718b818dc1c30f7049678"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf5abd1cf5ac17cd649c7ad69366b63e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ragdoll_settings.html#a36195b8e16b3bc71bcace6dc5ab207e8">BodyIdxPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll_settings.html#abf5abd1cf5ac17cd649c7ad69366b63e">GetBodyIndicesForConstraintIndex</a> (int inConstraintIndex) const</td></tr>
@@ -242,7 +242,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_ragdoll_settings.html#afe45741614c7194437ffcafdd2552b7d">RagdollSettings::PartVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt;<a class="el" href="class_ragdoll_settings_1_1_part.html">Part</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_ragdoll_settings.html#afe45741614c7194437ffcafdd2552b7d">RagdollSettings::PartVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt;<a class="el" href="class_ragdoll_settings_1_1_part.html">Part</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -385,7 +385,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; int &gt; &amp; RagdollSettings::GetBodyIndexToConstraintIndex </td>
+          <td class="memname">const <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; int &gt; &amp; RagdollSettings::GetBodyIndexToConstraintIndex </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -468,7 +468,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_ragdoll_settings.html#a36195b8e16b3bc71bcace6dc5ab207e8">BodyIdxPair</a> &gt; &amp; RagdollSettings::GetConstraintIndexToBodyIdxPair </td>
+          <td class="memname">const <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_ragdoll_settings.html#a36195b8e16b3bc71bcace6dc5ab207e8">BodyIdxPair</a> &gt; &amp; RagdollSettings::GetConstraintIndexToBodyIdxPair </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

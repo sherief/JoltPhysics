@@ -116,8 +116,8 @@ Inheritance diagram for VehicleTransmission:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4d2b3e12b61038846be21623f1c2694e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission.html#a4d2b3e12b61038846be21623f1c2694e">Set</a> (int inCurrentGear, float inClutchFriction)</td></tr>
 <tr class="separator:a4d2b3e12b61038846be21623f1c2694e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a994a23247a38d39dc42bdb989bc9dd59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission.html#a994a23247a38d39dc42bdb989bc9dd59">Update</a> (float inDeltaTime, float inCurrentRPM, float inForwardInput, bool inEngineCanApplyTorque)</td></tr>
-<tr class="separator:a994a23247a38d39dc42bdb989bc9dd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd88a375576b8d35f854a5f687bf8acb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission.html#abd88a375576b8d35f854a5f687bf8acb">Update</a> (float inDeltaTime, float inCurrentRPM, float inForwardInput, bool inCanShiftUp)</td></tr>
+<tr class="separator:abd88a375576b8d35f854a5f687bf8acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2770cd2da41162587a2addd366ba4535"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission.html#a2770cd2da41162587a2addd366ba4535">GetCurrentGear</a> () const</td></tr>
 <tr class="memdesc:a2770cd2da41162587a2addd366ba4535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current gear, -1 = reverse, 0 = neutral, 1 = 1st gear etc.  <a href="class_vehicle_transmission.html#a2770cd2da41162587a2addd366ba4535">More...</a><br /></td></tr>
 <tr class="separator:a2770cd2da41162587a2addd366ba4535"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,24 +149,30 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a57d1f98cbd50ba710d6c1941e2788e8f inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vehicle_transmission_8h.html#ad3e125d6d786c09fddfa10be390f851d">ETransmissionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#a57d1f98cbd50ba710d6c1941e2788e8f">mMode</a> = <a class="el" href="_vehicle_transmission_8h.html#ad3e125d6d786c09fddfa10be390f851da06b9281e396db002010bde1de57262eb">ETransmissionMode::Auto</a></td></tr>
 <tr class="memdesc:a57d1f98cbd50ba710d6c1941e2788e8f inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">How to switch gears.  <a href="class_vehicle_transmission_settings.html#a57d1f98cbd50ba710d6c1941e2788e8f">More...</a><br /></td></tr>
 <tr class="separator:a57d1f98cbd50ba710d6c1941e2788e8f inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3632548e7e09e7eb2fc8594ff039265e inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#a3632548e7e09e7eb2fc8594ff039265e">mGearRatios</a> { 2.66f, 1.78f, 1.3f, 1.0f, 0.74f }</td></tr>
+<tr class="memitem:a3632548e7e09e7eb2fc8594ff039265e inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#a3632548e7e09e7eb2fc8594ff039265e">mGearRatios</a> { 2.66f, 1.78f, 1.3f, 1.0f, 0.74f }</td></tr>
 <tr class="memdesc:a3632548e7e09e7eb2fc8594ff039265e inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio in rotation rate between engine and gear box, first element is 1st gear, 2nd element 2nd gear etc.  <a href="class_vehicle_transmission_settings.html#a3632548e7e09e7eb2fc8594ff039265e">More...</a><br /></td></tr>
 <tr class="separator:a3632548e7e09e7eb2fc8594ff039265e inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0a9ec4f7eb2fa4d2bfbb5c49c46171d inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#ac0a9ec4f7eb2fa4d2bfbb5c49c46171d">mReverseGearRatios</a> { -2.90f }</td></tr>
+<tr class="memitem:ac0a9ec4f7eb2fa4d2bfbb5c49c46171d inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#ac0a9ec4f7eb2fa4d2bfbb5c49c46171d">mReverseGearRatios</a> { -2.90f }</td></tr>
 <tr class="memdesc:ac0a9ec4f7eb2fa4d2bfbb5c49c46171d inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio in rotation rate between engine and gear box when driving in reverse.  <a href="class_vehicle_transmission_settings.html#ac0a9ec4f7eb2fa4d2bfbb5c49c46171d">More...</a><br /></td></tr>
 <tr class="separator:ac0a9ec4f7eb2fa4d2bfbb5c49c46171d inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad890effc2f497795fb22fd56da27888e inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#ad890effc2f497795fb22fd56da27888e">mSwitchTime</a> = 0.5f</td></tr>
 <tr class="memdesc:ad890effc2f497795fb22fd56da27888e inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">How long it takes to switch gears (s), only used in auto mode.  <a href="class_vehicle_transmission_settings.html#ad890effc2f497795fb22fd56da27888e">More...</a><br /></td></tr>
 <tr class="separator:ad890effc2f497795fb22fd56da27888e inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06bfd0f8f234b58488615250e7cc5703 inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#a06bfd0f8f234b58488615250e7cc5703">mClutchReleaseTime</a> = 0.3f</td></tr>
-<tr class="memdesc:a06bfd0f8f234b58488615250e7cc5703 inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">How long it takes to release the clutch (go to full friction)  <a href="class_vehicle_transmission_settings.html#a06bfd0f8f234b58488615250e7cc5703">More...</a><br /></td></tr>
+<tr class="memdesc:a06bfd0f8f234b58488615250e7cc5703 inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">How long it takes to release the clutch (go to full friction), only used in auto mode.  <a href="class_vehicle_transmission_settings.html#a06bfd0f8f234b58488615250e7cc5703">More...</a><br /></td></tr>
 <tr class="separator:a06bfd0f8f234b58488615250e7cc5703 inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1734a64d58ae36d49082c56d563986 inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#a8c1734a64d58ae36d49082c56d563986">mSwitchLatency</a> = 0.5f</td></tr>
+<tr class="memdesc:a8c1734a64d58ae36d49082c56d563986 inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">How long to wait after releasing the clutch before another switch is attempted (s), only used in auto mode.  <a href="class_vehicle_transmission_settings.html#a8c1734a64d58ae36d49082c56d563986">More...</a><br /></td></tr>
+<tr class="separator:a8c1734a64d58ae36d49082c56d563986 inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a928b1aea1e5cae37d92bd18ccc3ab74c inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#a928b1aea1e5cae37d92bd18ccc3ab74c">mShiftUpRPM</a> = 4000.0f</td></tr>
 <tr class="memdesc:a928b1aea1e5cae37d92bd18ccc3ab74c inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">If RPM of engine is bigger then this we will shift a gear up, only used in auto mode.  <a href="class_vehicle_transmission_settings.html#a928b1aea1e5cae37d92bd18ccc3ab74c">More...</a><br /></td></tr>
 <tr class="separator:a928b1aea1e5cae37d92bd18ccc3ab74c inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c89ba7571dd3ba9e5dff909a379ab3f inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#a9c89ba7571dd3ba9e5dff909a379ab3f">mShiftDownRPM</a> = 2000.0f</td></tr>
 <tr class="memdesc:a9c89ba7571dd3ba9e5dff909a379ab3f inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">If RPM of engine is smaller then this we will shift a gear down, only used in auto mode.  <a href="class_vehicle_transmission_settings.html#a9c89ba7571dd3ba9e5dff909a379ab3f">More...</a><br /></td></tr>
 <tr class="separator:a9c89ba7571dd3ba9e5dff909a379ab3f inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86105ca9b3215ec2a6208815f4e10740 inherit pub_attribs_class_vehicle_transmission_settings"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_transmission_settings.html#a86105ca9b3215ec2a6208815f4e10740">mClutchStrength</a> = 10.0f</td></tr>
+<tr class="memdesc:a86105ca9b3215ec2a6208815f4e10740 inherit pub_attribs_class_vehicle_transmission_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strength of the clutch when fully engaged. Total torque a clutch applies is Torque = ClutchStrength * (Velocity Engine - Avg Velocity Wheels) (units: k m^2 s^-1)  <a href="class_vehicle_transmission_settings.html#a86105ca9b3215ec2a6208815f4e10740">More...</a><br /></td></tr>
+<tr class="separator:a86105ca9b3215ec2a6208815f4e10740 inherit pub_attribs_class_vehicle_transmission_settings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Runtime data for transmission. </p>
@@ -352,8 +358,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a994a23247a38d39dc42bdb989bc9dd59" name="a994a23247a38d39dc42bdb989bc9dd59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a994a23247a38d39dc42bdb989bc9dd59">&#9670;&nbsp;</a></span>Update()</h2>
+<a id="abd88a375576b8d35f854a5f687bf8acb" name="abd88a375576b8d35f854a5f687bf8acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd88a375576b8d35f854a5f687bf8acb">&#9670;&nbsp;</a></span>Update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -380,7 +386,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>inEngineCanApplyTorque</em>&#160;</td>
+          <td class="paramname"><em>inCanShiftUp</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -394,7 +400,7 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">inDeltaTime</td><td>Time step delta time in s </td></tr>
     <tr><td class="paramname">inCurrentRPM</td><td>Current RPM for engine </td></tr>
     <tr><td class="paramname">inForwardInput</td><td>Hint if the user wants to drive forward (&gt; 0) or backwards (&lt; 0) </td></tr>
-    <tr><td class="paramname">inEngineCanApplyTorque</td><td>Indicates if the engine is connected ultimately to the ground, if not it makes no sense to shift up </td></tr>
+    <tr><td class="paramname">inCanShiftUp</td><td>Indicates if we want to allow the transmission to shift up (e.g. pass false if wheels are slipping) </td></tr>
   </table>
   </dd>
 </dl>

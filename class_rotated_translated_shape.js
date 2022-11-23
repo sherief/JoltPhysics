@@ -16,6 +16,7 @@ var class_rotated_translated_shape =
     [ "GetStats", "class_rotated_translated_shape.html#a33919b6a211cae9bd392914c25923111", null ],
     [ "GetSubmergedVolume", "class_rotated_translated_shape.html#ad3ceae03417b78cf98f08049137d2450", null ],
     [ "GetSubShapeTransformedShape", "class_rotated_translated_shape.html#a28982c9e515052eed5e3e6663b020cb8", null ],
+    [ "GetSupportingFace", "class_rotated_translated_shape.html#abab2852c1625584a5849d7a9ef96efcb", null ],
     [ "GetSurfaceNormal", "class_rotated_translated_shape.html#afb856f2a26b063d3f6d4aff131ce1a31", null ],
     [ "GetTrianglesNext", "class_rotated_translated_shape.html#a2ecf8af0d2d44459c7fbce83d6323eb3", null ],
     [ "GetTrianglesStart", "class_rotated_translated_shape.html#a801257f7a7ea6c26a728170cbd7ba55f", null ],

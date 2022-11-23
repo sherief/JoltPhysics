@@ -142,6 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a14df32d1573050287d989ce5171a1a86"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#a14df32d1573050287d989ce5171a1a86">GetMaterial</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID) const override</td></tr>
 <tr class="memdesc:a14df32d1573050287d989ce5171a1a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the material assigned to a particular sub shape ID.  <a href="class_decorated_shape.html#a14df32d1573050287d989ce5171a1a86">More...</a><br /></td></tr>
 <tr class="separator:a14df32d1573050287d989ce5171a1a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda124dcb2cd84b591101a32544e1c94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#abda124dcb2cd84b591101a32544e1c94">GetSupportingFace</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDirection, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, <a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="class_shape.html#a95d3060318d33c1ef314c5b856a70cb8">SupportingFace</a> &amp;outVertices) const override</td></tr>
+<tr class="separator:abda124dcb2cd84b591101a32544e1c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdcd8fb7a79bc210ca792d2db1fdfe09"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#afdcd8fb7a79bc210ca792d2db1fdfe09">GetSubShapeUserData</a> (const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID) const override</td></tr>
 <tr class="memdesc:afdcd8fb7a79bc210ca792d2db1fdfe09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the user data of a particular sub shape ID.  <a href="class_decorated_shape.html#afdcd8fb7a79bc210ca792d2db1fdfe09">More...</a><br /></td></tr>
 <tr class="separator:afdcd8fb7a79bc210ca792d2db1fdfe09"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,15 +270,18 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_class_shape"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_shape')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_shape.html">Shape</a></td></tr>
 <tr class="memitem:a11c1ce0984dccb67176566d78331375e inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a> = <a class="el" href="class_shape_settings.html#a988ca04438dfad8edfe4e16d5394b6a8">ShapeSettings::ShapeResult</a></td></tr>
 <tr class="separator:a11c1ce0984dccb67176566d78331375e inherit pub_types_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afff02f0117147a8f7eb43e9c5a50e969 inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#afff02f0117147a8f7eb43e9c5a50e969">VisitedShapes</a> = <a class="el" href="_unordered_set_8h.html#a39ce163cb8505dce2cf2963bab501b29">UnorderedSet</a>&lt; const <a class="el" href="class_shape.html">Shape</a> * &gt;</td></tr>
+<tr class="memitem:a95d3060318d33c1ef314c5b856a70cb8 inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a95d3060318d33c1ef314c5b856a70cb8">SupportingFace</a> = <a class="el" href="class_static_array.html">StaticArray</a>&lt; <a class="el" href="class_vec3.html">Vec3</a>, 32 &gt;</td></tr>
+<tr class="memdesc:a95d3060318d33c1ef314c5b856a70cb8 inherit pub_types_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type definition for a supporting face.  <a href="class_shape.html#a95d3060318d33c1ef314c5b856a70cb8">More...</a><br /></td></tr>
+<tr class="separator:a95d3060318d33c1ef314c5b856a70cb8 inherit pub_types_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff02f0117147a8f7eb43e9c5a50e969 inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#afff02f0117147a8f7eb43e9c5a50e969">VisitedShapes</a> = <a class="el" href="_unordered_set_8h.html#af38f023af851a9cf630868e218f28285">UnorderedSet</a>&lt; const <a class="el" href="class_shape.html">Shape</a> * &gt;</td></tr>
 <tr class="separator:afff02f0117147a8f7eb43e9c5a50e969 inherit pub_types_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa17f6d90d84ed39971b4408ce427ca1a inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#aa17f6d90d84ed39971b4408ce427ca1a">ShapeToIDMap</a> = <a class="el" href="_unordered_map_8h.html#afb92ed4335ee1177f5c41d6fc04a5d5d">UnorderedMap</a>&lt; const <a class="el" href="class_shape.html">Shape</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;</td></tr>
+<tr class="memitem:aa17f6d90d84ed39971b4408ce427ca1a inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#aa17f6d90d84ed39971b4408ce427ca1a">ShapeToIDMap</a> = <a class="el" href="_unordered_map_8h.html#a847f6a36a0c058f016689ae051d0e7c6">UnorderedMap</a>&lt; const <a class="el" href="class_shape.html">Shape</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;</td></tr>
 <tr class="separator:aa17f6d90d84ed39971b4408ce427ca1a inherit pub_types_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad10a87ae287e21f1eb7d25e5d3a0fda6 inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ad10a87ae287e21f1eb7d25e5d3a0fda6">MaterialToIDMap</a> = <a class="el" href="_unordered_map_8h.html#afb92ed4335ee1177f5c41d6fc04a5d5d">UnorderedMap</a>&lt; const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;</td></tr>
+<tr class="memitem:ad10a87ae287e21f1eb7d25e5d3a0fda6 inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#ad10a87ae287e21f1eb7d25e5d3a0fda6">MaterialToIDMap</a> = <a class="el" href="_unordered_map_8h.html#a847f6a36a0c058f016689ae051d0e7c6">UnorderedMap</a>&lt; const <a class="el" href="class_physics_material.html">PhysicsMaterial</a> *, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;</td></tr>
 <tr class="separator:ad10a87ae287e21f1eb7d25e5d3a0fda6 inherit pub_types_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48b42d6a279c283e615c066bf6946c0a inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a48b42d6a279c283e615c066bf6946c0a">IDToShapeMap</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_shape.html">Shape</a> &gt; &gt;</td></tr>
+<tr class="memitem:a48b42d6a279c283e615c066bf6946c0a inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a48b42d6a279c283e615c066bf6946c0a">IDToShapeMap</a> = <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_shape.html">Shape</a> &gt; &gt;</td></tr>
 <tr class="separator:a48b42d6a279c283e615c066bf6946c0a inherit pub_types_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5536e80a6795d8fdc68da9db38aebd4a inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a5536e80a6795d8fdc68da9db38aebd4a">IDToMaterialMap</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_physics_material.html">PhysicsMaterial</a> &gt; &gt;</td></tr>
+<tr class="memitem:a5536e80a6795d8fdc68da9db38aebd4a inherit pub_types_class_shape"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a5536e80a6795d8fdc68da9db38aebd4a">IDToMaterialMap</a> = <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_ref.html">Ref</a>&lt; <a class="el" href="class_physics_material.html">PhysicsMaterial</a> &gt; &gt;</td></tr>
 <tr class="separator:a5536e80a6795d8fdc68da9db38aebd4a inherit pub_types_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_class_shape"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_shape')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_shape.html">Shape</a></td></tr>
 <tr class="memitem:a6e4794eda984be9d44335e38824eb1bb inherit pub_static_methods_class_shape"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_shape.html#a11c1ce0984dccb67176566d78331375e">ShapeResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a6e4794eda984be9d44335e38824eb1bb">sRestoreFromBinaryState</a> (<a class="el" href="class_stream_in.html">StreamIn</a> &amp;inStream)</td></tr>
@@ -584,6 +589,74 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the user data of a particular sub shape ID. </p>
 
 <p>Reimplemented from <a class="el" href="class_shape.html#a29de5bb2f770d7e521f0d939436faa1b">Shape</a>.</p>
+
+</div>
+</div>
+<a id="abda124dcb2cd84b591101a32544e1c94" name="abda124dcb2cd84b591101a32544e1c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda124dcb2cd84b591101a32544e1c94">&#9670;&nbsp;</a></span>GetSupportingFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DecoratedShape::GetSupportingFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSubShapeID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inDirection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inScale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a>&#160;</td>
+          <td class="paramname"><em>inCenterOfMassTransform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_shape.html#a95d3060318d33c1ef314c5b856a70cb8">SupportingFace</a> &amp;&#160;</td>
+          <td class="paramname"><em>outVertices</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Get the vertices of the face that faces inDirection the most (includes any convex radius). Note that this function can only return faces of convex shapes or triangles, which is why a sub shape ID to get to that leaf must be provided. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inSubShapeID</td><td>Sub shape ID of target shape </td></tr>
+    <tr><td class="paramname">inDirection</td><td>Direction that the face should be facing (in local space to this shape) </td></tr>
+    <tr><td class="paramname">inCenterOfMassTransform</td><td>Transform to transform outVertices with </td></tr>
+    <tr><td class="paramname">inScale</td><td>Scale of this shape </td></tr>
+    <tr><td class="paramname">outVertices</td><td>Resulting face. The returned face can be empty if the shape doesn't have polygons to return (e.g. because it's a sphere). The face will be returned in world space. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="class_shape.html#a4f6591e1a1329278568bc99b035c9928">Shape</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_offset_center_of_mass_shape.html#aa18209657783f704b64fa02351c29fca">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#abab2852c1625584a5849d7a9ef96efcb">RotatedTranslatedShape</a>, and <a class="el" href="class_scaled_shape.html#aacf906339a566563005b35af3a474385">ScaledShape</a>.</p>
 
 </div>
 </div>

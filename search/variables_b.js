@@ -20,8 +20,8 @@ var searchData=
   ['sred_17',['sRed',['../class_color.html#afa2aabd04284f9231b26176663f67083',1,'Color']]],
   ['srevision_18',['sRevision',['../class_object_stream.html#a9b50736a6c66df50ba7274ca6a3c0686',1,'ObjectStream']]],
   ['stacksize_19',['StackSize',['../class_node_codec_quad_tree_half_float.html#a0299d198512c2ae170389ea9f5c80561',1,'NodeCodecQuadTreeHalfFloat']]],
-  ['sunitsphere_20',['sUnitSphere',['../class_vec3.html#ac650d406443ec2e728c9e98e1452d472',1,'Vec3']]],
-  ['sunitspheretriangles_21',['sUnitSphereTriangles',['../class_convex_shape.html#aab3d164e1ae7b1346776da07ebe4fb6e',1,'ConvexShape']]],
+  ['sunitsphere_20',['sUnitSphere',['../class_vec3.html#a4b2aca8bef6f0bf53e130730a822f528',1,'Vec3']]],
+  ['sunitspheretriangles_21',['sUnitSphereTriangles',['../class_convex_shape.html#acb121c1edfe73c03820492e0f111bb04',1,'ConvexShape']]],
   ['sversion_22',['sVersion',['../class_object_stream.html#af44c611aa03b15ebaf81e50dc244151c',1,'ObjectStream']]],
   ['swhite_23',['sWhite',['../class_color.html#a6cb92698ec2b1bd630695716aaaf3bbd',1,'Color']]],
   ['syellow_24',['sYellow',['../class_color.html#afbce637a66704fc3e3cf7d26819d4ab5',1,'Color']]]

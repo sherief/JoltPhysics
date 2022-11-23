@@ -5,6 +5,7 @@ var class_skeleton =
     [ "SkeletonResult", "class_skeleton.html#a5c20e8863abf01154331314d8e72c75e", null ],
     [ "AddJoint", "class_skeleton.html#aa058a06eb2f163d14b481bbd8d602be6", null ],
     [ "AddJoint", "class_skeleton.html#ae52ee99ff637c0ceea37d46ba3b2d712", null ],
+    [ "AreJointsCorrectlyOrdered", "class_skeleton.html#aac4965d2cd0cf26b47ddc769e51c62fe", null ],
     [ "CalculateParentJointIndices", "class_skeleton.html#a79ade25d7ec74a8bd21c87062844e21e", null ],
     [ "GetJoint", "class_skeleton.html#a707d5fe6d41b2d5c2e8ecd1778c96551", null ],
     [ "GetJoint", "class_skeleton.html#aec4d0e10a2ea5d08f7ea2ab4c40263c7", null ],

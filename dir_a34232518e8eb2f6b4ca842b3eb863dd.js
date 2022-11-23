@@ -17,7 +17,8 @@ var dir_a34232518e8eb2f6b4ca842b3eb863dd =
       [ "SkeletonMapper", "class_skeleton_mapper.html", "class_skeleton_mapper" ],
       [ "SkeletonMapper::Mapping", "class_skeleton_mapper_1_1_mapping.html", "class_skeleton_mapper_1_1_mapping" ],
       [ "SkeletonMapper::Chain", "class_skeleton_mapper_1_1_chain.html", "class_skeleton_mapper_1_1_chain" ],
-      [ "SkeletonMapper::Unmapped", "class_skeleton_mapper_1_1_unmapped.html", "class_skeleton_mapper_1_1_unmapped" ]
+      [ "SkeletonMapper::Unmapped", "class_skeleton_mapper_1_1_unmapped.html", "class_skeleton_mapper_1_1_unmapped" ],
+      [ "SkeletonMapper::Locked", "class_skeleton_mapper_1_1_locked.html", "class_skeleton_mapper_1_1_locked" ]
     ] ],
     [ "SkeletonPose.cpp", "_skeleton_pose_8cpp.html", null ],
     [ "SkeletonPose.h", "_skeleton_pose_8h.html", [

@@ -109,6 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a57a075d772fdd921f8da88a9c4c2f0e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_differential_settings.html#a57a075d772fdd921f8da88a9c4c2f0e7">RestoreBinaryState</a> (<a class="el" href="class_stream_in.html">StreamIn</a> &amp;inStream)</td></tr>
 <tr class="memdesc:a57a075d772fdd921f8da88a9c4c2f0e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores the contents in binary form to inStream.  <a href="class_vehicle_differential_settings.html#a57a075d772fdd921f8da88a9c4c2f0e7">More...</a><br /></td></tr>
 <tr class="separator:a57a075d772fdd921f8da88a9c4c2f0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf68680b07ae1a917bfa0a9ff0be829"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_differential_settings.html#adcf68680b07ae1a917bfa0a9ff0be829">CalculateTorqueRatio</a> (float inLeftAngularVelocity, float inRightAngularVelocity, float &amp;outLeftTorqueFraction, float &amp;outRightTorqueFraction) const</td></tr>
+<tr class="separator:adcf68680b07ae1a917bfa0a9ff0be829"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -124,11 +126,63 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a85f84f17c3b26d4cef5b1036e3da9728"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_differential_settings.html#a85f84f17c3b26d4cef5b1036e3da9728">mLeftRightSplit</a> = 0.5f</td></tr>
 <tr class="memdesc:a85f84f17c3b26d4cef5b1036e3da9728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how the engine torque is split across the left and right wheel (0 = left, 0.5 = center, 1 = right)  <a href="class_vehicle_differential_settings.html#a85f84f17c3b26d4cef5b1036e3da9728">More...</a><br /></td></tr>
 <tr class="separator:a85f84f17c3b26d4cef5b1036e3da9728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5556c4beadddfc653931faeafddbc18"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_differential_settings.html#ad5556c4beadddfc653931faeafddbc18">mLimitedSlipRatio</a> = 1.4f</td></tr>
+<tr class="memdesc:ad5556c4beadddfc653931faeafddbc18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio max / min wheel speed. When this ratio is exceeded, all torque gets distributed to the slowest moving wheel. This allows implementing a limited slip differential. Set to FLT_MAX for an open differential. Value should be &gt; 1.  <a href="class_vehicle_differential_settings.html#ad5556c4beadddfc653931faeafddbc18">More...</a><br /></td></tr>
+<tr class="separator:ad5556c4beadddfc653931faeafddbc18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0d4ed7b362ab81c9d0e0e4422e40519"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_differential_settings.html#ac0d4ed7b362ab81c9d0e0e4422e40519">mEngineTorqueRatio</a> = 1.0f</td></tr>
 <tr class="memdesc:ac0d4ed7b362ab81c9d0e0e4422e40519"><td class="mdescLeft">&#160;</td><td class="mdescRight">How much of the engines torque is applied to this differential (0 = none, 1 = full), make sure the sum of all differentials is 1.  <a href="class_vehicle_differential_settings.html#ac0d4ed7b362ab81c9d0e0e4422e40519">More...</a><br /></td></tr>
 <tr class="separator:ac0d4ed7b362ab81c9d0e0e4422e40519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="adcf68680b07ae1a917bfa0a9ff0be829" name="adcf68680b07ae1a917bfa0a9ff0be829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf68680b07ae1a917bfa0a9ff0be829">&#9670;&nbsp;</a></span>CalculateTorqueRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VehicleDifferentialSettings::CalculateTorqueRatio </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inLeftAngularVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inRightAngularVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>outLeftTorqueFraction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>outRightTorqueFraction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Calculate the torque ratio between left and right wheel </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inLeftAngularVelocity</td><td>Angular velocity of left wheel (rad / s) </td></tr>
+    <tr><td class="paramname">inRightAngularVelocity</td><td>Angular velocity of right wheel (rad / s) </td></tr>
+    <tr><td class="paramname">outLeftTorqueFraction</td><td>Fraction of torque that should go to the left wheel </td></tr>
+    <tr><td class="paramname">outRightTorqueFraction</td><td>Fraction of torque that should go to the right wheel </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a57a075d772fdd921f8da88a9c4c2f0e7" name="a57a075d772fdd921f8da88a9c4c2f0e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57a075d772fdd921f8da88a9c4c2f0e7">&#9670;&nbsp;</a></span>RestoreBinaryState()</h2>
 
@@ -231,6 +285,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Index (in mWheels) that represents the left wheel of this differential (can be -1 to indicate no wheel) </p>
+
+</div>
+</div>
+<a id="ad5556c4beadddfc653931faeafddbc18" name="ad5556c4beadddfc653931faeafddbc18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5556c4beadddfc653931faeafddbc18">&#9670;&nbsp;</a></span>mLimitedSlipRatio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleDifferentialSettings::mLimitedSlipRatio = 1.4f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ratio max / min wheel speed. When this ratio is exceeded, all torque gets distributed to the slowest moving wheel. This allows implementing a limited slip differential. Set to FLT_MAX for an open differential. Value should be &gt; 1. </p>
 
 </div>
 </div>

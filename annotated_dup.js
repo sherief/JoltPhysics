@@ -101,6 +101,8 @@ var annotated_dup =
     [ "DistanceConstraint", "class_distance_constraint.html", "class_distance_constraint" ],
     [ "DistanceConstraintSettings", "class_distance_constraint_settings.html", "class_distance_constraint_settings" ],
     [ "DualAxisConstraintPart", "class_dual_axis_constraint_part.html", "class_dual_axis_constraint_part" ],
+    [ "DVec3", "class_d_vec3.html", "class_d_vec3" ],
+    [ "DynMatrix", "class_dyn_matrix.html", "class_dyn_matrix" ],
     [ "Ellipse", "class_ellipse.html", "class_ellipse" ],
     [ "EPAConvexHullBuilder", "class_e_p_a_convex_hull_builder.html", "class_e_p_a_convex_hull_builder" ],
     [ "EPAPenetrationDepth", "class_e_p_a_penetration_depth.html", "class_e_p_a_penetration_depth" ],

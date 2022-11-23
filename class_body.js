@@ -17,6 +17,8 @@ var class_body =
     [ "ApplyBuoyancyImpulse", "class_body.html#a0bbe975cc8662d7ea191fd17e947aec8", null ],
     [ "CalculateWorldSpaceBoundsInternal", "class_body.html#a1aace226a07f37492739bf10fd16a720", null ],
     [ "CanBeKinematicOrDynamic", "class_body.html#a97addaa630b716fbc5b21ba19fdcf6ec", null ],
+    [ "GetAccumulatedForce", "class_body.html#ad6c366c23710a8f103f6504cfccccc93", null ],
+    [ "GetAccumulatedTorque", "class_body.html#a9294deeff168fbb210f24f25e063fb38", null ],
     [ "GetAllowSleeping", "class_body.html#a1de301b3077fe2ae6339b910573ef3c6", null ],
     [ "GetAngularVelocity", "class_body.html#adb1bb49db094ac2ef7c4951d07ba8417", null ],
     [ "GetBodyCreationSettings", "class_body.html#aad1ce1d84e95cab008fb239465b3496f", null ],

@@ -120,6 +120,7 @@ Inheritance diagram for CharacterBase:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:a82dfb80348cdbf3a08f97d54b225f77e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a> { <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777">OnGround</a>
 , <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761">OnSteepGround</a>
+, <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea9ed2d871602556951e39f3cebd08d6cb">NotSupported</a>
 , <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7">InAir</a>
  }</td></tr>
 <tr class="separator:a82dfb80348cdbf3a08f97d54b225f77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +186,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5c10220e06a8a5bb274a4b02c28cb0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f637f449a17fb6a1b10297764de48b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a5f637f449a17fb6a1b10297764de48b4">mUp</a></td></tr>
 <tr class="separator:a5f637f449a17fb6a1b10297764de48b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9fb45e5980787c5f7f718f6e7703797"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_plane.html">Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ae9fb45e5980787c5f7f718f6e7703797">mSupportingVolume</a></td></tr>
+<tr class="separator:ae9fb45e5980787c5f7f718f6e7703797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da1e29d9257f3cce909487da437a0c9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a9da1e29d9257f3cce909487da437a0c9">mCosMaxSlopeAngle</a></td></tr>
 <tr class="separator:a9da1e29d9257f3cce909487da437a0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf96842849baa268527dfa548219510"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a1cf96842849baa268527dfa548219510">mGroundState</a> = <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7">EGroundState::InAir</a></td></tr>
@@ -208,6 +211,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab8ce7589bd0e97901030bceeda7a513b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ab8ce7589bd0e97901030bceeda7a513b">GetGroundState</a> () const</td></tr>
 <tr class="memdesc:ab8ce7589bd0e97901030bceeda7a513b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current ground state.  <a href="class_character_base.html#ab8ce7589bd0e97901030bceeda7a513b">More...</a><br /></td></tr>
 <tr class="separator:ab8ce7589bd0e97901030bceeda7a513b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a700e706b9c1710409fc16c6f9a083e0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a700e706b9c1710409fc16c6f9a083e0b">IsSupported</a> () const</td></tr>
+<tr class="memdesc:a700e706b9c1710409fc16c6f9a083e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the player is supported by normal or steep ground.  <a href="class_character_base.html#a700e706b9c1710409fc16c6f9a083e0b">More...</a><br /></td></tr>
+<tr class="separator:a700e706b9c1710409fc16c6f9a083e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7d481d54daa2165056a5ea6652469f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ab7d481d54daa2165056a5ea6652469f8">GetGroundPosition</a> () const</td></tr>
 <tr class="memdesc:ab7d481d54daa2165056a5ea6652469f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the contact point with the ground.  <a href="class_character_base.html#ab7d481d54daa2165056a5ea6652469f8">More...</a><br /></td></tr>
 <tr class="separator:ab7d481d54daa2165056a5ea6652469f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,7 +282,9 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761" name="a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761"></a>OnSteepGround&#160;</td><td class="fielddoc"><p ><a class="el" href="class_character.html">Character</a> is on a slope that is too steep and can't climb up any further. The caller should start applying downward velocity if sliding from the slope is desired. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7" name="a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7"></a>InAir&#160;</td><td class="fielddoc"><p ><a class="el" href="class_character.html">Character</a> is in the air. </p>
+<tr><td class="fieldname"><a id="a82dfb80348cdbf3a08f97d54b225f77ea9ed2d871602556951e39f3cebd08d6cb" name="a82dfb80348cdbf3a08f97d54b225f77ea9ed2d871602556951e39f3cebd08d6cb"></a>NotSupported&#160;</td><td class="fielddoc"><p ><a class="el" href="class_character.html">Character</a> is touching an object, but is not supported by it and should fall. The GetGroundXXX functions will return information about the touched object. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7" name="a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7"></a>InAir&#160;</td><td class="fielddoc"><p ><a class="el" href="class_character.html">Character</a> is in the air and is not touching anything. </p>
 </td></tr>
 </table>
 
@@ -662,6 +670,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a700e706b9c1710409fc16c6f9a083e0b" name="a700e706b9c1710409fc16c6f9a083e0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a700e706b9c1710409fc16c6f9a083e0b">&#9670;&nbsp;</a></span>IsSupported()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CharacterBase::IsSupported </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the player is supported by normal or steep ground. </p>
+
+</div>
+</div>
 <a id="ad9d1540df7d44b3aaeee88a527df7d7d" name="ad9d1540df7d44b3aaeee88a527df7d7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9d1540df7d44b3aaeee88a527df7d7d">&#9670;&nbsp;</a></span>RestoreState()</h2>
 
@@ -1006,6 +1041,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_ref_const.html">RefConst</a>&lt;<a class="el" href="class_shape.html">Shape</a>&gt; CharacterBase::mShape</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9fb45e5980787c5f7f718f6e7703797" name="ae9fb45e5980787c5f7f718f6e7703797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9fb45e5980787c5f7f718f6e7703797">&#9670;&nbsp;</a></span>mSupportingVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_plane.html">Plane</a> CharacterBase::mSupportingVolume</td>
         </tr>
       </table>
   </td>

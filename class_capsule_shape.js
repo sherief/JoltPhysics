@@ -16,7 +16,7 @@ var class_capsule_shape =
     [ "GetRadius", "class_capsule_shape.html#aa8b10abff70cdeb364e5663344a4c793", null ],
     [ "GetStats", "class_capsule_shape.html#a274bd9ad407e747585488727e4697357", null ],
     [ "GetSupportFunction", "class_capsule_shape.html#a5f226d8512e8a2612438200932d3986c", null ],
-    [ "GetSupportingFace", "class_capsule_shape.html#a58ab57d03593895cfa518502c448ef1f", null ],
+    [ "GetSupportingFace", "class_capsule_shape.html#ae0226a091e853142536c48e5462ee463", null ],
     [ "GetSurfaceNormal", "class_capsule_shape.html#ac8ed07dee809bbe362b3dd4ec286aa35", null ],
     [ "GetTrianglesNext", "class_capsule_shape.html#ac735140fc6d8d36ca5c598deba432ae2", null ],
     [ "GetTrianglesStart", "class_capsule_shape.html#ac5f59452b7a3fc2c31ba77f2997ec493", null ],

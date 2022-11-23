@@ -2,7 +2,6 @@ var _core_8h =
 [
     [ "JPH_BREAKPOINT", "_core_8h.html#a252846bbcc9c2281dba7ad4673e708ce", null ],
     [ "JPH_CACHE_LINE_SIZE", "_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278", null ],
-    [ "JPH_CLANG15_SUPPRESS_WARNING", "_core_8h.html#af24e1d82a1dbebe29a6823011292e3d1", null ],
     [ "JPH_CLANG_SUPPRESS_WARNING", "_core_8h.html#a7e4d18d1740a496e87b0b745a83175e1", null ],
     [ "JPH_CRASH", "_core_8h.html#acffb1280ceae712be03de4d700cc758b", null ],
     [ "JPH_GCC_SUPPRESS_WARNING", "_core_8h.html#a46d791d2b1f95fa056399441a2ad8667", null ],

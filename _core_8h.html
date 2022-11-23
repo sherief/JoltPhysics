@@ -120,8 +120,6 @@ Macros</h2></td></tr>
 <tr class="separator:aac5e592f9e714fda0c006772758e3c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e4d18d1740a496e87b0b745a83175e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a7e4d18d1740a496e87b0b745a83175e1">JPH_CLANG_SUPPRESS_WARNING</a>(w)</td></tr>
 <tr class="separator:a7e4d18d1740a496e87b0b745a83175e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af24e1d82a1dbebe29a6823011292e3d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#af24e1d82a1dbebe29a6823011292e3d1">JPH_CLANG15_SUPPRESS_WARNING</a>(w)</td></tr>
-<tr class="separator:af24e1d82a1dbebe29a6823011292e3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46d791d2b1f95fa056399441a2ad8667"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">JPH_GCC_SUPPRESS_WARNING</a>(w)</td></tr>
 <tr class="separator:a46d791d2b1f95fa056399441a2ad8667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e50ac7352b8f5948a91b543756c84a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">JPH_MSVC_SUPPRESS_WARNING</a>(w)</td></tr>
@@ -189,24 +187,6 @@ Typedefs</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define JPH_CACHE_LINE_SIZE&#160;&#160;&#160;64</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af24e1d82a1dbebe29a6823011292e3d1" name="af24e1d82a1dbebe29a6823011292e3d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af24e1d82a1dbebe29a6823011292e3d1">&#9670;&nbsp;</a></span>JPH_CLANG15_SUPPRESS_WARNING</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define JPH_CLANG15_SUPPRESS_WARNING</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">w</td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -458,14 +438,17 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">JPH_SUPPRESS_WARNING_PUSH																	\</a></div>
-<div class="line"><a class="code hl_define" href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">	JPH_MSVC_SUPPRESS_WARNING</a>(4710)                                                                \</div>
+<div class="line"><a class="code hl_define" href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">	JPH_MSVC_SUPPRESS_WARNING</a>(4619)                                                                \</div>
+<div class="line">    JPH_MSVC_SUPPRESS_WARNING(4710)                                                             \</div>
 <div class="line">    JPH_MSVC_SUPPRESS_WARNING(4711)                                                             \</div>
 <div class="line">    JPH_MSVC_SUPPRESS_WARNING(4820)                                                             \</div>
-<div class="line">    JPH_MSVC_SUPPRESS_WARNING(4514)                                                             <a class="code hl_define" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">\</a></div>
+<div class="line">    JPH_MSVC_SUPPRESS_WARNING(4514)                                                             \</div>
+<div class="line">    JPH_MSVC_SUPPRESS_WARNING(5262)                                                             \</div>
+<div class="line">    JPH_MSVC_SUPPRESS_WARNING(5264)                                                             <a class="code hl_define" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">\</a></div>
 <div class="line"><a class="code hl_define" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">																								\</a></div>
 <div class="line"><a class="code hl_define" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">	JPH_GCC_SUPPRESS_WARNING</a>(<span class="stringliteral">&quot;-Wstringop-overflow=&quot;</span>)</div>
-<div class="ttc" id="a_core_8h_html_a46d791d2b1f95fa056399441a2ad8667"><div class="ttname"><a href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">JPH_GCC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_GCC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:133</div></div>
-<div class="ttc" id="a_core_8h_html_a7e50ac7352b8f5948a91b543756c84a8"><div class="ttname"><a href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">JPH_MSVC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_MSVC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:141</div></div>
+<div class="ttc" id="a_core_8h_html_a46d791d2b1f95fa056399441a2ad8667"><div class="ttname"><a href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">JPH_GCC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_GCC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:136</div></div>
+<div class="ttc" id="a_core_8h_html_a7e50ac7352b8f5948a91b543756c84a8"><div class="ttname"><a href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">JPH_MSVC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_MSVC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:144</div></div>
 </div><!-- fragment -->
 </div>
 </div>

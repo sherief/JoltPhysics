@@ -6,7 +6,7 @@ var class_static_array =
     [ "size_type", "class_static_array.html#a69859b5a0e6cd32048fc1f3188982f3b", null ],
     [ "value_type", "class_static_array.html#a367362d6d72603626006bf09590b5e73", null ],
     [ "StaticArray", "class_static_array.html#a0b1020145a67d2f11ef8b6e21e56efda", null ],
-    [ "StaticArray", "class_static_array.html#ad4d30ed66f835e996ee6c651655ed20f", null ],
+    [ "StaticArray", "class_static_array.html#a4289f014eadc8aa60ff6785dabe32f11", null ],
     [ "StaticArray", "class_static_array.html#a9be0006e3a1a001893645dbd5b34b355", null ],
     [ "~StaticArray", "class_static_array.html#afa25bd44899d047990eb77e996031756", null ],
     [ "back", "class_static_array.html#ab423e08f9f4dedd513bb61b9fec4e326", null ],

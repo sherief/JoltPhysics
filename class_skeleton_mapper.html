@@ -120,6 +120,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper_1_1_chain.html">Chain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A joint chain that starts with a 1-on-1 mapped joint and ends with a 1-on-1 mapped joint with intermediate joints that cannot be mapped.  <a href="class_skeleton_mapper_1_1_chain.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper_1_1_locked.html">Locked</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joints that should have their translation locked (fixed)  <a href="class_skeleton_mapper_1_1_locked.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper_1_1_mapping.html">Mapping</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A joint that maps 1-on-1 to a joint in the other skeleton.  <a href="class_skeleton_mapper_1_1_mapping.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,17 +135,23 @@ Public Types</h2></td></tr>
 <tr class="memitem:a6d56bcd1cbaecd9f2b9013e6e04b7bf8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a6d56bcd1cbaecd9f2b9013e6e04b7bf8">CanMapJoint</a> = function&lt; bool(const <a class="el" href="class_skeleton.html">Skeleton</a> *, int, const <a class="el" href="class_skeleton.html">Skeleton</a> *, int)&gt;</td></tr>
 <tr class="memdesc:a6d56bcd1cbaecd9f2b9013e6e04b7bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that is called to determine if a joint can be mapped from source to target skeleton.  <a href="class_skeleton_mapper.html#a6d56bcd1cbaecd9f2b9013e6e04b7bf8">More...</a><br /></td></tr>
 <tr class="separator:a6d56bcd1cbaecd9f2b9013e6e04b7bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f36fb9bc8686b8ec810c5435c03f419"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a6f36fb9bc8686b8ec810c5435c03f419">MappingVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_skeleton_mapper_1_1_mapping.html">Mapping</a> &gt;</td></tr>
+<tr class="memitem:a6f36fb9bc8686b8ec810c5435c03f419"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a6f36fb9bc8686b8ec810c5435c03f419">MappingVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_skeleton_mapper_1_1_mapping.html">Mapping</a> &gt;</td></tr>
 <tr class="separator:a6f36fb9bc8686b8ec810c5435c03f419"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33aaf112a5908982c45a27b4c80155ea"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a33aaf112a5908982c45a27b4c80155ea">ChainVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_skeleton_mapper_1_1_chain.html">Chain</a> &gt;</td></tr>
+<tr class="memitem:a33aaf112a5908982c45a27b4c80155ea"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a33aaf112a5908982c45a27b4c80155ea">ChainVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_skeleton_mapper_1_1_chain.html">Chain</a> &gt;</td></tr>
 <tr class="separator:a33aaf112a5908982c45a27b4c80155ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6baa7f85525bc34f52e77ac6cd2bbeb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#ae6baa7f85525bc34f52e77ac6cd2bbeb">UnmappedVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt; <a class="el" href="class_skeleton_mapper_1_1_unmapped.html">Unmapped</a> &gt;</td></tr>
+<tr class="memitem:ae6baa7f85525bc34f52e77ac6cd2bbeb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#ae6baa7f85525bc34f52e77ac6cd2bbeb">UnmappedVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_skeleton_mapper_1_1_unmapped.html">Unmapped</a> &gt;</td></tr>
 <tr class="separator:ae6baa7f85525bc34f52e77ac6cd2bbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c3843686fa3822fd9a5747be2a4b93"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a82c3843686fa3822fd9a5747be2a4b93">LockedVector</a> = <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_skeleton_mapper_1_1_locked.html">Locked</a> &gt;</td></tr>
+<tr class="separator:a82c3843686fa3822fd9a5747be2a4b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c6938fe3c8557ea55e10cc3c8bfc387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a4c6938fe3c8557ea55e10cc3c8bfc387">Initialize</a> (const <a class="el" href="class_skeleton.html">Skeleton</a> *inSkeleton1, const <a class="el" href="class_mat44.html">Mat44</a> *inNeutralPose1, const <a class="el" href="class_skeleton.html">Skeleton</a> *inSkeleton2, const <a class="el" href="class_mat44.html">Mat44</a> *inNeutralPose2, const <a class="el" href="class_skeleton_mapper.html#a6d56bcd1cbaecd9f2b9013e6e04b7bf8">CanMapJoint</a> &amp;inCanMapJoint=<a class="el" href="class_skeleton_mapper.html#a642ec444197fca150bddcadd5cb85bd5">sDefaultCanMapJoint</a>)</td></tr>
 <tr class="separator:a4c6938fe3c8557ea55e10cc3c8bfc387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2741193b04cb2cbe14996962fbf71b97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a2741193b04cb2cbe14996962fbf71b97">LockTranslations</a> (const <a class="el" href="class_skeleton.html">Skeleton</a> *inSkeleton2, const bool *inLockedTranslations, const <a class="el" href="class_mat44.html">Mat44</a> *inNeutralPose2)</td></tr>
+<tr class="separator:a2741193b04cb2cbe14996962fbf71b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbaa0b7c3a89c8332342c2cc6aa74262"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#abbaa0b7c3a89c8332342c2cc6aa74262">LockAllTranslations</a> (const <a class="el" href="class_skeleton.html">Skeleton</a> *inSkeleton2, const <a class="el" href="class_mat44.html">Mat44</a> *inNeutralPose2)</td></tr>
+<tr class="separator:abbaa0b7c3a89c8332342c2cc6aa74262"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5ea82586d40fbdc0d2930e51b008c9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#aa5ea82586d40fbdc0d2930e51b008c9c">Map</a> (const <a class="el" href="class_mat44.html">Mat44</a> *inPose1ModelSpace, const <a class="el" href="class_mat44.html">Mat44</a> *inPose2LocalSpace, <a class="el" href="class_mat44.html">Mat44</a> *outPose2ModelSpace) const</td></tr>
 <tr class="separator:aa5ea82586d40fbdc0d2930e51b008c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ebec9cb8e8f0f7a4ec68fa0c30bfd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a64ebec9cb8e8f0f7a4ec68fa0c30bfd6">MapReverse</a> (const <a class="el" href="class_mat44.html">Mat44</a> *inPose2ModelSpace, <a class="el" href="class_mat44.html">Mat44</a> *outPose1ModelSpace) const</td></tr>
@@ -160,6 +169,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4b67e8a430be5b9150676f5103ef0974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5c8deb7c2eebbfd0f2088c33f991ec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_skeleton_mapper.html#ae6baa7f85525bc34f52e77ac6cd2bbeb">UnmappedVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#ae5c8deb7c2eebbfd0f2088c33f991ec8">GetUnmapped</a> ()</td></tr>
 <tr class="separator:ae5c8deb7c2eebbfd0f2088c33f991ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae866ae2bc8b6461888f555b6a9be0d16"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_skeleton_mapper.html#a82c3843686fa3822fd9a5747be2a4b93">LockedVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#ae866ae2bc8b6461888f555b6a9be0d16">GetLockedTranslations</a> () const</td></tr>
+<tr class="separator:ae866ae2bc8b6461888f555b6a9be0d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9a4605520a2d38d190e0f651b3b6c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_skeleton_mapper.html#a82c3843686fa3822fd9a5747be2a4b93">LockedVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_skeleton_mapper.html#a9e9a4605520a2d38d190e0f651b3b6c2">GetLockedTranslations</a> ()</td></tr>
+<tr class="separator:a9e9a4605520a2d38d190e0f651b3b6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ref_target"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ref_target')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ref_target.html">RefTarget&lt; SkeletonMapper &gt;</a></td></tr>
 <tr class="memitem:a4c8a23738e2e1dd6369520a30e250b17 inherit pub_methods_class_ref_target"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a4c8a23738e2e1dd6369520a30e250b17">RefTarget</a> ()=default</td></tr>
 <tr class="memdesc:a4c8a23738e2e1dd6369520a30e250b17 inherit pub_methods_class_ref_target"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_ref_target.html#a4c8a23738e2e1dd6369520a30e250b17">More...</a><br /></td></tr>
@@ -230,7 +243,21 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_skeleton_mapper.html#a33aaf112a5908982c45a27b4c80155ea">SkeletonMapper::ChainVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt;<a class="el" href="class_skeleton_mapper_1_1_chain.html">Chain</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_skeleton_mapper.html#a33aaf112a5908982c45a27b4c80155ea">SkeletonMapper::ChainVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt;<a class="el" href="class_skeleton_mapper_1_1_chain.html">Chain</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82c3843686fa3822fd9a5747be2a4b93" name="a82c3843686fa3822fd9a5747be2a4b93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82c3843686fa3822fd9a5747be2a4b93">&#9670;&nbsp;</a></span>LockedVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_skeleton_mapper.html#a82c3843686fa3822fd9a5747be2a4b93">SkeletonMapper::LockedVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt;<a class="el" href="class_skeleton_mapper_1_1_locked.html">Locked</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -244,7 +271,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_skeleton_mapper.html#a6f36fb9bc8686b8ec810c5435c03f419">SkeletonMapper::MappingVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt;<a class="el" href="class_skeleton_mapper_1_1_mapping.html">Mapping</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_skeleton_mapper.html#a6f36fb9bc8686b8ec810c5435c03f419">SkeletonMapper::MappingVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt;<a class="el" href="class_skeleton_mapper_1_1_mapping.html">Mapping</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -258,7 +285,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_skeleton_mapper.html#ae6baa7f85525bc34f52e77ac6cd2bbeb">SkeletonMapper::UnmappedVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#adb64bf262143242ed12735be81c57ded">Array</a>&lt;<a class="el" href="class_skeleton_mapper_1_1_unmapped.html">Unmapped</a>&gt;</td>
+          <td class="memname">using <a class="el" href="class_skeleton_mapper.html#ae6baa7f85525bc34f52e77ac6cd2bbeb">SkeletonMapper::UnmappedVector</a> =  <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt;<a class="el" href="class_skeleton_mapper_1_1_unmapped.html">Unmapped</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -302,6 +329,56 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="class_skeleton_mapper.html#a33aaf112a5908982c45a27b4c80155ea">ChainVector</a> &amp; SkeletonMapper::GetChains </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e9a4605520a2d38d190e0f651b3b6c2" name="a9e9a4605520a2d38d190e0f651b3b6c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9a4605520a2d38d190e0f651b3b6c2">&#9670;&nbsp;</a></span>GetLockedTranslations() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_skeleton_mapper.html#a82c3843686fa3822fd9a5747be2a4b93">LockedVector</a> &amp; SkeletonMapper::GetLockedTranslations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae866ae2bc8b6461888f555b6a9be0d16" name="ae866ae2bc8b6461888f555b6a9be0d16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae866ae2bc8b6461888f555b6a9be0d16">&#9670;&nbsp;</a></span>GetLockedTranslations() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_skeleton_mapper.html#a82c3843686fa3822fd9a5747be2a4b93">LockedVector</a> &amp; SkeletonMapper::GetLockedTranslations </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -466,6 +543,83 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">inSkeleton2</td><td>Target skeleton to map to. </td></tr>
     <tr><td class="paramname">inNeutralPose2</td><td>Neutral pose of the target skeleton (model space), inNeutralPose1 and inNeutralPose2 must match as closely as possible, preferably the position of the mappable joints should be identical. </td></tr>
     <tr><td class="paramname">inCanMapJoint</td><td>Function that checks if joints in skeleton 1 and skeleton 2 are equal. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abbaa0b7c3a89c8332342c2cc6aa74262" name="abbaa0b7c3a89c8332342c2cc6aa74262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbaa0b7c3a89c8332342c2cc6aa74262">&#9670;&nbsp;</a></span>LockAllTranslations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SkeletonMapper::LockAllTranslations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_skeleton.html">Skeleton</a> *&#160;</td>
+          <td class="paramname"><em>inSkeleton2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_mat44.html">Mat44</a> *&#160;</td>
+          <td class="paramname"><em>inNeutralPose2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >After <a class="el" href="class_skeleton_mapper.html#a4c6938fe3c8557ea55e10cc3c8bfc387">Initialize()</a>, this can be called to lock the translation of all joints in skeleton 2 below the first mapped joint to those of the neutral pose. Because constraints are never 100% rigid, there's always a little bit of stretch in the ragdoll when the ragdoll is under stress. Locking the translations of the pose will remove the visual stretch from the ragdoll but will introduce a difference between the physical simulation and the visual representation. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inSkeleton2</td><td>Target skeleton to map to. </td></tr>
+    <tr><td class="paramname">inNeutralPose2</td><td>Neutral pose to take reference translations from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2741193b04cb2cbe14996962fbf71b97" name="a2741193b04cb2cbe14996962fbf71b97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2741193b04cb2cbe14996962fbf71b97">&#9670;&nbsp;</a></span>LockTranslations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SkeletonMapper::LockTranslations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_skeleton.html">Skeleton</a> *&#160;</td>
+          <td class="paramname"><em>inSkeleton2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *&#160;</td>
+          <td class="paramname"><em>inLockedTranslations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_mat44.html">Mat44</a> *&#160;</td>
+          <td class="paramname"><em>inNeutralPose2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This can be called so lock the translation of a specified set of joints in skeleton 2. Because constraints are never 100% rigid, there's always a little bit of stretch in the ragdoll when the ragdoll is under stress. Locking the translations of the pose will remove the visual stretch from the ragdoll but will introduce a difference between the physical simulation and the visual representation. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inSkeleton2</td><td>Target skeleton to map to. </td></tr>
+    <tr><td class="paramname">inLockedTranslations</td><td>An array of bools the size of inSkeleton2-&gt;GetJointCount(), for each joint indicating if the joint is locked. </td></tr>
+    <tr><td class="paramname">inNeutralPose2</td><td>Neutral pose to take reference translations from </td></tr>
   </table>
   </dd>
 </dl>

@@ -9,7 +9,7 @@ var class_tapered_capsule_shape =
     [ "GetMassProperties", "class_tapered_capsule_shape.html#ad3455a4df764b73c9b62450ab39ee7e0", null ],
     [ "GetStats", "class_tapered_capsule_shape.html#a5f3e2462c74c498511d4b010797ddbab", null ],
     [ "GetSupportFunction", "class_tapered_capsule_shape.html#a5d84081d417194e6a80742162a9e5361", null ],
-    [ "GetSupportingFace", "class_tapered_capsule_shape.html#a6e10540f4843733f67874f7e6c4e1685", null ],
+    [ "GetSupportingFace", "class_tapered_capsule_shape.html#a9634a3049b0006aefe65e52c72f3b3d1", null ],
     [ "GetSurfaceNormal", "class_tapered_capsule_shape.html#ac8a542296217b1a4ccad96133c07a35e", null ],
     [ "GetVolume", "class_tapered_capsule_shape.html#a7899c1aa1dbb08bd5b79c2b8d01711a0", null ],
     [ "GetWorldSpaceBounds", "class_tapered_capsule_shape.html#a1372f0cdbfcc07e4946972a7aa275ea1", null ],

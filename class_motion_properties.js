@@ -5,6 +5,8 @@ var class_motion_properties =
     [ "ApplyForceTorqueAndDragInternal", "class_motion_properties.html#ae1d0e7670106211909852cd6844286d9", null ],
     [ "ClampAngularVelocity", "class_motion_properties.html#a098c27b3679ec968b9400a64c53f90c9", null ],
     [ "ClampLinearVelocity", "class_motion_properties.html#a2cc70977a90ef8a3bed8a60902f3c2db", null ],
+    [ "GetAccumulatedForce", "class_motion_properties.html#ab2db20476c9ab24b796a9f5877caaea5", null ],
+    [ "GetAccumulatedTorque", "class_motion_properties.html#a73cef0ab26c9bc15a2908e632c953bc2", null ],
     [ "GetAngularDamping", "class_motion_properties.html#a778022ed795539ac55eb26f7bd4080e6", null ],
     [ "GetAngularVelocity", "class_motion_properties.html#a66348339a05a43b730e1591273aace18", null ],
     [ "GetGravityFactor", "class_motion_properties.html#a512531eb6b5f90a69deca6a0d0889243", null ],

@@ -6,6 +6,6 @@ var _a_a_box4_8h =
     [ "AABox4VsBox", "_a_a_box4_8h.html#af230429f2bab61ca7328aa79a2a4da93", null ],
     [ "AABox4VsBox", "_a_a_box4_8h.html#a365fbed5e6017361416cd81c4fb3c175", null ],
     [ "AABox4VsPoint", "_a_a_box4_8h.html#a96c8ee8d10ad0b3971de242ea1217cb9", null ],
-    [ "AABox4VsSphere", "_a_a_box4_8h.html#a3ad6c69ce603943232e3df9613dd0eb2", null ],
+    [ "AABox4VsSphere", "_a_a_box4_8h.html#a6f08a548d80cd6a9c6209f1f2db4fde2", null ],
     [ "AABox4VsSphere", "_a_a_box4_8h.html#a0a8ee1599da3fa8b3ea6dc868a6cba19", null ]
 ];

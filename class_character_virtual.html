@@ -112,6 +112,12 @@ Inheritance diagram for CharacterVirtual:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_character_virtual_1_1_extended_update_settings.html">ExtendedUpdateSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings struct with settings for ExtendedUpdate.  <a href="struct_character_virtual_1_1_extended_update_settings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aae8d3ce9f1208881c5cbd3eb42707434"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#aae8d3ce9f1208881c5cbd3eb42707434">CharacterVirtual</a> (const <a class="el" href="class_character_virtual_settings.html">CharacterVirtualSettings</a> *inSettings, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPosition, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="class_physics_system.html">PhysicsSystem</a> *inSystem)</td></tr>
@@ -155,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a643ed04caa01ba9e4e4fc9d5058dc3d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a643ed04caa01ba9e4e4fc9d5058dc3d7">GetCharacterPadding</a> () const</td></tr>
 <tr class="memdesc:a643ed04caa01ba9e4e4fc9d5058dc3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_character.html">Character</a> padding.  <a href="class_character_virtual.html#a643ed04caa01ba9e4e4fc9d5058dc3d7">More...</a><br /></td></tr>
 <tr class="separator:a643ed04caa01ba9e4e4fc9d5058dc3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e8c56bb848a852be4e63806fe6a74c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a1e8c56bb848a852be4e63806fe6a74c6">CancelVelocityTowardsSteepSlopes</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDesiredVelocity) const</td></tr>
+<tr class="separator:a1e8c56bb848a852be4e63806fe6a74c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aa87739165551d5e23aa91c94b24058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a5aa87739165551d5e23aa91c94b24058">Update</a> (float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="separator:a5aa87739165551d5e23aa91c94b24058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af44f8072c8e2687bbc20452b608fc5fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#af44f8072c8e2687bbc20452b608fc5fe">CanWalkStairs</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inLinearVelocity) const</td></tr>
@@ -163,6 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a24e03c41872174bf69e0b2c2cf5175a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cfdd1f28dc6e80464a1080cecac4213"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a9cfdd1f28dc6e80464a1080cecac4213">StickToFloor</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inStepDown, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="separator:a9cfdd1f28dc6e80464a1080cecac4213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a394065d2dd9264be14e3aa111d903abd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#a394065d2dd9264be14e3aa111d903abd">ExtendedUpdate</a> (float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, const <a class="el" href="struct_character_virtual_1_1_extended_update_settings.html">ExtendedUpdateSettings</a> &amp;inSettings, const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
+<tr class="separator:a394065d2dd9264be14e3aa111d903abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_virtual.html#ab63d3bd9b86c67c7c72a59faac5736dc">RefreshContacts</a> (const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;inBroadPhaseLayerFilter, const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;inObjectLayerFilter, const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;inBodyFilter, <a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;inAllocator)</td></tr>
 <tr class="memdesc:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function can be used after a character has teleported to determine the new contacts with the world.  <a href="class_character_virtual.html#ab63d3bd9b86c67c7c72a59faac5736dc">More...</a><br /></td></tr>
 <tr class="separator:ab63d3bd9b86c67c7c72a59faac5736dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,6 +211,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab8ce7589bd0e97901030bceeda7a513b inherit pub_methods_class_character_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ab8ce7589bd0e97901030bceeda7a513b">GetGroundState</a> () const</td></tr>
 <tr class="memdesc:ab8ce7589bd0e97901030bceeda7a513b inherit pub_methods_class_character_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current ground state.  <a href="class_character_base.html#ab8ce7589bd0e97901030bceeda7a513b">More...</a><br /></td></tr>
 <tr class="separator:ab8ce7589bd0e97901030bceeda7a513b inherit pub_methods_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a700e706b9c1710409fc16c6f9a083e0b inherit pub_methods_class_character_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a700e706b9c1710409fc16c6f9a083e0b">IsSupported</a> () const</td></tr>
+<tr class="memdesc:a700e706b9c1710409fc16c6f9a083e0b inherit pub_methods_class_character_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the player is supported by normal or steep ground.  <a href="class_character_base.html#a700e706b9c1710409fc16c6f9a083e0b">More...</a><br /></td></tr>
+<tr class="separator:a700e706b9c1710409fc16c6f9a083e0b inherit pub_methods_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7d481d54daa2165056a5ea6652469f8 inherit pub_methods_class_character_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ab7d481d54daa2165056a5ea6652469f8">GetGroundPosition</a> () const</td></tr>
 <tr class="memdesc:ab7d481d54daa2165056a5ea6652469f8 inherit pub_methods_class_character_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the contact point with the ground.  <a href="class_character_base.html#ab7d481d54daa2165056a5ea6652469f8">More...</a><br /></td></tr>
 <tr class="separator:ab7d481d54daa2165056a5ea6652469f8 inherit pub_methods_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,6 +270,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_class_character_base"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_character_base')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_character_base.html">CharacterBase</a></td></tr>
 <tr class="memitem:a82dfb80348cdbf3a08f97d54b225f77e inherit pub_types_class_character_base"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a> { <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777">OnGround</a>
 , <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761">OnSteepGround</a>
+, <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea9ed2d871602556951e39f3cebd08d6cb">NotSupported</a>
 , <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7">InAir</a>
  }</td></tr>
 <tr class="separator:a82dfb80348cdbf3a08f97d54b225f77e inherit pub_types_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,6 +285,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a5c10220e06a8a5bb274a4b02c28cb0b6 inherit pro_attribs_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f637f449a17fb6a1b10297764de48b4 inherit pro_attribs_class_character_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a5f637f449a17fb6a1b10297764de48b4">mUp</a></td></tr>
 <tr class="separator:a5f637f449a17fb6a1b10297764de48b4 inherit pro_attribs_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9fb45e5980787c5f7f718f6e7703797 inherit pro_attribs_class_character_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_plane.html">Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#ae9fb45e5980787c5f7f718f6e7703797">mSupportingVolume</a></td></tr>
+<tr class="separator:ae9fb45e5980787c5f7f718f6e7703797 inherit pro_attribs_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da1e29d9257f3cce909487da437a0c9 inherit pro_attribs_class_character_base"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a9da1e29d9257f3cce909487da437a0c9">mCosMaxSlopeAngle</a></td></tr>
 <tr class="separator:a9da1e29d9257f3cce909487da437a0c9 inherit pro_attribs_class_character_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf96842849baa268527dfa548219510 inherit pro_attribs_class_character_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77e">EGroundState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_character_base.html#a1cf96842849baa268527dfa548219510">mGroundState</a> = <a class="el" href="class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77eaee4e669a07b061d70b9b79dfed9cb5e7">EGroundState::InAir</a></td></tr>
@@ -354,6 +370,31 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1e8c56bb848a852be4e63806fe6a74c6" name="a1e8c56bb848a852be4e63806fe6a74c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e8c56bb848a852be4e63806fe6a74c6">&#9670;&nbsp;</a></span>CancelVelocityTowardsSteepSlopes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> CharacterVirtual::CancelVelocityTowardsSteepSlopes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inDesiredVelocity</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This function can be called prior to calling <a class="el" href="class_character_virtual.html#a5aa87739165551d5e23aa91c94b24058">Update()</a> to convert a desired velocity into a velocity that won't make the character move further onto steep slopes. This velocity can then be set on the character using <a class="el" href="class_character_virtual.html#a25da7eb8e9ff5316e357cbf59027b57e" title="Set the linear velocity of the character (m / s)">SetLinearVelocity()</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inDesiredVelocity</td><td>Velocity to clamp against steep walls </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new velocity vector that won't make the character move up steep slopes </dd></dl>
+
+</div>
+</div>
 <a id="af44f8072c8e2687bbc20452b608fc5fe" name="af44f8072c8e2687bbc20452b608fc5fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af44f8072c8e2687bbc20452b608fc5fe">&#9670;&nbsp;</a></span>CanWalkStairs()</h2>
 
@@ -461,6 +502,80 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a394065d2dd9264be14e3aa111d903abd" name="a394065d2dd9264be14e3aa111d903abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a394065d2dd9264be14e3aa111d903abd">&#9670;&nbsp;</a></span>ExtendedUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterVirtual::ExtendedUpdate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inDeltaTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inGravity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_character_virtual_1_1_extended_update_settings.html">ExtendedUpdateSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_broad_phase_layer_filter.html">BroadPhaseLayerFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBroadPhaseLayerFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_object_layer_filter.html">ObjectLayerFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inObjectLayerFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_body_filter.html">BodyFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyFilter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_temp_allocator.html">TempAllocator</a> &amp;&#160;</td>
+          <td class="paramname"><em>inAllocator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This function combines Update, StickToFloor and WalkStairs. This function serves as an example of how these functions could be combined. Before calling, call SetLinearVelocity to update the horizontal/vertical speed of the character, typically this is:</p><ul>
+<li>When on OnGround and not moving away from ground: velocity = <a class="el" href="class_character_base.html#a692578285569b48d19d53684360a5656" title="Velocity in world space of ground.">GetGroundVelocity()</a> + horizontal speed as input by player + optional vertical jump velocity + delta time * gravity</li>
+<li>Else: velocity = current vertical velocity + horizontal speed as input by player + delta time * gravity <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inDeltaTime</td><td>Time step to simulate. </td></tr>
+    <tr><td class="paramname">inGravity</td><td>Gravity vector (m/s^2). This gravity vector is only used when the character is standing on top of another object to apply downward force. </td></tr>
+    <tr><td class="paramname">inSettings</td><td>A structure containing settings for the algorithm. </td></tr>
+    <tr><td class="paramname">inBroadPhaseLayerFilter</td><td>Filter that is used to check if the character collides with something in the broadphase. </td></tr>
+    <tr><td class="paramname">inObjectLayerFilter</td><td>Filter that is used to check if a character collides with a layer. </td></tr>
+    <tr><td class="paramname">inBodyFilter</td><td>Filter that is used to check if a character collides with a body. </td></tr>
+    <tr><td class="paramname">inAllocator</td><td>An allocator for temporary allocations. All memory will be freed by the time this function returns. </td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+</ul>
 
 </div>
 </div>
@@ -1176,7 +1291,7 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">inStepUp</td><td>The direction and distance to step up (this corresponds to the max step height) </td></tr>
     <tr><td class="paramname">inStepForward</td><td>The direction and distance to step forward after the step up </td></tr>
     <tr><td class="paramname">inStepForwardTest</td><td>When running at a high frequency, inStepForward can be very small and it's likely that you hit the side of the stairs on the way down. This could produce a normal that violates the max slope angle. If this happens, we test again using this distance from the up position to see if we find a valid slope. </td></tr>
-    <tr><td class="paramname">inStepDownExtra</td><td>An additional translation that is added when stepping down at the end. Allows you to step further down than up. Set to zero if you don't want this. </td></tr>
+    <tr><td class="paramname">inStepDownExtra</td><td>An additional translation that is added when stepping down at the end. Allows you to step further down than up. Set to zero if you don't want this. Should be in the opposite direction of up. </td></tr>
     <tr><td class="paramname">inBroadPhaseLayerFilter</td><td>Filter that is used to check if the character collides with something in the broadphase. </td></tr>
     <tr><td class="paramname">inObjectLayerFilter</td><td>Filter that is used to check if a character collides with a layer. </td></tr>
     <tr><td class="paramname">inBodyFilter</td><td>Filter that is used to check if a character collides with a body. </td></tr>

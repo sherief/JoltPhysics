@@ -14,6 +14,7 @@ var class_offset_center_of_mass_shape =
     [ "GetStats", "class_offset_center_of_mass_shape.html#a656e5b4eee8f07b32ef59fb20858771b", null ],
     [ "GetSubmergedVolume", "class_offset_center_of_mass_shape.html#ab191184f5054ff81800253d59049e5a5", null ],
     [ "GetSubShapeTransformedShape", "class_offset_center_of_mass_shape.html#adcef4fa526642a2cdd565352f278c9f5", null ],
+    [ "GetSupportingFace", "class_offset_center_of_mass_shape.html#aa18209657783f704b64fa02351c29fca", null ],
     [ "GetSurfaceNormal", "class_offset_center_of_mass_shape.html#a0af1704c7f1a2109f9b55343c4a6db7d", null ],
     [ "GetTrianglesNext", "class_offset_center_of_mass_shape.html#a5a7033c9950e7ec7253047e8a257c360", null ],
     [ "GetTrianglesStart", "class_offset_center_of_mass_shape.html#a928422bd2dd3f8a9ac2107bdf503446e", null ],

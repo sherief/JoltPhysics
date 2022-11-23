@@ -3,7 +3,6 @@ var class_convex_shape =
     [ "CSGetTrianglesContext", "class_convex_shape_1_1_c_s_get_triangles_context.html", "class_convex_shape_1_1_c_s_get_triangles_context" ],
     [ "Support", "class_convex_shape_1_1_support.html", "class_convex_shape_1_1_support" ],
     [ "SupportBuffer", "class_convex_shape_1_1_support_buffer.html", "class_convex_shape_1_1_support_buffer" ],
-    [ "SupportingFace", "class_convex_shape.html#a238f8599d34f5eb8cfd43c6c847fdacc", null ],
     [ "ESupportMode", "class_convex_shape.html#a4cd6e2f87f30d108faf1f119dd73a06b", [
       [ "ExcludeConvexRadius", "class_convex_shape.html#a4cd6e2f87f30d108faf1f119dd73a06bafc1094532d8eef9e23613fe6846685c1", null ],
       [ "IncludeConvexRadius", "class_convex_shape.html#a4cd6e2f87f30d108faf1f119dd73a06badc738ebd4ba89322ae44c2d1ec8cda9f", null ]
@@ -20,7 +19,6 @@ var class_convex_shape =
     [ "GetSubmergedVolume", "class_convex_shape.html#ad12be26a94d684f063b0caece97b3d7a", null ],
     [ "GetSubShapeIDBitsRecursive", "class_convex_shape.html#aeda184c70bca8f98105bd58df579eb87", null ],
     [ "GetSupportFunction", "class_convex_shape.html#ae043918f1de4d0049c6cb2a92b545e06", null ],
-    [ "GetSupportingFace", "class_convex_shape.html#a0d779bf5b8064f81765e07627b770b01", null ],
     [ "GetTrianglesNext", "class_convex_shape.html#ac067fd156edf8fa249c8ed65bc9f5f18", null ],
     [ "GetTrianglesStart", "class_convex_shape.html#a063b182d0bc6eddcde2b3fd422fca7a7", null ],
     [ "RestoreBinaryState", "class_convex_shape.html#a6398de9c5aec64886a5184efb4fcca8f", null ],

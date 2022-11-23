@@ -1,8 +1,11 @@
 var class_character_virtual =
 [
+    [ "ExtendedUpdateSettings", "struct_character_virtual_1_1_extended_update_settings.html", "struct_character_virtual_1_1_extended_update_settings" ],
     [ "CharacterVirtual", "class_character_virtual.html#aae8d3ce9f1208881c5cbd3eb42707434", null ],
+    [ "CancelVelocityTowardsSteepSlopes", "class_character_virtual.html#a1e8c56bb848a852be4e63806fe6a74c6", null ],
     [ "CanWalkStairs", "class_character_virtual.html#af44f8072c8e2687bbc20452b608fc5fe", null ],
     [ "CheckCollision", "class_character_virtual.html#a4f9387d5c212c8d1d0b52e19703b8664", null ],
+    [ "ExtendedUpdate", "class_character_virtual.html#a394065d2dd9264be14e3aa111d903abd", null ],
     [ "GetCenterOfMassTransform", "class_character_virtual.html#ae82d09c4482151440bbee3663b8b6b29", null ],
     [ "GetCharacterPadding", "class_character_virtual.html#a643ed04caa01ba9e4e4fc9d5058dc3d7", null ],
     [ "GetLinearVelocity", "class_character_virtual.html#a9f8aca4dbbb9c926e52ca8b7337c4c71", null ],

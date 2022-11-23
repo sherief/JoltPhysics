@@ -1,6 +1,7 @@
 var class_tracked_vehicle_controller =
 [
     [ "TrackedVehicleController", "class_tracked_vehicle_controller.html#a6a5ee14fd6717b24367090fa9efb52a3", null ],
+    [ "AllowSleep", "class_tracked_vehicle_controller.html#aa466156a2a5c4591ebbd92347807b509", null ],
     [ "ConstructWheel", "class_tracked_vehicle_controller.html#a66ae1eabf51f75a52b2c53f43228454d", null ],
     [ "GetEngine", "class_tracked_vehicle_controller.html#acb2deddabb17190a97fbeee604d6a845", null ],
     [ "GetEngine", "class_tracked_vehicle_controller.html#a8e4de97e46ec73d36fce4d32d38f6ed2", null ],
