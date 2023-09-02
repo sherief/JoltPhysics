@@ -8,7 +8,7 @@ var class_fixed_constraint_settings =
     [ "mAxisX2", "class_fixed_constraint_settings.html#a335f3fa823a9ce1f7a501a659e2764a3", null ],
     [ "mAxisY1", "class_fixed_constraint_settings.html#accdfcbf32adb921cbb6e09afdcf94f64", null ],
     [ "mAxisY2", "class_fixed_constraint_settings.html#a16437f93ded1ac0e3f7f2651c850950c", null ],
-    [ "mPoint1", "class_fixed_constraint_settings.html#aafa97557d348bb8cd660542f8983d251", null ],
-    [ "mPoint2", "class_fixed_constraint_settings.html#ab879a37c71990bce4da72a962644be9e", null ],
+    [ "mPoint1", "class_fixed_constraint_settings.html#a14be82859ede4faa881a35deb3b7c741", null ],
+    [ "mPoint2", "class_fixed_constraint_settings.html#a8226bd6f6ac595c055c22b0934ae8f36", null ],
     [ "mSpace", "class_fixed_constraint_settings.html#a971cd8f2570d3236744b0d3a85e23422", null ]
 ];

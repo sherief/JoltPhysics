@@ -11,7 +11,7 @@ var class_broad_phase_quad_tree =
     [ "CollideOrientedBox", "class_broad_phase_quad_tree.html#a0b2255def43618e472f268d426596a46", null ],
     [ "CollidePoint", "class_broad_phase_quad_tree.html#af5143b02d37873e6527da51ca6af9255", null ],
     [ "CollideSphere", "class_broad_phase_quad_tree.html#ae7611ff0242bf2fa18f035db22a28d5a", null ],
-    [ "FindCollidingPairs", "class_broad_phase_quad_tree.html#ad044a711fb0a519c0b1692c386904c71", null ],
+    [ "FindCollidingPairs", "class_broad_phase_quad_tree.html#af5fd975a61944a35c8ea2ea1daaa22de", null ],
     [ "FrameSync", "class_broad_phase_quad_tree.html#aed698682cac2d4b1ab94dcd65ccd5ebf", null ],
     [ "Init", "class_broad_phase_quad_tree.html#aff006c957ae78fae8652ed352f7f1bc2", null ],
     [ "LockModifications", "class_broad_phase_quad_tree.html#a7d387d77d1d6e8f388dde9470458da81", null ],

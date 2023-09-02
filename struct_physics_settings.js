@@ -8,6 +8,7 @@ var struct_physics_settings =
     [ "mConstraintWarmStart", "struct_physics_settings.html#ad477a1ff8add4e1f8684b131c1485480", null ],
     [ "mContactNormalCosMaxDeltaRotation", "struct_physics_settings.html#aefc600483ad1234713fbd572f80f00da", null ],
     [ "mContactPointPreserveLambdaMaxDistSq", "struct_physics_settings.html#a69350ac3ff30bca78c45d402938a3ebf", null ],
+    [ "mDeterministicSimulation", "struct_physics_settings.html#aee2d7c40a127dc9c347d3b84b24ab4e3", null ],
     [ "mLinearCastMaxPenetration", "struct_physics_settings.html#aa5090787a0d12a9e7519da9e752de0e7", null ],
     [ "mLinearCastThreshold", "struct_physics_settings.html#ab5580db2e8580b84eb6be01a24cc54c4", null ],
     [ "mManifoldToleranceSq", "struct_physics_settings.html#ae045877d52a061978eb78569b96b0b62", null ],
@@ -23,5 +24,6 @@ var struct_physics_settings =
     [ "mStepListenersBatchSize", "struct_physics_settings.html#a646cc49b1095c6c682189ba15d4de67f", null ],
     [ "mTimeBeforeSleep", "struct_physics_settings.html#a0bd7d6eb98c547488f874a9577fff451", null ],
     [ "mUseBodyPairContactCache", "struct_physics_settings.html#a5a6d3286936ff2f74d1cf106e8ebf3f6", null ],
+    [ "mUseLargeIslandSplitter", "struct_physics_settings.html#ad391d29bbd9cd0cc0ce6358adb501e97", null ],
     [ "mUseManifoldReduction", "struct_physics_settings.html#af715e8c12331e908a82768501d09db97", null ]
 ];

@@ -17,7 +17,7 @@ var class_quad_tree =
     [ "CollidePoint", "class_quad_tree.html#ab5538217d4a9a42986da28d64b65740d", null ],
     [ "CollideSphere", "class_quad_tree.html#ab83e557e1224ba241789ce7d7da982de", null ],
     [ "DiscardOldTree", "class_quad_tree.html#a6e7b9e3242b2af8c7ba11d9b6eeb0d64", null ],
-    [ "FindCollidingPairs", "class_quad_tree.html#a910776f9aed00f6c5698b69679566444", null ],
+    [ "FindCollidingPairs", "class_quad_tree.html#a1752afb7a82b6ca130cfbad4f4f02c4e", null ],
     [ "GetName", "class_quad_tree.html#a06027549b2942685a32f433f9c304d03", null ],
     [ "HasBodies", "class_quad_tree.html#a0f40b5da772779a14a6d6aedd28ae8a0", null ],
     [ "Init", "class_quad_tree.html#a61023e566be172a288dfcd728118ec46", null ],

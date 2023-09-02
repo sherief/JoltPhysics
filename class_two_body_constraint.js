@@ -2,6 +2,8 @@ var class_two_body_constraint =
 [
     [ "TwoBodyConstraint", "class_two_body_constraint.html#a8b370c3d2689b9ae1270b1dfc8f9c290", null ],
     [ "BuildIslands", "class_two_body_constraint.html#ae5b2ede88a6180a8bff9fe873ff38619", null ],
+    [ "BuildIslandSplits", "class_two_body_constraint.html#a19ff8913100799b94972336188ed7c7f", null ],
+    [ "DrawConstraintReferenceFrame", "class_two_body_constraint.html#aab88ca80622557a5a14cbc1f2e6d0ec0", null ],
     [ "GetBody1", "class_two_body_constraint.html#ae09dc01720e01f71e480f2ce3da32918", null ],
     [ "GetBody2", "class_two_body_constraint.html#a9ede1df27455ff0177a7a4501bf3342a", null ],
     [ "GetConstraintToBody1Matrix", "class_two_body_constraint.html#a0edd748869643b1c904a7bc1314dad7a", null ],

@@ -7,7 +7,7 @@ var class_job_system_1_1_job_handle =
     [ "AddDependency", "class_job_system_1_1_job_handle.html#af0a10c0398474dbf0ffe9b5866775abb", null ],
     [ "IsDone", "class_job_system_1_1_job_handle.html#a787e04af05eea5f3eda568956cca9f10", null ],
     [ "IsValid", "class_job_system_1_1_job_handle.html#a8f060c8caed0f0d1a5cfa45490790529", null ],
-    [ "operator=", "class_job_system_1_1_job_handle.html#a7f55e6a9dc6b0546832474ac3a46b42b", null ],
-    [ "operator=", "class_job_system_1_1_job_handle.html#af775712b716318ad36ef3684ecf99eae", null ],
+    [ "operator=", "class_job_system_1_1_job_handle.html#adfe0bc1784be03e007aedfc86a8a0b99", null ],
+    [ "operator=", "class_job_system_1_1_job_handle.html#a434a0bf97c5ade28fcf116de7bd1c0e1", null ],
     [ "RemoveDependency", "class_job_system_1_1_job_handle.html#a25f723a35202461e725cc3ad6cc166bb", null ]
 ];

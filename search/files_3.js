@@ -12,8 +12,11 @@ var searchData=
   ['determinismlog_2eh_9',['DeterminismLog.h',['../_determinism_log_8h.html',1,'']]],
   ['distanceconstraint_2ecpp_10',['DistanceConstraint.cpp',['../_distance_constraint_8cpp.html',1,'']]],
   ['distanceconstraint_2eh_11',['DistanceConstraint.h',['../_distance_constraint_8h.html',1,'']]],
-  ['dualaxisconstraintpart_2eh_12',['DualAxisConstraintPart.h',['../_dual_axis_constraint_part_8h.html',1,'']]],
-  ['dvec3_2eh_13',['DVec3.h',['../_d_vec3_8h.html',1,'']]],
-  ['dvec3_2einl_14',['DVec3.inl',['../_d_vec3_8inl.html',1,'']]],
-  ['dynmatrix_2eh_15',['DynMatrix.h',['../_dyn_matrix_8h.html',1,'']]]
+  ['dmat44_2eh_12',['DMat44.h',['../_d_mat44_8h.html',1,'']]],
+  ['dmat44_2einl_13',['DMat44.inl',['../_d_mat44_8inl.html',1,'']]],
+  ['double3_2eh_14',['Double3.h',['../_double3_8h.html',1,'']]],
+  ['dualaxisconstraintpart_2eh_15',['DualAxisConstraintPart.h',['../_dual_axis_constraint_part_8h.html',1,'']]],
+  ['dvec3_2eh_16',['DVec3.h',['../_d_vec3_8h.html',1,'']]],
+  ['dvec3_2einl_17',['DVec3.inl',['../_d_vec3_8inl.html',1,'']]],
+  ['dynmatrix_2eh_18',['DynMatrix.h',['../_dyn_matrix_8h.html',1,'']]]
 ];

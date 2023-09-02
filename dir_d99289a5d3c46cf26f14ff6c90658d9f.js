@@ -10,6 +10,7 @@ var dir_d99289a5d3c46cf26f14ff6c90658d9f =
     [ "Skeleton", "dir_a34232518e8eb2f6b4ca842b3eb863dd.html", "dir_a34232518e8eb2f6b4ca842b3eb863dd" ],
     [ "TriangleGrouper", "dir_3b340e4d52b4e8b5dc2c6e035ba952f1.html", "dir_3b340e4d52b4e8b5dc2c6e035ba952f1" ],
     [ "TriangleSplitter", "dir_dcf9b35cd7be2ace77df0178104cd92b.html", "dir_dcf9b35cd7be2ace77df0178104cd92b" ],
+    [ "ConfigurationString.h", "_configuration_string_8h.html", "_configuration_string_8h" ],
     [ "Jolt.h", "_jolt_8h.html", null ],
     [ "RegisterTypes.cpp", "_register_types_8cpp.html", "_register_types_8cpp" ],
     [ "RegisterTypes.h", "_register_types_8h.html", "_register_types_8h" ]

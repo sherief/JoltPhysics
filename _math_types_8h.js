@@ -1,6 +1,7 @@
 var _math_types_8h =
 [
-    [ "DVec3Arg", "_math_types_8h.html#a205693a2cac03bca53ef05de071c20e6", null ],
+    [ "DMat44Arg", "_math_types_8h.html#aaf37cd542ccb684a70ab8e9123af8df5", null ],
+    [ "DVec3Arg", "_math_types_8h.html#a943465464cdfbc4fedad29af409c31ff", null ],
     [ "Mat44Arg", "_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6", null ],
     [ "QuatArg", "_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34", null ],
     [ "UVec4Arg", "_math_types_8h.html#a5744e8e2697ac6bd85edb8d2e4321416", null ],

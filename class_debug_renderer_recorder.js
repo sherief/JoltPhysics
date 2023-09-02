@@ -12,11 +12,11 @@ var class_debug_renderer_recorder =
       [ "EndFrame", "class_debug_renderer_recorder.html#ab209b97db9eb9c3d5ee0735f7e1b4b3ea6c1645a468ccfce0975fc95587b97adf", null ]
     ] ],
     [ "DebugRendererRecorder", "class_debug_renderer_recorder.html#ae016c0c6e1951199b26be47d0e58e2e4", null ],
-    [ "CreateTriangleBatch", "class_debug_renderer_recorder.html#a36af91f5981503f21a70fd84e892d909", null ],
-    [ "CreateTriangleBatch", "class_debug_renderer_recorder.html#ad025c082a09dd0c9c981e71db1d9eb65", null ],
-    [ "DrawGeometry", "class_debug_renderer_recorder.html#a52276221846a9d492e2e61ef2e3303bc", null ],
-    [ "DrawLine", "class_debug_renderer_recorder.html#a3661f878a444838edeeaa39353931c65", null ],
-    [ "DrawText3D", "class_debug_renderer_recorder.html#a826da5e3c241a054fc3a02c129d78aab", null ],
-    [ "DrawTriangle", "class_debug_renderer_recorder.html#ae529a27de3547b012b6761b07e639c8c", null ],
+    [ "CreateTriangleBatch", "class_debug_renderer_recorder.html#ad67f25e318187c3098011124ea5875a2", null ],
+    [ "CreateTriangleBatch", "class_debug_renderer_recorder.html#afa424a96fbae0b56050b27dffa2c4b02", null ],
+    [ "DrawGeometry", "class_debug_renderer_recorder.html#af551847dd6e112a52b7830acb7f639c6", null ],
+    [ "DrawLine", "class_debug_renderer_recorder.html#adac560af23095581dd49d670b7d608f5", null ],
+    [ "DrawText3D", "class_debug_renderer_recorder.html#a2956edbe34418b7546424c68e9dc6132", null ],
+    [ "DrawTriangle", "class_debug_renderer_recorder.html#a4b0a137f2f193e8ce732be37ff906fab", null ],
     [ "EndFrame", "class_debug_renderer_recorder.html#a1beee4021111b00774e99dd134716b44", null ]
 ];

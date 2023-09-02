@@ -1,6 +1,8 @@
 var class_ragdoll_settings =
 [
+    [ "AdditionalConstraint", "class_ragdoll_settings_1_1_additional_constraint.html", "class_ragdoll_settings_1_1_additional_constraint" ],
     [ "Part", "class_ragdoll_settings_1_1_part.html", "class_ragdoll_settings_1_1_part" ],
+    [ "AdditionalConstraintVector", "class_ragdoll_settings.html#a9b2cdf3b1dc8ca01105aed3e626dce7f", null ],
     [ "BodyIdxPair", "class_ragdoll_settings.html#a36195b8e16b3bc71bcace6dc5ab207e8", null ],
     [ "PartVector", "class_ragdoll_settings.html#afe45741614c7194437ffcafdd2552b7d", null ],
     [ "RagdollResult", "class_ragdoll_settings.html#a496ff56b454d0833f27c9894313d1228", null ],
@@ -16,6 +18,7 @@ var class_ragdoll_settings =
     [ "GetSkeleton", "class_ragdoll_settings.html#a5f7c10c07d5cdaa2800bda61897f8852", null ],
     [ "SaveBinaryState", "class_ragdoll_settings.html#a5ac758eeeb02faf2d90dbf70c874fda5", null ],
     [ "Stabilize", "class_ragdoll_settings.html#ab47bfb4b4c4c9dc780307449f9907bae", null ],
+    [ "mAdditionalConstraints", "class_ragdoll_settings.html#aa5b99482d05587d747351f962780f91f", null ],
     [ "mParts", "class_ragdoll_settings.html#acf5a663278bc571eb621e180abc67a3b", null ],
     [ "mSkeleton", "class_ragdoll_settings.html#ad4fed891ce9688ea6e65b84d913be3b8", null ]
 ];

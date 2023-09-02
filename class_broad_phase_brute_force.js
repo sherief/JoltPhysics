@@ -8,7 +8,7 @@ var class_broad_phase_brute_force =
     [ "CollideOrientedBox", "class_broad_phase_brute_force.html#a7e8ac19b326adf19996bd1288089018b", null ],
     [ "CollidePoint", "class_broad_phase_brute_force.html#af8ccb4b811426b36bfb2e51e1e61b92b", null ],
     [ "CollideSphere", "class_broad_phase_brute_force.html#a1550bc80cf969b9db8c1acc327902b00", null ],
-    [ "FindCollidingPairs", "class_broad_phase_brute_force.html#aab190c18f638462acfb41750b24294b7", null ],
+    [ "FindCollidingPairs", "class_broad_phase_brute_force.html#a2d0f339251687a983a58b516350e93ac", null ],
     [ "NotifyBodiesAABBChanged", "class_broad_phase_brute_force.html#a59e4b801e711b42da8018c7f9e8362be", null ],
     [ "NotifyBodiesLayerChanged", "class_broad_phase_brute_force.html#a533303a0786892359c0e2e64ac4371cc", null ],
     [ "RemoveBodies", "class_broad_phase_brute_force.html#a488f130c96e125ae1b0dda672d805f65", null ]

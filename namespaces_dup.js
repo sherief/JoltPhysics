@@ -5,8 +5,8 @@ var namespaces_dup =
       [ "GetBaryCentricCoordinates", "namespace_closest_point.html#a292e497d840ac56d4004212fd10b18e4", null ],
       [ "GetBaryCentricCoordinates", "namespace_closest_point.html#ab3cdc6ef3206b1e17607908ae2ec3543", null ],
       [ "GetClosestPointOnLine", "namespace_closest_point.html#ad687ef98922a03b7128a5d3a5a64ab39", null ],
-      [ "GetClosestPointOnTetrahedron", "namespace_closest_point.html#a8d7febd22a8da31914181b84a7d8ac81", null ],
-      [ "GetClosestPointOnTriangle", "namespace_closest_point.html#a0d42c8adede82636667338badcc482b5", null ],
+      [ "GetClosestPointOnTetrahedron", "namespace_closest_point.html#abafebdbe3dea0fe6674c20fc9ccc8540", null ],
+      [ "GetClosestPointOnTriangle", "namespace_closest_point.html#a25fcaaf786d8724b11d02406ab74e0bc", null ],
       [ "OriginOutsideOfPlane", "namespace_closest_point.html#ad4bc500e8c3ea1bc2b2bc1a289408f1b", null ],
       [ "OriginOutsideOfTetrahedronPlanes", "namespace_closest_point.html#a7221bb45d1aec01527f66683bf2611e0", null ]
     ] ],
@@ -30,6 +30,9 @@ var namespaces_dup =
       [ "cNumBitsXY", "namespace_height_field_shape_constants.html#a19db7caf3f2b0d72c438471292289306", null ],
       [ "cStackSize", "namespace_height_field_shape_constants.html#a37ca4958b8fd6b37a4982941ca479a85", null ]
     ] ],
+    [ "literals", "namespaceliterals.html", [
+      [ "operator\"\"_r", "namespaceliterals.html#af3efaa9e7258f2fe6e02e8d05931473b", null ]
+    ] ],
     [ "ScaleHelpers", "namespace_scale_helpers.html", [
       [ "CanScaleBeRotated", "namespace_scale_helpers.html#a024fa9a3c672218ce6b7aaa97d953ae1", null ],
       [ "IsInsideOut", "namespace_scale_helpers.html#a968d814e04071d431f79a2ba4e9d4da1", null ],
@@ -39,5 +42,14 @@ var namespaces_dup =
       [ "RotateScale", "namespace_scale_helpers.html#a317905196055a0a720d6468cbb4840b9", null ],
       [ "ScaleConvexRadius", "namespace_scale_helpers.html#a3c182e760f2d4a5b0985b20d50b0c870", null ]
     ] ],
-    [ "std", "namespacestd.html", "namespacestd" ]
+    [ "std", "namespacestd.html", "namespacestd" ],
+    [ "StreamUtils", "namespace_stream_utils.html", [
+      [ "IDToObjectMap", "namespace_stream_utils.html#a31d9aa36bf98b7db87aa8490e9b5d1c3", null ],
+      [ "ObjectToIDMap", "namespace_stream_utils.html#ad6a5ef164a8da385e1d6a6b6d234be0f", null ],
+      [ "RestoreObject", "namespace_stream_utils.html#a8e2ba0b1630f3d270dfdd4284a468ab9", null ],
+      [ "RestoreObjectArray", "namespace_stream_utils.html#a388cbbe0f223267d038a57b9fd6e1571", null ],
+      [ "RestoreObjectReference", "namespace_stream_utils.html#aab7d93bea0dbbfa623af7112db1bd8be", null ],
+      [ "SaveObjectArray", "namespace_stream_utils.html#ac77c5ff89ac5ab2af2b924af47ba9199", null ],
+      [ "SaveObjectReference", "namespace_stream_utils.html#af32cd6cffeb28a74dc98d6ba952f3523", null ]
+    ] ]
 ];

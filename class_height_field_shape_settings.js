@@ -5,6 +5,7 @@ var class_height_field_shape_settings =
     [ "CalculateBitsPerSampleForError", "class_height_field_shape_settings.html#afa8076803d2d512fbe625d0eb9c90811", null ],
     [ "Create", "class_height_field_shape_settings.html#aba3ca652ae38def1bcdc999738eb7b61", null ],
     [ "DetermineMinAndMaxSample", "class_height_field_shape_settings.html#a461c9c2289620877314186af163ebf73", null ],
+    [ "mActiveEdgeCosThresholdAngle", "class_height_field_shape_settings.html#ac600befce41089e57309054090c889c8", null ],
     [ "mBitsPerSample", "class_height_field_shape_settings.html#a7f87d207da7948e2a36a22be55143ad0", null ],
     [ "mBlockSize", "class_height_field_shape_settings.html#a8e99fb8a4d1444569a307ac2b9712e31", null ],
     [ "mHeightSamples", "class_height_field_shape_settings.html#a7e55509101c2c09001a431825ca0c82a", null ],

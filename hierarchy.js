@@ -6,6 +6,7 @@ var hierarchy =
     [ "AABox", "class_a_a_box.html", null ],
     [ "AABoxCast", "struct_a_a_box_cast.html", null ],
     [ "AddConvexRadius< ConvexObject >", "struct_add_convex_radius.html", null ],
+    [ "RagdollSettings::AdditionalConstraint", "class_ragdoll_settings_1_1_additional_constraint.html", null ],
     [ "QuadTree::AddState", "struct_quad_tree_1_1_add_state.html", null ],
     [ "AngleConstraintPart", "class_angle_constraint_part.html", null ],
     [ "SkeletalAnimation::AnimatedJoint", "class_skeletal_animation_1_1_animated_joint.html", null ],
@@ -32,7 +33,7 @@ var hierarchy =
     [ "CompoundShape::CastRayVisitorCollector", "struct_compound_shape_1_1_cast_ray_visitor_collector.html", null ],
     [ "CompoundShape::CastShapeVisitor", "struct_compound_shape_1_1_cast_shape_visitor.html", null ],
     [ "CastSphereVsTriangles", "class_cast_sphere_vs_triangles.html", null ],
-    [ "PhysicsUpdateContext::SubStep::CCDBody", "struct_physics_update_context_1_1_sub_step_1_1_c_c_d_body.html", null ],
+    [ "PhysicsUpdateContext::Step::CCDBody", "struct_physics_update_context_1_1_step_1_1_c_c_d_body.html", null ],
     [ "SkeletonMapper::Chain", "class_skeleton_mapper_1_1_chain.html", null ],
     [ "CharacterContactListener", "class_character_contact_listener.html", null ],
     [ "CharacterContactSettings", "class_character_contact_settings.html", null ],
@@ -61,9 +62,11 @@ var hierarchy =
     [ "CollisionCollectorTraitsCastShape", "class_collision_collector_traits_cast_shape.html", null ],
     [ "CollisionCollectorTraitsCollideShape", "class_collision_collector_traits_collide_shape.html", null ],
     [ "CollisionDispatch", "class_collision_dispatch.html", null ],
+    [ "CollisionEstimationResult", "struct_collision_estimation_result.html", null ],
     [ "CollisionGroup", "class_collision_group.html", null ],
     [ "Color", "class_color.html", null ],
     [ "PhysicsScene::ConnectedConstraint", "class_physics_scene_1_1_connected_constraint.html", null ],
+    [ "CharacterVirtual::Contact", "struct_character_virtual_1_1_contact.html", null ],
     [ "ContactListener", "class_contact_listener.html", null ],
     [ "ContactManifold", "class_contact_manifold.html", null ],
     [ "ContactSettings", "class_contact_settings.html", null ],
@@ -75,15 +78,21 @@ var hierarchy =
     [ "HeightFieldShape::DecodingContext", "class_height_field_shape_1_1_decoding_context.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::DecodingContext", "class_node_codec_quad_tree_half_float_1_1_decoding_context.html", null ],
     [ "TriangleCodecIndexed8BitPackSOA4Flags::DecodingContext", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html", null ],
+    [ "DMat44", "class_d_mat44.html", null ],
+    [ "Double3", "class_double3.html", null ],
+    [ "BodyManager::DrawSettings", "struct_body_manager_1_1_draw_settings.html", null ],
+    [ "SkeletonPose::DrawSettings", "struct_skeleton_pose_1_1_draw_settings.html", null ],
     [ "DualAxisConstraintPart", "class_dual_axis_constraint_part.html", null ],
     [ "DVec3", "class_d_vec3.html", null ],
     [ "DynMatrix", "class_dyn_matrix.html", null ],
     [ "EPAConvexHullBuilder::Edge", "class_e_p_a_convex_hull_builder_1_1_edge.html", null ],
+    [ "SoftBodySharedSettings::Edge", "struct_soft_body_shared_settings_1_1_edge.html", null ],
     [ "Ellipse", "class_ellipse.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::EncodingContext", "class_node_codec_quad_tree_half_float_1_1_encoding_context.html", null ],
     [ "TriangleCodecIndexed8BitPackSOA4Flags::EncodingContext", "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_encoding_context.html", null ],
     [ "EPAPenetrationDepth", "class_e_p_a_penetration_depth.html", null ],
     [ "CharacterVirtual::ExtendedUpdateSettings", "struct_character_virtual_1_1_extended_update_settings.html", null ],
+    [ "SoftBodySharedSettings::Face", "struct_soft_body_shared_settings_1_1_face.html", null ],
     [ "Factory", "class_factory.html", null ],
     [ "Float2", "class_float2.html", null ],
     [ "Float3", "class_float3.html", null ],
@@ -106,6 +115,7 @@ var hierarchy =
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Header", "struct_node_codec_quad_tree_half_float_1_1_header.html", null ],
     [ "HingeRotationConstraintPart", "class_hinge_rotation_constraint_part.html", null ],
     [ "HeightFieldShape::HSGetTrianglesContext", "struct_height_field_shape_1_1_h_s_get_triangles_context.html", null ],
+    [ "CollisionEstimationResult::Impulse", "struct_collision_estimation_result_1_1_impulse.html", null ],
     [ "IndependentAxisConstraintPart", "class_independent_axis_constraint_part.html", null ],
     [ "IndexedTriangleNoMaterial", "class_indexed_triangle_no_material.html", [
       [ "IndexedTriangle", "class_indexed_triangle.html", null ]
@@ -128,7 +138,9 @@ var hierarchy =
     [ "Matrix< 2, 2 >", "class_matrix.html", null ],
     [ "MinkowskiDifference< ConvexObjectA, ConvexObjectB >", "struct_minkowski_difference.html", null ],
     [ "MortonCode", "class_morton_code.html", null ],
-    [ "MotionProperties", "class_motion_properties.html", null ],
+    [ "MotionProperties", "class_motion_properties.html", [
+      [ "SoftBodyMotionProperties", "class_soft_body_motion_properties.html", null ]
+    ] ],
     [ "MotorSettings", "class_motor_settings.html", null ],
     [ "MeshShape::MSGetTrianglesContext", "struct_mesh_shape_1_1_m_s_get_triangles_context.html", null ],
     [ "NodeCodecQuadTreeHalfFloat< Alignment >::Node", "struct_node_codec_quad_tree_half_float_1_1_node.html", null ],
@@ -153,8 +165,10 @@ var hierarchy =
       [ "MutexArray< SharedMutex >", "class_mutex_array.html", null ],
       [ "AABBTreeBuilder::Node", "class_a_a_b_b_tree_builder_1_1_node.html", null ],
       [ "Body", "class_body.html", [
-        [ "BodyWithMotionProperties", "class_body_with_motion_properties.html", null ]
+        [ "BodyWithMotionProperties", "class_body_with_motion_properties.html", null ],
+        [ "SoftBodyWithMotionPropertiesAndShape", "class_soft_body_with_motion_properties_and_shape.html", null ]
       ] ],
+      [ "BodyDrawFilter", "class_body_draw_filter.html", null ],
       [ "BodyFilter", "class_body_filter.html", [
         [ "IgnoreMultipleBodiesFilter", "class_ignore_multiple_bodies_filter.html", null ],
         [ "IgnoreSingleBodyFilter", "class_ignore_single_body_filter.html", null ]
@@ -212,13 +226,19 @@ var hierarchy =
       [ "GJKClosestPoint", "class_g_j_k_closest_point.html", null ],
       [ "IslandBuilder", "class_island_builder.html", null ],
       [ "JobSystem", "class_job_system.html", [
-        [ "JobSystemThreadPool", "class_job_system_thread_pool.html", null ]
+        [ "JobSystemSingleThreaded", "class_job_system_single_threaded.html", null ],
+        [ "JobSystemWithBarrier", "class_job_system_with_barrier.html", [
+          [ "JobSystemThreadPool", "class_job_system_thread_pool.html", null ]
+        ] ]
       ] ],
-      [ "JobSystem::Barrier", "class_job_system_1_1_barrier.html", null ],
+      [ "JobSystem::Barrier", "class_job_system_1_1_barrier.html", [
+        [ "JobSystemSingleThreaded::BarrierImpl", "class_job_system_single_threaded_1_1_barrier_impl.html", null ]
+      ] ],
       [ "LFHMAllocator", "class_l_f_h_m_allocator.html", null ],
       [ "LFHMAllocatorContext", "class_l_f_h_m_allocator_context.html", [
         [ "ContactConstraintManager::ContactAllocator", "class_contact_constraint_manager_1_1_contact_allocator.html", null ]
       ] ],
+      [ "LargeIslandSplitter", "class_large_island_splitter.html", null ],
       [ "LockFreeHashMap< Key, Value >", "class_lock_free_hash_map.html", null ],
       [ "MutexArray< MutexType >", "class_mutex_array.html", null ],
       [ "NarrowPhaseQuery", "class_narrow_phase_query.html", null ],
@@ -226,7 +246,10 @@ var hierarchy =
         [ "DefaultObjectLayerFilter", "class_default_object_layer_filter.html", null ],
         [ "SpecifiedObjectLayerFilter", "class_specified_object_layer_filter.html", null ]
       ] ],
+      [ "ObjectLayerPairFilter", "class_object_layer_pair_filter.html", null ],
+      [ "ObjectVsBroadPhaseLayerFilter", "class_object_vs_broad_phase_layer_filter.html", null ],
       [ "PhysicsSystem", "class_physics_system.html", null ],
+      [ "PhysicsSystem::BodiesToSleep", "class_physics_system_1_1_bodies_to_sleep.html", null ],
       [ "PhysicsUpdateContext", "class_physics_update_context.html", null ],
       [ "ProfileMeasurement", "class_profile_measurement.html", null ],
       [ "ProfileSample", "class_profile_sample.html", null ],
@@ -254,9 +277,12 @@ var hierarchy =
           [ "ScaledShape", "class_scaled_shape.html", null ]
         ] ],
         [ "HeightFieldShape", "class_height_field_shape.html", null ],
-        [ "MeshShape", "class_mesh_shape.html", null ]
+        [ "MeshShape", "class_mesh_shape.html", null ],
+        [ "SoftBodyShape", "class_soft_body_shape.html", null ]
       ] ],
-      [ "ShapeFilter", "class_shape_filter.html", null ],
+      [ "ShapeFilter", "class_shape_filter.html", [
+        [ "ReversedShapeFilter", "class_reversed_shape_filter.html", null ]
+      ] ],
       [ "SharedLock< LockType >", "class_shared_lock.html", null ],
       [ "TempAllocator", "class_temp_allocator.html", [
         [ "TempAllocatorImpl", "class_temp_allocator_impl.html", null ],
@@ -299,8 +325,14 @@ var hierarchy =
     [ "Quat", "class_quat.html", null ],
     [ "RackAndPinionConstraintPart", "class_rack_and_pinion_constraint_part.html", null ],
     [ "TriangleSplitter::Range", "struct_triangle_splitter_1_1_range.html", null ],
-    [ "RayCast", "struct_ray_cast.html", null ],
     [ "RayCastSettings", "class_ray_cast_settings.html", null ],
+    [ "RayCastT< Vec, Mat, RayCastType >", "struct_ray_cast_t.html", null ],
+    [ "RayCastT< RVec3, RMat44, RRayCast >", "struct_ray_cast_t.html", [
+      [ "RRayCast", "struct_r_ray_cast.html", null ]
+    ] ],
+    [ "RayCastT< Vec3, Mat44, RayCast >", "struct_ray_cast_t.html", [
+      [ "RayCast", "struct_ray_cast.html", null ]
+    ] ],
     [ "RayInvDirection", "class_ray_inv_direction.html", null ],
     [ "STLAlignedAllocator< T, N >::rebind< T2 >", "struct_s_t_l_aligned_allocator_1_1rebind.html", null ],
     [ "STLAllocator< T >::rebind< T2 >", "struct_s_t_l_allocator_1_1rebind.html", null ],
@@ -312,7 +344,22 @@ var hierarchy =
     ] ],
     [ "Ref< RefTargetVirtual >", "class_ref.html", null ],
     [ "Ref< Shape >", "class_ref.html", null ],
+    [ "Ref< Skeleton >", "class_ref.html", null ],
+    [ "Ref< TwoBodyConstraintSettings >", "class_ref.html", null ],
+    [ "Ref< VehicleControllerSettings >", "class_ref.html", null ],
     [ "RefConst< T >", "class_ref_const.html", null ],
+    [ "RefConst< Constraint >", "class_ref_const.html", null ],
+    [ "RefConst< GroupFilter >", "class_ref_const.html", null ],
+    [ "RefConst< PathConstraintPath >", "class_ref_const.html", null ],
+    [ "RefConst< PhysicsMaterial >", "class_ref_const.html", null ],
+    [ "RefConst< RagdollSettings >", "class_ref_const.html", null ],
+    [ "RefConst< Shape >", "class_ref_const.html", null ],
+    [ "RefConst< ShapeSettings >", "class_ref_const.html", null ],
+    [ "RefConst< Skeleton >", "class_ref_const.html", null ],
+    [ "RefConst< SoftBodySharedSettings >", "class_ref_const.html", null ],
+    [ "RefConst< TwoBodyConstraintSettings >", "class_ref_const.html", null ],
+    [ "RefConst< VehicleCollisionTester >", "class_ref_const.html", null ],
+    [ "RefConst< WheelSettings >", "class_ref_const.html", null ],
     [ "RefTarget< T >", "class_ref_target.html", null ],
     [ "RefTarget< CharacterBase >", "class_ref_target.html", [
       [ "CharacterBase", "class_character_base.html", null ]
@@ -408,8 +455,12 @@ var hierarchy =
     [ "RefTarget< SkeletonMapper >", "class_ref_target.html", [
       [ "SkeletonMapper", "class_skeleton_mapper.html", null ]
     ] ],
+    [ "RefTarget< SoftBodySharedSettings >", "class_ref_target.html", [
+      [ "SoftBodySharedSettings", "class_soft_body_shared_settings.html", null ]
+    ] ],
     [ "RefTarget< VehicleCollisionTester >", "class_ref_target.html", [
       [ "VehicleCollisionTester", "class_vehicle_collision_tester.html", [
+        [ "VehicleCollisionTesterCastCylinder", "class_vehicle_collision_tester_cast_cylinder.html", null ],
         [ "VehicleCollisionTesterCastSphere", "class_vehicle_collision_tester_cast_sphere.html", null ],
         [ "VehicleCollisionTesterRay", "class_vehicle_collision_tester_ray.html", null ]
       ] ]
@@ -417,13 +468,17 @@ var hierarchy =
     [ "RefTarget< VehicleController >", "class_ref_target.html", [
       [ "VehicleController", "class_vehicle_controller.html", [
         [ "TrackedVehicleController", "class_tracked_vehicle_controller.html", null ],
-        [ "WheeledVehicleController", "class_wheeled_vehicle_controller.html", null ]
+        [ "WheeledVehicleController", "class_wheeled_vehicle_controller.html", [
+          [ "MotorcycleController", "class_motorcycle_controller.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "RefTarget< VehicleControllerSettings >", "class_ref_target.html", [
       [ "VehicleControllerSettings", "class_vehicle_controller_settings.html", [
         [ "TrackedVehicleControllerSettings", "class_tracked_vehicle_controller_settings.html", null ],
-        [ "WheeledVehicleControllerSettings", "class_wheeled_vehicle_controller_settings.html", null ]
+        [ "WheeledVehicleControllerSettings", "class_wheeled_vehicle_controller_settings.html", [
+          [ "MotorcycleControllerSettings", "class_motorcycle_controller_settings.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "RefTarget< WheelSettings >", "class_ref_target.html", [
@@ -435,6 +490,8 @@ var hierarchy =
     [ "RotationEulerConstraintPart", "class_rotation_euler_constraint_part.html", null ],
     [ "RotationQuatConstraintPart", "class_rotation_quat_constraint_part.html", null ],
     [ "RTTI", "class_r_t_t_i.html", null ],
+    [ "SoftBodyShape::SBSGetTrianglesContext", "struct_soft_body_shape_1_1_s_b_s_get_triangles_context.html", null ],
+    [ "Semaphore", "class_semaphore.html", null ],
     [ "SerializableAttribute", "class_serializable_attribute.html", null ],
     [ "SerializableObject", "class_serializable_object.html", [
       [ "ConstraintSettings", "class_constraint_settings.html", null ],
@@ -445,18 +502,33 @@ var hierarchy =
       [ "VehicleControllerSettings", "class_vehicle_controller_settings.html", null ],
       [ "WheelSettings", "class_wheel_settings.html", null ]
     ] ],
-    [ "ShapeCast", "struct_shape_cast.html", null ],
+    [ "ShapeCastT< Vec, Mat, ShapeCastType >", "struct_shape_cast_t.html", null ],
+    [ "ShapeCastT< RVec3, RMat44, RShapeCast >", "struct_shape_cast_t.html", [
+      [ "RShapeCast", "struct_r_shape_cast.html", null ]
+    ] ],
+    [ "ShapeCastT< Vec3, Mat44, ShapeCast >", "struct_shape_cast_t.html", [
+      [ "ShapeCast", "struct_shape_cast.html", null ]
+    ] ],
     [ "ShapeFunctions", "class_shape_functions.html", null ],
     [ "SkeletonPose", "class_skeleton_pose.html", null ],
+    [ "SoftBodyCreationSettings", "class_soft_body_creation_settings.html", null ],
+    [ "SoftBodyVertex", "class_soft_body_vertex.html", null ],
     [ "Sphere", "class_sphere.html", null ],
+    [ "LargeIslandSplitter::Split", "struct_large_island_splitter_1_1_split.html", null ],
+    [ "LargeIslandSplitter::Splits", "class_large_island_splitter_1_1_splits.html", null ],
     [ "SpringPart", "class_spring_part.html", null ],
+    [ "SpringSettings", "class_spring_settings.html", null ],
+    [ "StateRecorderFilter", "class_state_recorder_filter.html", null ],
     [ "StaticArray< T, N >", "class_static_array.html", [
       [ "EPAConvexHullBuilder::Points", "class_e_p_a_convex_hull_builder_1_1_points.html", null ],
       [ "EPAConvexHullBuilder::TriangleQueue", "class_e_p_a_convex_hull_builder_1_1_triangle_queue.html", null ]
     ] ],
     [ "StaticArray< BodyPairQueue, cMaxConcurrency >", "class_static_array.html", null ],
+    [ "StaticArray< Impulse, ContactPoints::Capacity >", "class_static_array.html", null ],
     [ "StaticArray< JobHandle, cMaxConcurrency >", "class_static_array.html", null ],
-    [ "StaticArray< SubStep, cMaxSubSteps >", "class_static_array.html", null ],
+    [ "StaticArray< Part, 3 >", "class_static_array.html", null ],
+    [ "StaticArray< RTTI::BaseClass, 4 >", "class_static_array.html", null ],
+    [ "StaticArray< SerializableAttribute, 32 >", "class_static_array.html", null ],
     [ "StaticArray< Vec3, 32 >", "class_static_array.html", null ],
     [ "StaticArray< Vec3, 64 >", "class_static_array.html", null ],
     [ "StaticArray< Vec3, cMaxPointsInHull >", "class_static_array.html", null ],
@@ -483,7 +555,6 @@ var hierarchy =
     [ "SubShapeIDCreator", "class_sub_shape_i_d_creator.html", null ],
     [ "SubShapeIDPair", "class_sub_shape_i_d_pair.html", null ],
     [ "CompoundShapeSettings::SubShapeSettings", "struct_compound_shape_settings_1_1_sub_shape_settings.html", null ],
-    [ "PhysicsUpdateContext::SubStep", "struct_physics_update_context_1_1_sub_step.html", null ],
     [ "ConvexShape::Support", "class_convex_shape_1_1_support.html", [
       [ "BoxShape::Box", "class_box_shape_1_1_box.html", null ],
       [ "CapsuleShape::CapsuleNoConvex", "class_capsule_shape_1_1_capsule_no_convex.html", null ],
@@ -546,7 +617,9 @@ var hierarchy =
       [ "VehicleTransmission", "class_vehicle_transmission.html", null ]
     ] ],
     [ "DebugRenderer::Vertex", "class_debug_renderer_1_1_vertex.html", null ],
+    [ "SoftBodySharedSettings::Vertex", "struct_soft_body_shared_settings_1_1_vertex.html", null ],
     [ "TriangleCodecIndexed8BitPackSOA4Flags::VertexData", "struct_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_vertex_data.html", null ],
+    [ "SoftBodySharedSettings::Volume", "struct_soft_body_shared_settings_1_1_volume.html", null ],
     [ "Wheel", "class_wheel.html", [
       [ "WheelTV", "class_wheel_t_v.html", null ],
       [ "WheelWV", "class_wheel_w_v.html", null ]

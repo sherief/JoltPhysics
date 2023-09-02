@@ -1,5 +1,6 @@
 var class_vec3 =
 [
+    [ "ArgType", "class_vec3.html#a8f7af7dfc65ee331b1819023c1724c97", null ],
     [ "Type", "class_vec3.html#a113d94ab6f5a2f4fd236b64b9ad7cddc", null ],
     [ "Vec3", "class_vec3.html#aeecf02c008ca1e3a1695d8962a5b24da", null ],
     [ "Vec3", "class_vec3.html#a268ea0715fd0914ffde63ca7451bde61", null ],
@@ -41,6 +42,7 @@ var class_vec3 =
     [ "operator/", "class_vec3.html#a4c3d1ff36432563aef787f8ce7172bff", null ],
     [ "operator/", "class_vec3.html#a8dd428d3cc8fff37c91a4c01de2f5078", null ],
     [ "operator/=", "class_vec3.html#a50f5b360029a35374a1b811107e22a81", null ],
+    [ "operator=", "class_vec3.html#ad08ae539c06ae81a334c530bcb024b35", null ],
     [ "operator==", "class_vec3.html#a154b889fe51e3cc420716ad087b524ec", null ],
     [ "operator[]", "class_vec3.html#abaa362706e12d5e3fa8d950ba80d173e", null ],
     [ "Reciprocal", "class_vec3.html#a6bdb4929eab084e74d1e0ea3ae29d8ad", null ],

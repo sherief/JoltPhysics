@@ -1,5 +1,5 @@
 var _manifold_between_two_faces_8cpp =
 [
-    [ "ManifoldBetweenTwoFaces", "_manifold_between_two_faces_8cpp.html#a2af0c69f57dd148bda0c405f5e5d44a4", null ],
-    [ "PruneContactPoints", "_manifold_between_two_faces_8cpp.html#a8c4cb5259994c096e409cf9b5ffd4437", null ]
+    [ "ManifoldBetweenTwoFaces", "_manifold_between_two_faces_8cpp.html#ab4e8dfe05981dc5d50019ad2657e8075", null ],
+    [ "PruneContactPoints", "_manifold_between_two_faces_8cpp.html#a0f6a5a08a650bb28e4f8692e93b9a884", null ]
 ];

@@ -2,6 +2,7 @@ var class_path_constraint_path =
 [
     [ "PathResult", "class_path_constraint_path.html#ade0a2c8ce722ae7ff573b04690250e21", null ],
     [ "~PathConstraintPath", "class_path_constraint_path.html#aff085b5af851482956c8696d0e87f73d", null ],
+    [ "DrawPath", "class_path_constraint_path.html#a666c1696bf4a1f468efb89a87ca7461b", null ],
     [ "GetClosestPoint", "class_path_constraint_path.html#a2b97c79e5e5280c61e1ce019ee98e3fa", null ],
     [ "GetPathMaxFraction", "class_path_constraint_path.html#aae9ea1aede3ece72c5620bf88776757d", null ],
     [ "GetPointOnPath", "class_path_constraint_path.html#aa0dc6d3e2b57196ca90da9c10d37f9ea", null ],

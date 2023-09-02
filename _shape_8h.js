@@ -29,6 +29,7 @@ var _shape_8h =
       [ "OffsetCenterOfMass", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551bab56bddbe57bc36e5e91ea827e57d3adc", null ],
       [ "Mesh", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba710fdb6adb881b408116ef95335e1961", null ],
       [ "HeightField", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba9a7e8772035f8412fc62cd830d0ba944", null ],
+      [ "SoftBody", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551baaae0baf0b48c5dcbb8097a4b857f077d", null ],
       [ "User1", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba6b908b785fdba05a6446347dae08d8c5", null ],
       [ "User2", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551baa09bccf2b2963982b34dc0e08d8b582a", null ],
       [ "User3", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551bae5d2ad241ec44cf155bc78ae8d11f715", null ],
@@ -36,7 +37,15 @@ var _shape_8h =
       [ "User5", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba50c22602b70659dde2893f3a2ba0ab82", null ],
       [ "User6", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba10ddead5bb8bcfaa4d62090acd7cdfb2", null ],
       [ "User7", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba98cd5d17f0660baca7d652995f0d17b6", null ],
-      [ "User8", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551bad306313ac03787c5f5f41641773bfb9a", null ]
+      [ "User8", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551bad306313ac03787c5f5f41641773bfb9a", null ],
+      [ "UserConvex1", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba56ee3e0d63e9daae01eaf439a3dafab4", null ],
+      [ "UserConvex2", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba4a787d586139ae508ca8f27d7d32e083", null ],
+      [ "UserConvex3", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551bab4f03368b09d3feb8d20d904cf32e092", null ],
+      [ "UserConvex4", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba4a905595a667bd91c94bae0a412175ae", null ],
+      [ "UserConvex5", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba54159e0e550120a39f15d154ffc68bb4", null ],
+      [ "UserConvex6", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551baff9a08797f6cb96a2c4411bd74b9a965", null ],
+      [ "UserConvex7", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba17843305369ea498e0b73fc07a427090", null ],
+      [ "UserConvex8", "_shape_8h.html#aa332e0529e75b83aad91881c8d32551ba065f8314f9f081cee519694eacc54e04", null ]
     ] ],
     [ "EShapeType", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5", [
       [ "Convex", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5a766cae017fab4bcc1d1e83fbb9af87c3", null ],
@@ -44,6 +53,7 @@ var _shape_8h =
       [ "Decorated", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5a37c71f1e0f41cdad32aa3d4add9f2f86", null ],
       [ "Mesh", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5a710fdb6adb881b408116ef95335e1961", null ],
       [ "HeightField", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5a9a7e8772035f8412fc62cd830d0ba944", null ],
+      [ "SoftBody", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5aaae0baf0b48c5dcbb8097a4b857f077d", null ],
       [ "User1", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5a6b908b785fdba05a6446347dae08d8c5", null ],
       [ "User2", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5aa09bccf2b2963982b34dc0e08d8b582a", null ],
       [ "User3", "_shape_8h.html#ad64a1c665070a3100e456e54073554a5ae5d2ad241ec44cf155bc78ae8d11f715", null ],

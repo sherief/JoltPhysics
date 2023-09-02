@@ -10,11 +10,13 @@ var searchData=
   ['minkowskidifference_7',['MinkowskiDifference',['../struct_minkowski_difference.html',1,'']]],
   ['mortoncode_8',['MortonCode',['../class_morton_code.html',1,'']]],
   ['motionproperties_9',['MotionProperties',['../class_motion_properties.html',1,'']]],
-  ['motorsettings_10',['MotorSettings',['../class_motor_settings.html',1,'']]],
-  ['msgettrianglescontext_11',['MSGetTrianglesContext',['../struct_mesh_shape_1_1_m_s_get_triangles_context.html',1,'MeshShape']]],
-  ['mutablecompoundshape_12',['MutableCompoundShape',['../class_mutable_compound_shape.html',1,'']]],
-  ['mutablecompoundshapesettings_13',['MutableCompoundShapeSettings',['../class_mutable_compound_shape_settings.html',1,'']]],
-  ['mutex_14',['Mutex',['../class_mutex.html',1,'']]],
-  ['mutexarray_15',['MutexArray',['../class_mutex_array.html',1,'']]],
-  ['mutexarray_3c_20sharedmutex_20_3e_16',['MutexArray&lt; SharedMutex &gt;',['../class_mutex_array.html',1,'']]]
+  ['motorcyclecontroller_10',['MotorcycleController',['../class_motorcycle_controller.html',1,'']]],
+  ['motorcyclecontrollersettings_11',['MotorcycleControllerSettings',['../class_motorcycle_controller_settings.html',1,'']]],
+  ['motorsettings_12',['MotorSettings',['../class_motor_settings.html',1,'']]],
+  ['msgettrianglescontext_13',['MSGetTrianglesContext',['../struct_mesh_shape_1_1_m_s_get_triangles_context.html',1,'MeshShape']]],
+  ['mutablecompoundshape_14',['MutableCompoundShape',['../class_mutable_compound_shape.html',1,'']]],
+  ['mutablecompoundshapesettings_15',['MutableCompoundShapeSettings',['../class_mutable_compound_shape_settings.html',1,'']]],
+  ['mutex_16',['Mutex',['../class_mutex.html',1,'']]],
+  ['mutexarray_17',['MutexArray',['../class_mutex_array.html',1,'']]],
+  ['mutexarray_3c_20sharedmutex_20_3e_18',['MutexArray&lt; SharedMutex &gt;',['../class_mutex_array.html',1,'']]]
 ];
